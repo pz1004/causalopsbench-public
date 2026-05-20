@@ -1,0 +1,3023 @@
+{
+  "condition": "original",
+  "count": 200,
+  "scores": [
+    {
+      "calibration": 0.92655,
+      "composite": 0.951273,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0003-8fc7a49d",
+      "evidence": 0.888889,
+      "intervention": 0.964788,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.6959,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.949947,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0008-f218878b",
+      "evidence": 0.888889,
+      "intervention": 0.960367,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.274,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.777271,
+      "composite": 0.65725,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0013-e9c6da27",
+      "evidence": 0.888889,
+      "intervention": 0.482869,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 179.5947,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.76765,
+      "composite": 0.65684,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0018-243c7141",
+      "evidence": 0.888889,
+      "intervention": 0.48471,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 216.2874,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.95149,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0023-f999769b",
+      "evidence": 0.888889,
+      "intervention": 0.965512,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.4936,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.95142,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0028-8f62eb0c",
+      "evidence": 0.888889,
+      "intervention": 0.965277,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.8937,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.780956,
+      "composite": 0.657301,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0033-4bfc1acf",
+      "evidence": 0.888889,
+      "intervention": 0.481811,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 163.8109,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.759677,
+      "composite": 0.654637,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0038-bd3a6cd9",
+      "evidence": 0.888889,
+      "intervention": 0.480026,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 142.854,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.769172,
+      "composite": 0.654873,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0043-0a443440",
+      "evidence": 0.888889,
+      "intervention": 0.477646,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 122.3215,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.949071,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0048-7f5d6893",
+      "evidence": 0.888889,
+      "intervention": 0.957447,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.3497,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.949854,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0053-01a9bd07",
+      "evidence": 0.888889,
+      "intervention": 0.960056,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.8086,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.804542,
+      "composite": 0.659305,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0058-92f57a42",
+      "evidence": 0.888889,
+      "intervention": 0.480631,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 149.3045,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.76919,
+      "composite": 0.656943,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0063-6e279a24",
+      "evidence": 0.888889,
+      "intervention": 0.48454,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 212.2353,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.804502,
+      "composite": 0.64487,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0068-ac4ce881",
+      "evidence": 0.888889,
+      "intervention": 0.463662,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 164.5237,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.795653,
+      "composite": 0.643945,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0073-19a7bbe1",
+      "evidence": 0.888889,
+      "intervention": 0.463527,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 162.7938,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950194,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0078-5aa3d346",
+      "evidence": 0.888889,
+      "intervention": 0.96119,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 43.5772,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.768508,
+      "composite": 0.640077,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0083-8400cbd8",
+      "evidence": 0.888889,
+      "intervention": 0.459684,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 125.6525,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950431,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0088-b4e7d637",
+      "evidence": 0.888889,
+      "intervention": 0.961981,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.9269,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.952097,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0093-c806724b",
+      "evidence": 0.888889,
+      "intervention": 0.967534,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 58.446,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950918,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0098-6e6c726c",
+      "evidence": 0.888889,
+      "intervention": 0.963606,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.056,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.779659,
+      "composite": 0.655554,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0103-a1a2d606",
+      "evidence": 0.888889,
+      "intervention": 0.476421,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 114.0092,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.790309,
+      "composite": 0.642657,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0108-90adedf0",
+      "evidence": 0.888889,
+      "intervention": 0.461014,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 136.3195,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950819,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0113-a130b9ac",
+      "evidence": 0.888889,
+      "intervention": 0.963274,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 47.3747,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.778498,
+      "composite": 0.655404,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0118-4850560f",
+      "evidence": 0.888889,
+      "intervention": 0.476309,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 113.3085,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.948741,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0123-b42c61bc",
+      "evidence": 0.888889,
+      "intervention": 0.956348,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 37.0997,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.757699,
+      "composite": 0.654098,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0128-6afbcc04",
+      "evidence": 0.888889,
+      "intervention": 0.478889,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 132.2034,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.947613,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0133-d15aeb00",
+      "evidence": 0.888889,
+      "intervention": 0.952586,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 33.5192,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.775485,
+      "composite": 0.657559,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0138-0280c643",
+      "evidence": 0.888889,
+      "intervention": 0.484495,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 211.2103,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.758841,
+      "composite": 0.652761,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0143-9b912ed6",
+      "evidence": 0.888889,
+      "intervention": 0.474052,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 100.9161,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.80655,
+      "composite": 0.646188,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0148-62c3a08b",
+      "evidence": 0.888889,
+      "intervention": 0.467372,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 233.9822,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950701,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0153-9abe684d",
+      "evidence": 0.888889,
+      "intervention": 0.962882,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.5978,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951328,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0158-17cde630",
+      "evidence": 0.888889,
+      "intervention": 0.964972,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.1396,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.794594,
+      "composite": 0.643296,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0163-70273a7e",
+      "evidence": 0.888889,
+      "intervention": 0.461716,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 142.7624,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.767793,
+      "composite": 0.656599,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0168-6e47fbcf",
+      "evidence": 0.888889,
+      "intervention": 0.483858,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 197.5326,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.7828,
+      "composite": 0.6565,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0173-b864f77e",
+      "evidence": 0.888889,
+      "intervention": 0.478528,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 129.1684,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.761408,
+      "composite": 0.652479,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0178-b8c0356d",
+      "evidence": 0.888889,
+      "intervention": 0.472255,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 92.9522,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.791877,
+      "composite": 0.658199,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0183-d19b9616",
+      "evidence": 0.888889,
+      "intervention": 0.481164,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 155.5066,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.765625,
+      "composite": 0.654595,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0188-42b120a6",
+      "evidence": 0.888889,
+      "intervention": 0.477902,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 124.2314,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.948479,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0193-f441f1ee",
+      "evidence": 0.888889,
+      "intervention": 0.955474,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.1786,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.952206,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0198-6c053163",
+      "evidence": 0.888889,
+      "intervention": 0.967897,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 59.6894,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951426,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0203-5bce0b60",
+      "evidence": 0.888889,
+      "intervention": 0.965296,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.9425,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951167,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0208-54431760",
+      "evidence": 0.888889,
+      "intervention": 0.964434,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.8679,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.778139,
+      "composite": 0.657694,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0213-f7216a8e",
+      "evidence": 0.888889,
+      "intervention": 0.484062,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 201.6968,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.952156,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0218-2c08838c",
+      "evidence": 0.888889,
+      "intervention": 0.967733,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 59.1198,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.787316,
+      "composite": 0.642636,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0223-8c5d8657",
+      "evidence": 0.888889,
+      "intervention": 0.461945,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 144.9977,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.800258,
+      "composite": 0.644261,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0228-81592386",
+      "evidence": 0.888889,
+      "intervention": 0.463047,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 156.9302,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950603,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0233-a4112498",
+      "evidence": 0.888889,
+      "intervention": 0.962554,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.9728,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.948401,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0238-1fa22b1f",
+      "evidence": 0.888889,
+      "intervention": 0.955213,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 35.9148,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.949673,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0243-d5cf42ee",
+      "evidence": 0.888889,
+      "intervention": 0.959454,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.9406,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951046,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0248-0d2099c2",
+      "evidence": 0.888889,
+      "intervention": 0.964031,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.9674,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950456,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0253-accda9a5",
+      "evidence": 0.888889,
+      "intervention": 0.962064,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.0745,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950355,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0258-bde75230",
+      "evidence": 0.888889,
+      "intervention": 0.961728,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.4842,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.947625,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0263-83ced7c0",
+      "evidence": 0.888889,
+      "intervention": 0.952628,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 33.554,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.792354,
+      "composite": 0.657305,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0268-34f881c8",
+      "evidence": 0.888889,
+      "intervention": 0.478026,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 125.1804,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.802862,
+      "composite": 0.658995,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0273-60907278",
+      "evidence": 0.888889,
+      "intervention": 0.480158,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 144.2154,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.79527,
+      "composite": 0.642171,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0278-832188be",
+      "evidence": 0.888889,
+      "intervention": 0.457741,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 112.9064,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951939,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0283-40ea740c",
+      "evidence": 0.888889,
+      "intervention": 0.967008,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.7468,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.769584,
+      "composite": 0.654812,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0288-4062c050",
+      "evidence": 0.888889,
+      "intervention": 0.477305,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 119.8871,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.756741,
+      "composite": 0.653125,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0293-3195fb4f",
+      "evidence": 0.888889,
+      "intervention": 0.475964,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 111.2064,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.778456,
+      "composite": 0.657811,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0298-5ee35add",
+      "evidence": 0.888889,
+      "intervention": 0.484346,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 207.847,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.802517,
+      "composite": 0.644691,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0303-7b42552c",
+      "evidence": 0.888889,
+      "intervention": 0.463728,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 165.3824,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.949545,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0308-5398b1c2",
+      "evidence": 0.888889,
+      "intervention": 0.959029,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.3547,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.947629,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0313-126cedaa",
+      "evidence": 0.888889,
+      "intervention": 0.952641,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 33.5648,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.798801,
+      "composite": 0.64365,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0318-4f0160f1",
+      "evidence": 0.888889,
+      "intervention": 0.461494,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 140.6545,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.952575,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0323-ed44bff6",
+      "evidence": 0.888889,
+      "intervention": 0.969128,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 64.4157,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.78761,
+      "composite": 0.641854,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0328-941c7467",
+      "evidence": 0.888889,
+      "intervention": 0.459237,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 122.4598,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.949419,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0333-0aa952ad",
+      "evidence": 0.888889,
+      "intervention": 0.958608,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.7948,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.949713,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0338-774a3bf3",
+      "evidence": 0.888889,
+      "intervention": 0.959589,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.1316,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951063,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0343-47e116da",
+      "evidence": 0.888889,
+      "intervention": 0.964087,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.0878,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.774531,
+      "composite": 0.657001,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0348-99dc7bec",
+      "evidence": 0.888889,
+      "intervention": 0.482954,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 180.9961,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.754921,
+      "composite": 0.653955,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0353-dc2b57e2",
+      "evidence": 0.888889,
+      "intervention": 0.479336,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 136.1833,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.78313,
+      "composite": 0.656235,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0358-712737bb",
+      "evidence": 0.888889,
+      "intervention": 0.477532,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 121.5007,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.750556,
+      "composite": 0.651853,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0363-91019ce0",
+      "evidence": 0.888889,
+      "intervention": 0.473785,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 99.6429,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.761636,
+      "composite": 0.655996,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0368-0934b407",
+      "evidence": 0.888889,
+      "intervention": 0.483903,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 198.4295,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.759455,
+      "composite": 0.654124,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0373-0556bae0",
+      "evidence": 0.888889,
+      "intervention": 0.478388,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 128.0232,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.948323,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0378-0043e32c",
+      "evidence": 0.888889,
+      "intervention": 0.954955,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 35.6599,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.798913,
+      "composite": 0.643268,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0383-dbbe3538",
+      "evidence": 0.888889,
+      "intervention": 0.460184,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 129.4492,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950956,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0388-9964ed34",
+      "evidence": 0.888889,
+      "intervention": 0.96373,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.3186,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.952246,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0393-5ee3b390",
+      "evidence": 0.888889,
+      "intervention": 0.968031,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 60.1668,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950302,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0398-672416c2",
+      "evidence": 0.888889,
+      "intervention": 0.961551,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.1793,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.786688,
+      "composite": 0.658361,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0403-ac7d0517",
+      "evidence": 0.888889,
+      "intervention": 0.483435,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 189.4326,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.95095,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0408-cecce040",
+      "evidence": 0.888889,
+      "intervention": 0.96371,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.2752,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951518,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0413-a406980a",
+      "evidence": 0.888889,
+      "intervention": 0.965603,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.7323,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.761733,
+      "composite": 0.653271,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0418-325e6f2e",
+      "evidence": 0.888889,
+      "intervention": 0.474787,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 104.6198,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951505,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0423-8711b00a",
+      "evidence": 0.888889,
+      "intervention": 0.965561,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.6206,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.800894,
+      "composite": 0.643023,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0428-dd3caabc",
+      "evidence": 0.888889,
+      "intervention": 0.458706,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 118.8768,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.796846,
+      "composite": 0.641341,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0433-edc794e0",
+      "evidence": 0.888889,
+      "intervention": 0.454451,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 96.6266,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951899,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0438-dfb0d3e0",
+      "evidence": 0.888889,
+      "intervention": 0.966875,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.3368,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.948235,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0443-7f06d19f",
+      "evidence": 0.888889,
+      "intervention": 0.95466,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 35.3723,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.746752,
+      "composite": 0.653931,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0448-4c43a5fc",
+      "evidence": 0.888889,
+      "intervention": 0.481981,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 166.1413,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.949809,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0453-d0fddf84",
+      "evidence": 0.888889,
+      "intervention": 0.959909,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.5916,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.952113,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0458-a34c7975",
+      "evidence": 0.888889,
+      "intervention": 0.967587,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 58.6239,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.804788,
+      "composite": 0.644988,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0463-050951d7",
+      "evidence": 0.888889,
+      "intervention": 0.46396,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 168.4889,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.765938,
+      "composite": 0.656048,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0468-a1516b1f",
+      "evidence": 0.888889,
+      "intervention": 0.48264,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 175.911,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.805104,
+      "composite": 0.644427,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0473-bfed053e",
+      "evidence": 0.888889,
+      "intervention": 0.461984,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 145.3922,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.949585,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0478-312f7a30",
+      "evidence": 0.888889,
+      "intervention": 0.95916,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.5326,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.796412,
+      "composite": 0.643134,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0483-7d4d0576",
+      "evidence": 0.888889,
+      "intervention": 0.460572,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 132.568,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.949444,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0488-c7e11abd",
+      "evidence": 0.888889,
+      "intervention": 0.958693,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.9055,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951855,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0493-b08f69b8",
+      "evidence": 0.888889,
+      "intervention": 0.966729,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 55.893,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.766684,
+      "composite": 0.655911,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0498-bf8397b5",
+      "evidence": 0.888889,
+      "intervention": 0.481935,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 165.5006,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.94836,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0003-a12bbf00",
+      "evidence": 0.888889,
+      "intervention": 0.955078,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 35.7803,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951902,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0008-78699759",
+      "evidence": 0.888889,
+      "intervention": 0.966883,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.3607,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.764806,
+      "composite": 0.655783,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0013-3897abde",
+      "evidence": 0.888889,
+      "intervention": 0.482135,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 168.3275,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950306,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0018-b7091c73",
+      "evidence": 0.888889,
+      "intervention": 0.961565,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.2042,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.948564,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0023-afcef264",
+      "evidence": 0.888889,
+      "intervention": 0.955757,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.4704,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.94956,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0028-ebdc16cb",
+      "evidence": 0.888889,
+      "intervention": 0.959077,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.4198,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951698,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0033-4743434e",
+      "evidence": 0.888889,
+      "intervention": 0.966205,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 54.3675,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951881,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0038-4ac9b201",
+      "evidence": 0.888889,
+      "intervention": 0.966813,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.148,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.948542,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0043-51968f0e",
+      "evidence": 0.888889,
+      "intervention": 0.955683,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.3933,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951451,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0048-36853664",
+      "evidence": 0.888889,
+      "intervention": 0.965382,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.1595,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950304,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0053-c3ba1c06",
+      "evidence": 0.888889,
+      "intervention": 0.961557,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.1902,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950196,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0058-e3326723",
+      "evidence": 0.888889,
+      "intervention": 0.961197,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 43.588,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.948404,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0063-b63f7bfc",
+      "evidence": 0.888889,
+      "intervention": 0.955226,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 35.9279,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.754661,
+      "composite": 0.653996,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0068-9e59f0a9",
+      "evidence": 0.888889,
+      "intervention": 0.479561,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 138.2894,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.787194,
+      "composite": 0.658683,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0073-8244f894",
+      "evidence": 0.888889,
+      "intervention": 0.484339,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 207.6788,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.747524,
+      "composite": 0.654185,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0078-25053694",
+      "evidence": 0.888889,
+      "intervention": 0.482568,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 174.7899,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950554,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0083-ae43f1bf",
+      "evidence": 0.888889,
+      "intervention": 0.962392,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.6712,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.799424,
+      "composite": 0.64361,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0088-eb133aa3",
+      "evidence": 0.888889,
+      "intervention": 0.461153,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 137.5481,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950118,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0093-5ababbc8",
+      "evidence": 0.888889,
+      "intervention": 0.960937,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 43.1671,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.804166,
+      "composite": 0.642162,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0098-0b500d35",
+      "evidence": 0.888889,
+      "intervention": 0.454748,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 97.8839,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951979,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0103-7ceb034f",
+      "evidence": 0.888889,
+      "intervention": 0.967142,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 57.17,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.952538,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0108-7be80c36",
+      "evidence": 0.888889,
+      "intervention": 0.969005,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 63.9046,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.765259,
+      "composite": 0.652211,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0113-fd2570e4",
+      "evidence": 0.888889,
+      "intervention": 0.470076,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 84.9402,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951009,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0118-949b192e",
+      "evidence": 0.888889,
+      "intervention": 0.963908,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.6983,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.805078,
+      "composite": 0.642293,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0123-93bd7c0e",
+      "evidence": 0.888889,
+      "intervention": 0.454878,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 98.451,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.95187,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0128-194895f8",
+      "evidence": 0.888889,
+      "intervention": 0.966779,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.0438,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951836,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0133-e099ebb4",
+      "evidence": 0.888889,
+      "intervention": 0.966666,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 55.702,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.952125,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0138-706f2ef0",
+      "evidence": 0.888889,
+      "intervention": 0.967629,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 58.7649,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.785094,
+      "composite": 0.658204,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0143-a9d21ce2",
+      "evidence": 0.888889,
+      "intervention": 0.483442,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 189.5487,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.949663,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0148-de6facfb",
+      "evidence": 0.888889,
+      "intervention": 0.95942,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.8929,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.780322,
+      "composite": 0.641646,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0153-b926f044",
+      "evidence": 0.888889,
+      "intervention": 0.460975,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 135.9784,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950034,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0158-933097ca",
+      "evidence": 0.888889,
+      "intervention": 0.960658,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.7243,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.801819,
+      "composite": 0.64425,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0163-080f330a",
+      "evidence": 0.888889,
+      "intervention": 0.462489,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 150.6434,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.775311,
+      "composite": 0.641158,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0168-4e2010b5",
+      "evidence": 0.888889,
+      "intervention": 0.461018,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 136.3524,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.755244,
+      "composite": 0.65319,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0173-e3d16081",
+      "evidence": 0.888889,
+      "intervention": 0.476679,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 115.6589,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.770982,
+      "composite": 0.639931,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0178-ee451ae3",
+      "evidence": 0.888889,
+      "intervention": 0.458371,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 116.7319,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.947998,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0183-396c110c",
+      "evidence": 0.888889,
+      "intervention": 0.95387,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 34.6345,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950582,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0188-dd3803b7",
+      "evidence": 0.888889,
+      "intervention": 0.962486,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.8448,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.750099,
+      "composite": 0.653376,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0193-a4dd4a25",
+      "evidence": 0.888889,
+      "intervention": 0.479014,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 133.2925,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.948569,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0198-a86ce436",
+      "evidence": 0.888889,
+      "intervention": 0.955775,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.4889,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.795166,
+      "composite": 0.657861,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0203-a68b7efc",
+      "evidence": 0.888889,
+      "intervention": 0.478943,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 132.6719,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.792922,
+      "composite": 0.641361,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0208-fe9b6b9f",
+      "evidence": 0.888889,
+      "intervention": 0.455825,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 102.7736,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.79167,
+      "composite": 0.658044,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0213-4369cabc",
+      "evidence": 0.888889,
+      "intervention": 0.480716,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 150.2534,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.794362,
+      "composite": 0.657203,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0218-5810424e",
+      "evidence": 0.888889,
+      "intervention": 0.477017,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 117.9011,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.948877,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0223-f4bfd26f",
+      "evidence": 0.888889,
+      "intervention": 0.956802,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 37.6031,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951255,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0228-96e25819",
+      "evidence": 0.888889,
+      "intervention": 0.964726,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.5494,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.799286,
+      "composite": 0.65858,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0233-18822e08",
+      "evidence": 0.888889,
+      "intervention": 0.479965,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 142.2374,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.949823,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0238-d7575d15",
+      "evidence": 0.888889,
+      "intervention": 0.959953,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.6567,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.778089,
+      "composite": 0.641233,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0243-48a3c1d8",
+      "evidence": 0.888889,
+      "intervention": 0.460344,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 130.7148,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.949501,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0248-2a20f858",
+      "evidence": 0.888889,
+      "intervention": 0.958881,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.1562,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.95115,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0253-36c5baa5",
+      "evidence": 0.888889,
+      "intervention": 0.964378,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.7422,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.758568,
+      "composite": 0.651941,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0258-98f70c6b",
+      "evidence": 0.888889,
+      "intervention": 0.471408,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 89.6489,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.952582,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0263-89cbfbdd",
+      "evidence": 0.888889,
+      "intervention": 0.96915,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 64.5068,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.787172,
+      "composite": 0.656662,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0268-d584fabe",
+      "evidence": 0.888889,
+      "intervention": 0.47761,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 122.0572,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.759503,
+      "composite": 0.655753,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0273-f0590dc3",
+      "evidence": 0.888889,
+      "intervention": 0.483802,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 196.4115,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.768272,
+      "composite": 0.655815,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0278-f80bd102",
+      "evidence": 0.888889,
+      "intervention": 0.481087,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 154.5697,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.798042,
+      "composite": 0.659179,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0283-58d2a00f",
+      "evidence": 0.888889,
+      "intervention": 0.482378,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 171.887,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.748031,
+      "composite": 0.654063,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0288-9977d75e",
+      "evidence": 0.888889,
+      "intervention": 0.481993,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 166.3215,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.947731,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0293-45e562d8",
+      "evidence": 0.888889,
+      "intervention": 0.95298,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 33.8512,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.952552,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0298-20a17033",
+      "evidence": 0.888889,
+      "intervention": 0.969051,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 64.0945,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.793301,
+      "composite": 0.643271,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0303-e2164cb0",
+      "evidence": 0.888889,
+      "intervention": 0.462067,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 146.2263,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950183,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0308-8c27395e",
+      "evidence": 0.888889,
+      "intervention": 0.961154,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 43.5186,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950887,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0313-bba223ef",
+      "evidence": 0.888889,
+      "intervention": 0.963503,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 47.8412,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951927,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0318-bc191a66",
+      "evidence": 0.888889,
+      "intervention": 0.966968,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.6232,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.750168,
+      "composite": 0.652454,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0323-a7383dc6",
+      "evidence": 0.888889,
+      "intervention": 0.475918,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 110.9342,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.952801,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0328-61a35576",
+      "evidence": 0.888889,
+      "intervention": 0.969881,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 67.7618,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.800234,
+      "composite": 0.644154,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0333-0e37a561",
+      "evidence": 0.888889,
+      "intervention": 0.462699,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 152.9404,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.949265,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0338-94cbdc50",
+      "evidence": 0.888889,
+      "intervention": 0.958095,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.1395,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951275,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0343-bd9d7047",
+      "evidence": 0.888889,
+      "intervention": 0.964796,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.7142,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951624,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0348-9f06c73f",
+      "evidence": 0.888889,
+      "intervention": 0.965959,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 53.6839,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.946198,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0353-da139185",
+      "evidence": 0.888889,
+      "intervention": 0.947869,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 30.1318,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.948633,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0358-112d9595",
+      "evidence": 0.888889,
+      "intervention": 0.955989,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.7134,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.79179,
+      "composite": 0.658273,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0363-96c715e4",
+      "evidence": 0.888889,
+      "intervention": 0.481441,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 158.9421,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.95187,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0368-fb8e0365",
+      "evidence": 0.888889,
+      "intervention": 0.966779,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.0438,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.95194,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0373-3a2d63b5",
+      "evidence": 0.888889,
+      "intervention": 0.96701,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.7545,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.804928,
+      "composite": 0.659775,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0378-b4e5da83",
+      "evidence": 0.888889,
+      "intervention": 0.482067,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 167.3545,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.766721,
+      "composite": 0.653812,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0383-fe0a886f",
+      "evidence": 0.888889,
+      "intervention": 0.474927,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 105.3646,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950967,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0388-d1a3f500",
+      "evidence": 0.888889,
+      "intervention": 0.963766,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.3945,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.94912,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0393-29387855",
+      "evidence": 0.888889,
+      "intervention": 0.95761,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.545,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.952041,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0398-518c09e1",
+      "evidence": 0.888889,
+      "intervention": 0.967347,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 57.8275,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950348,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0403-71852b88",
+      "evidence": 0.888889,
+      "intervention": 0.961705,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.4429,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951512,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0408-61c7a694",
+      "evidence": 0.888889,
+      "intervention": 0.965585,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.6846,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950835,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0413-6272e0d5",
+      "evidence": 0.888889,
+      "intervention": 0.963326,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 47.4799,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.765367,
+      "composite": 0.65286,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0418-49e3dd70",
+      "evidence": 0.888889,
+      "intervention": 0.472205,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 92.748,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.796614,
+      "composite": 0.658806,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0423-bffc0b4d",
+      "evidence": 0.888889,
+      "intervention": 0.481611,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 161.1443,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951607,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0428-b5afa0e4",
+      "evidence": 0.888889,
+      "intervention": 0.965901,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 53.5266,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.949356,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0433-b22f329e",
+      "evidence": 0.888889,
+      "intervention": 0.958399,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.5247,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951402,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0438-0c645dbf",
+      "evidence": 0.888889,
+      "intervention": 0.965219,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.7472,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.777381,
+      "composite": 0.656386,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0443-e7bc1ce2",
+      "evidence": 0.888889,
+      "intervention": 0.479953,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 142.1173,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.800446,
+      "composite": 0.644353,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0448-afa396ee",
+      "evidence": 0.888889,
+      "intervention": 0.463291,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 159.8476,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.789088,
+      "composite": 0.641458,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0453-e474490b",
+      "evidence": 0.888889,
+      "intervention": 0.457428,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 111.1067,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.951218,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0458-c07a959e",
+      "evidence": 0.888889,
+      "intervention": 0.964604,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.263,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.801641,
+      "composite": 0.641461,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0463-76e0443b",
+      "evidence": 0.888889,
+      "intervention": 0.453253,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 91.8766,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.747906,
+      "composite": 0.65289,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0468-7103d28c",
+      "evidence": 0.888889,
+      "intervention": 0.478125,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 125.9411,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.787039,
+      "composite": 0.657671,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0473-9c56b589",
+      "evidence": 0.888889,
+      "intervention": 0.481017,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 153.7449,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.759079,
+      "composite": 0.653884,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0478-9fcbdfab",
+      "evidence": 0.888889,
+      "intervention": 0.477716,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 122.838,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.948437,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0483-793d2def",
+      "evidence": 0.888889,
+      "intervention": 0.955333,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.0353,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.950674,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0488-209e1de4",
+      "evidence": 0.888889,
+      "intervention": 0.96279,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.4187,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.791635,
+      "composite": 0.642309,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0493-5885a12c",
+      "evidence": 0.888889,
+      "intervention": 0.459413,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 123.6966,
+      "root_cause": 0.433333,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.92655,
+      "composite": 0.947049,
+      "detection": 0.920044,
+      "efficiency": 0.978417,
+      "episode_id": "cob-microservice-0498-72d7e44e",
+      "evidence": 0.888889,
+      "intervention": 0.950708,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 32.049,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    }
+  ],
+  "summary": {
+    "calibration": 0.857012,
+    "composite": 0.808344,
+    "count": 200.0,
+    "detection": 0.842679,
+    "efficiency": 0.978417,
+    "evidence": 0.888889,
+    "intervention": 0.729664,
+    "intervention_epsilon": 1e-09,
+    "n_deg": 0.0,
+    "n_scored": 200.0,
+    "n_total": 200.0,
+    "root_cause": 0.730833,
+    "safety_violations": 0.0
+  },
+  "system": "threshold",
+  "system_kind": "baseline"
+}

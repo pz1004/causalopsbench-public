@@ -1,0 +1,7 @@
+# CausalOpsBench uses only the Python standard library at runtime.
+# This editable install exposes the package and console entrypoint.
+-e .
+
+# Optional non-Python tools for reproducing local-agent experiments:
+# - Ollama CLI/server for open-weight model runs
+# - NVIDIA driver/CUDA runtime for GPU-backed Ollama inference

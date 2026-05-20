@@ -1,0 +1,3 @@
+system,count,external_portability_score,detection,root_cause_top1,root_cause_topk,evidence_f1,calibration,parsing_success,runtime_efficiency
+threshold,780.0,0.788912,0.724282,0.10641,0.776923,0.698718,0.970253,1.0,0.982992
+topology_heuristic,780.0,0.788813,0.724282,0.10641,0.776923,0.698718,0.973611,1.0,0.9743

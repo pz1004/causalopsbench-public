@@ -1,0 +1,5 @@
+condition,system,system_kind,count,composite,detection,root_cause,intervention,evidence,calibration,efficiency,safety_violations,n_total,n_scored,n_deg,intervention_epsilon
+original,threshold,baseline,200.0,0.808344,0.842679,0.730833,0.729664,0.888889,0.857012,0.978417,0.0,200.0,200.0,0.0,1e-09
+neutral-identifiers,threshold,baseline,200.0,0.712454,0.842679,0.588333,0.505032,0.888889,0.857012,0.978417,0.0,200.0,200.0,0.0,1e-09
+original,gemma4:26b,model,200.0,0.912127,0.881795,1.0,0.938249,0.721746,0.99375,0.907457,0.0,200.0,200.0,0.0,1e-09
+neutral-identifiers,gemma4:26b,model,200.0,0.919467,0.891217,1.0,0.9516,0.739385,0.9871,0.906866,0.0,200.0,200.0,0.0,1e-09

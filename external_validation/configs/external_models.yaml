@@ -1,0 +1,13 @@
+policy: react-json
+max_steps: 4
+temperature: 0
+num_ctx: 8192
+keep_alive: 5m
+think: false
+timeout_s: 120
+models:
+  primary: ollama:gemma4:26b
+  compact: ollama:gemma4:e4b
+baselines:
+  - threshold
+  - topology_heuristic

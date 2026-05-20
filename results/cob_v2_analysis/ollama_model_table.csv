@@ -1,0 +1,8 @@
+model,pull,ollama_id,sha256,sha256_short,source_cite
+gemma4:26b,ollama pull gemma4:26b,5571076f3d70,7121486771cbfe218851513210c40b35dbdee93ab1ef43fe36283c883980f0df,7121486771cb,\cite{google2026gemma426ba4bit}
+gemma4:e2b,ollama pull gemma4:e2b,7fbdbf8f5e45,4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448,4e30e2665218,\cite{google2026gemma4e2b}
+gemma4:e4b,ollama pull gemma4:e4b,c6eb396dbd59,4c27e0f5b5adf02ac956c7322bd2ee7636fe3f45a8512c9aba5385242cb6e09a,4c27e0f5b5ad,\cite{google2026gemma4e4b}
+granite4.1:3b,ollama pull granite4.1:3b,6fd349357287,662b0626cd58f443baea23559b469df6576a81d349649c59413b36a9fb32eb29,662b0626cd58,\cite{ibm2026granite413b}
+granite4.1:8b,ollama pull granite4.1:8b,444af1c4b2fe,ed902ac9eb6adce5a90c6a08c8ea201b50e23fdc5976d1cd0362006afac5309e,ed902ac9eb6a,\cite{ibm2026granite418b}
+qwen3.5:4b,ollama pull qwen3.5:4b,2a654d98e6fb,81fb60c7daa80fc1123380b98970b320ae233409f0f71a72ed7b9b0d62f40490,81fb60c7daa8,\cite{qwen2026qwen354b}
+qwen3.5:9b,ollama pull qwen3.5:9b,6488c96fa5fa,dec52a44569a2a25341c4e4d3fee25846eed4f6f0b936278e3a3c900bb99d37c,dec52a44569a,\cite{qwen2026qwen359b}

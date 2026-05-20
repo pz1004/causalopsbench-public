@@ -1,0 +1,52 @@
+{
+  "configuration": {
+    "episodes": [
+      "external_validation/data/processed/episodes/rcaeval_re2.jsonl",
+      "external_validation/data/processed/episodes/lbnl_rtu_sdahu.jsonl"
+    ],
+    "keep_alive": "5m",
+    "limit": null,
+    "max_steps": 4,
+    "models": [
+      "ollama:gemma4:26b",
+      "ollama:gemma4:e4b"
+    ],
+    "num_ctx": 8192,
+    "ollama_host": "http://localhost:11434",
+    "policy": "react-json",
+    "temperature": 0.0,
+    "think": false,
+    "timeout_s": 300.0
+  },
+  "created_at_utc": "2026-05-19T19:15:29.379100+00:00",
+  "episode_count": 780,
+  "runner": "cob_ext.runners.run_external_agents",
+  "summary": [
+    {
+      "calibration": 0.930881,
+      "count": 780.0,
+      "detection": 0.696103,
+      "evidence_f1": 0.048886,
+      "external_portability_score": 0.363822,
+      "model_spec": "ollama:gemma4:26b",
+      "parsing_success": 0.985897,
+      "root_cause_top1": 0.003846,
+      "root_cause_topk": 0.003846,
+      "runtime_efficiency": 0.725802,
+      "system": "Ollama-gemma4:26b-ReAct"
+    },
+    {
+      "calibration": 0.1,
+      "count": 780.0,
+      "detection": 0.012489,
+      "evidence_f1": 0.694455,
+      "external_portability_score": 0.239544,
+      "model_spec": "ollama:gemma4:e4b",
+      "parsing_success": 0.997436,
+      "root_cause_top1": 0.002564,
+      "root_cause_topk": 0.002564,
+      "runtime_efficiency": 0.735235,
+      "system": "Ollama-gemma4:e4b-ReAct"
+    }
+  ]
+}

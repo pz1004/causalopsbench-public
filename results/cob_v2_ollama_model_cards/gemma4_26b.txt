@@ -1,0 +1,24 @@
+  Model
+    architecture        gemma4    
+    parameters          25.8B     
+    context length      262144    
+    embedding length    2816      
+    quantization        Q4_K_M    
+    requires            0.20.0    
+
+  Capabilities
+    completion    
+    vision        
+    tools         
+    thinking      
+
+  Parameters
+    temperature    1       
+    top_k          64      
+    top_p          0.95    
+
+  License
+    Apache License               
+    Version 2.0, January 2004    
+    ...                          
+

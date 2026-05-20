@@ -1,0 +1,5 @@
+weighting,ranking,oracle_composite,topology_rca_composite,threshold_composite,random_composite,noop_composite
+v1_default,oracle > topology_rca > threshold > random > noop,0.990363,0.813884,0.760662,0.469287,0.149753
+diagnosis_heavy,oracle > topology_rca > threshold > random > noop,0.994111,0.820257,0.759671,0.461941,0.099877
+evidence_heavy,oracle > topology_rca > threshold > random > noop,0.994111,0.838989,0.778938,0.465645,0.099877
+efficiency_light,oracle > topology_rca > threshold > random > noop,0.992537,0.791849,0.731715,0.412454,0.035

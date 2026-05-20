@@ -1,0 +1,5 @@
+system,model_spec,count,external_portability_score,detection,root_cause_top1,root_cause_topk,evidence_f1,calibration,parsing_success,runtime_efficiency
+threshold,,780.0,0.788912,0.724282,0.10641,0.776923,0.698718,0.970253,1.0,0.982992
+topology_heuristic,,780.0,0.788813,0.724282,0.10641,0.776923,0.698718,0.973611,1.0,0.9743
+Ollama-gemma4:26b-ReAct,ollama:gemma4:26b,780.0,0.363822,0.696103,0.003846,0.003846,0.048886,0.930881,0.985897,0.725802
+Ollama-gemma4:e4b-ReAct,ollama:gemma4:e4b,780.0,0.239544,0.012489,0.002564,0.002564,0.694455,0.1,0.997436,0.735235

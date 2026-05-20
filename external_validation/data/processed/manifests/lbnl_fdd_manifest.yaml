@@ -1,0 +1,548 @@
+created_at_utc: "2026-05-19T13:20:37.294830+00:00"
+dataset: lbnl_fdd_rtu_sdahu
+raw_dir: external_validation/data/raw/lbnl_fdd
+episode_count: 510
+config:
+  tracks:
+    - RTU
+    - SD_AHU
+  window_minutes: 240
+  stride_minutes: 120
+  max_windows_per_csv: 5
+  seed: 20260519
+source_files:
+  -
+    source_id: LBNL_FDD_Data_Sets_RTU.pdf
+    name: LBNL_FDD_Data_Sets_RTU.pdf
+    bytes: 1643253
+    sha256: 6c9c173462467bc7662c60807d0879de11d66c1483f16d90b716b964fbd35457
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Field RTU/Site1_Staging_Fault.csv"
+    name: Field RTU/Site1_Staging_Fault.csv
+    bytes: 22827613
+    sha256: beecd357268e02e6e8084ee267c0549e909302db4c6ff099c4fe88ec8c1f2d3f
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Field RTU/Site1_Unfaulted.csv"
+    name: Field RTU/Site1_Unfaulted.csv
+    bytes: 19091082
+    sha256: 30986a9b02ebdeb17b977a7831d50fc6963bd704dcecb4b9547971464bede6ba
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Field RTU/Site2_Undercharged40.csv"
+    name: Field RTU/Site2_Undercharged40.csv
+    bytes: 10591553
+    sha256: 205d2069444804abfdb8a9096c34e41b6b0a34bb8d1b6c43ba93ab1c19d3ead7
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Field RTU/Site2_Unfaulted.csv"
+    name: Field RTU/Site2_Unfaulted.csv
+    bytes: 67583981
+    sha256: 7e482f6bb6fb28f17ceb58a51a0426bc8028be9be9d90fb0231d074caa8d1f38
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/ERTU_Fall_2020.csv"
+    name: ORNL_RTU/ERTU_Fall_2020.csv
+    bytes: 5384809
+    sha256: c334af6748a3f67c89a9814b40146d67f7a47bd46908b2bc40d52b6e32978e95
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/ERTU_Spring_2021.csv"
+    name: ORNL_RTU/ERTU_Spring_2021.csv
+    bytes: 1265416
+    sha256: 0c8eb6b5ac859dacd737bcbf1f03d1aae167d90aca3cde5131855736c614dea0
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/ERTU_Summer_2021.csv"
+    name: ORNL_RTU/ERTU_Summer_2021.csv
+    bytes: 1134658
+    sha256: ff15ad16808cec34d92099929acf60609c6f512aca925e30f44f80a9d7851e2e
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/ERTU_Winter_2022.csv"
+    name: ORNL_RTU/ERTU_Winter_2022.csv
+    bytes: 1126010
+    sha256: f39a747d364334582e27bbf3d822557785afdcbda81612525fb163e943b47595
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/Inc_Eco_SP_-2_Fall_2020.csv"
+    name: ORNL_RTU/Inc_Eco_SP_-2_Fall_2020.csv
+    bytes: 684454
+    sha256: cd9d91be402a797fd8f7a9045c4dcfe30b75c2d48431f0e09d704c6386a1bc55
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/Inc_Eco_SP_-2_Spring_2021.csv"
+    name: ORNL_RTU/Inc_Eco_SP_-2_Spring_2021.csv
+    bytes: 670907
+    sha256: 9d8b14caf0874764c34a6a1b2e40e443b25bedb84c3f8276e9b6bd48f7765809
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/Inc_Eco_SP_-2_Summer_2021.csv"
+    name: ORNL_RTU/Inc_Eco_SP_-2_Summer_2021.csv
+    bytes: 607801
+    sha256: 598c9aed272517a1f4ef02fc7a2dc0720e262c2943cc565d32f374e294b74c83
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/Inc_Eco_SP_-2_Winter_2022.csv"
+    name: ORNL_RTU/Inc_Eco_SP_-2_Winter_2022.csv
+    bytes: 604819
+    sha256: 368fff8398f68ae8f34e0e691829b0861650a575a45882bbc81bbbcf9427109b
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/Inc_Eco_SP_-4_Fall_2020.csv"
+    name: ORNL_RTU/Inc_Eco_SP_-4_Fall_2020.csv
+    bytes: 671812
+    sha256: 2ee73799cdc9c27b2e64f7a6bbaa64a3554914121e34fd829a5616be3a188f39
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/Inc_Eco_SP_-4_Spring_2021.csv"
+    name: ORNL_RTU/Inc_Eco_SP_-4_Spring_2021.csv
+    bytes: 674278
+    sha256: 340491c49f309cfeae3beef4be7df0063ce4dfd210b9a895503dd73f2534f753
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/Inc_Eco_SP_-4_Summer_2021.csv"
+    name: ORNL_RTU/Inc_Eco_SP_-4_Summer_2021.csv
+    bytes: 608956
+    sha256: ad61dae913675a2360005eaa86959f514ff80c93214a2c14673d50a5d39e0d7f
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/Inc_Eco_SP_-4_Winter_2022.csv"
+    name: ORNL_RTU/Inc_Eco_SP_-4_Winter_2022.csv
+    bytes: 607865
+    sha256: 46efcdc811ad53531d6b2a673951f50f4a04d7bdea68bccc6537714527d156d4
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/Inc_Eco_SP_2_Fall_2020.csv"
+    name: ORNL_RTU/Inc_Eco_SP_2_Fall_2020.csv
+    bytes: 670728
+    sha256: 1de0e5ab48b9ea34e10feed03197540a1a3c34f65f743d6299879e8f8a9b7bfc
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/Inc_Eco_SP_2_Spring_2021.csv"
+    name: ORNL_RTU/Inc_Eco_SP_2_Spring_2021.csv
+    bytes: 667878
+    sha256: 35235988ee38df4a8cbae8073707e94214808fca014864a66a40df207454f325
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/Inc_Eco_SP_2_Summer_2021.csv"
+    name: ORNL_RTU/Inc_Eco_SP_2_Summer_2021.csv
+    bytes: 609556
+    sha256: 32b97f422c8f43946ebdc0559e1e33681ec9cdc664260a84ae5b75d280328c66
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/Inc_Eco_SP_2_Winter_2022.csv"
+    name: ORNL_RTU/Inc_Eco_SP_2_Winter_2022.csv
+    bytes: 602353
+    sha256: 6887faacf1f4bcf4b5e1ccbb18c3384b337f207d7706dadea6debdd48a7a268c
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/Inc_Eco_SP_4_Fall_2020.csv"
+    name: ORNL_RTU/Inc_Eco_SP_4_Fall_2020.csv
+    bytes: 679823
+    sha256: 314961121453784e753deb20433a6594f4752b4c69b36cc6dfa633eb50bed48b
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/Inc_Eco_SP_4_Spring_2021.csv"
+    name: ORNL_RTU/Inc_Eco_SP_4_Spring_2021.csv
+    bytes: 664895
+    sha256: 83e31bbcfea97be6f998893fc5f3cfbd3579140d3dd6f657e674341f1b88f7f6
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/Inc_Eco_SP_4_Summer_2021.csv"
+    name: ORNL_RTU/Inc_Eco_SP_4_Summer_2021.csv
+    bytes: 611834
+    sha256: 7909fed4c3bbfcbe4db9e8dd271d601732643d6d486975cb7bc11185e2614a87
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/Inc_Eco_SP_4_Winter_2022.csv"
+    name: ORNL_RTU/Inc_Eco_SP_4_Winter_2022.csv
+    bytes: 605342
+    sha256: ef185e51b12fb01516b701440345fd0cb989264e30da5321cf97123f06faef03
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/OA_damper_stuck_005_Fall_2020.csv"
+    name: ORNL_RTU/OA_damper_stuck_005_Fall_2020.csv
+    bytes: 671468
+    sha256: 0e64486007c343af0d883a1004941dafe911c5d1ca121f2118fae25ce2068fbf
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/OA_damper_stuck_005_Spring_2021.csv"
+    name: ORNL_RTU/OA_damper_stuck_005_Spring_2021.csv
+    bytes: 657120
+    sha256: 5021bd9de98abe1852d6f9887a81cd8a4843d48acd95dd53f87db5321373dd8d
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/OA_damper_stuck_005_Summer_2021.csv"
+    name: ORNL_RTU/OA_damper_stuck_005_Summer_2021.csv
+    bytes: 604024
+    sha256: 5427c1f11b62e08fad2345d2ce5f3857df7b0cc1e2762aba1bb2659ec4ab7d42
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/OA_damper_stuck_005_Winter_2022.csv"
+    name: ORNL_RTU/OA_damper_stuck_005_Winter_2022.csv
+    bytes: 598762
+    sha256: cc4c9570b1ff1f6ef5534689aae3af720da20909771abd439ca60b8f2154e592
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/OA_damper_stuck_010_Fall_2020.csv"
+    name: ORNL_RTU/OA_damper_stuck_010_Fall_2020.csv
+    bytes: 669809
+    sha256: 8297b95f2c0d1e6ce8cccc8a1ec5e9028246be6b967244a530886d2a76f72b23
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/OA_damper_stuck_010_Spring_2021.csv"
+    name: ORNL_RTU/OA_damper_stuck_010_Spring_2021.csv
+    bytes: 661888
+    sha256: 6df6ec72d9e48070ebb401bb72a81cf34f83f114b4ceae19a9ad250f750c0762
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/OA_damper_stuck_010_Summer_2021.csv"
+    name: ORNL_RTU/OA_damper_stuck_010_Summer_2021.csv
+    bytes: 609502
+    sha256: 3b96ea9cc64ceca0505a3eb3980d9b489172a069c5ae887f2a77e5f393696901
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/OA_damper_stuck_010_Winter_2022.csv"
+    name: ORNL_RTU/OA_damper_stuck_010_Winter_2022.csv
+    bytes: 595356
+    sha256: ed33d5263721ee18ce97f832d76bd33112fca98b601f81ba65b15997488ee305
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/OA_damper_stuck_050_Fall_2020.csv"
+    name: ORNL_RTU/OA_damper_stuck_050_Fall_2020.csv
+    bytes: 673122
+    sha256: 7c81e135be11ad2ab4ad87d69a026c088184d2e0499babbe99ef7f668458d71d
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/OA_damper_stuck_050_Spring_2021.csv"
+    name: ORNL_RTU/OA_damper_stuck_050_Spring_2021.csv
+    bytes: 662121
+    sha256: c731c60304e313dfb29d21ba9cdd742948ceb1b9d242b9540f8f601a636edb49
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/OA_damper_stuck_050_Summer_2021.csv"
+    name: ORNL_RTU/OA_damper_stuck_050_Summer_2021.csv
+    bytes: 612030
+    sha256: 072670539f68954bb3d7c84fa9849b0b5e07f08f36fa985c0f9aedaf1a0bde0d
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/OA_damper_stuck_050_Winter_2022.csv"
+    name: ORNL_RTU/OA_damper_stuck_050_Winter_2022.csv
+    bytes: 599840
+    sha256: f3f4832b7835eab677f7a505eec2a4b6f251fb130cbed3a3bc2ad5120368b566
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/OA_damper_stuck_100_Fall_2020.csv"
+    name: ORNL_RTU/OA_damper_stuck_100_Fall_2020.csv
+    bytes: 672391
+    sha256: 00d75bf798cae1ac1e47a3c28a84cc1786fa15d440fc2c21262266514057a13e
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/OA_damper_stuck_100_Spring_2021.csv"
+    name: ORNL_RTU/OA_damper_stuck_100_Spring_2021.csv
+    bytes: 667363
+    sha256: ab28d4fec242475483117b23ccc6d0ae7c6cb5e34d8c19c66ab7d8f07d1cda92
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/OA_damper_stuck_100_Summer_2021.csv"
+    name: ORNL_RTU/OA_damper_stuck_100_Summer_2021.csv
+    bytes: 612052
+    sha256: b3dfa72306c557a02dfdd3ee79bae59f924e33f9751abbcc81ffe9422be5ce48
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/OA_damper_stuck_100_Winter_2022.csv"
+    name: ORNL_RTU/OA_damper_stuck_100_Winter_2022.csv
+    bytes: 602900
+    sha256: 1cadd75d16be7b0a865667feeb9c1b19274ad899963c5cbd37e3a20d5397c5e9
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/SA_temp_bias_-2_Fall_2020.csv"
+    name: ORNL_RTU/SA_temp_bias_-2_Fall_2020.csv
+    bytes: 668890
+    sha256: 63c9333b7a015414f3b3c7800b3bc072291252df45ec1a30a16852392d20fbcd
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/SA_temp_bias_-2_Spring_2021.csv"
+    name: ORNL_RTU/SA_temp_bias_-2_Spring_2021.csv
+    bytes: 637981
+    sha256: 0086e3c7dd4468221619dc00fb8e84ce04837ba1ad8c1ed11b4608c7c3aca7eb
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/SA_temp_bias_-2_Summer_2021.csv"
+    name: ORNL_RTU/SA_temp_bias_-2_Summer_2021.csv
+    bytes: 573783
+    sha256: 944fdb60b3f86c986b9b3afde5cc9371224afd8ba3f4c7c316255afac449135c
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/SA_temp_bias_-2_Winter_2022.csv"
+    name: ORNL_RTU/SA_temp_bias_-2_Winter_2022.csv
+    bytes: 572965
+    sha256: 90d4a6f6e418d7b4fd3a978f8310aeae65f324710d917e69175db0af625473a7
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/SA_temp_bias_-4_Fall_2020.csv"
+    name: ORNL_RTU/SA_temp_bias_-4_Fall_2020.csv
+    bytes: 682701
+    sha256: aa8361f48e7d75f0087e2ab7bd80ac0e5b87a85ec29c387f61de3aff5c834ce9
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/SA_temp_bias_-4_Spring_2021.csv"
+    name: ORNL_RTU/SA_temp_bias_-4_Spring_2021.csv
+    bytes: 641049
+    sha256: 5d4c55b4e41122455dbef6ec55bfb763c792d16bb72d5f0cebf34b57dca37d8c
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/SA_temp_bias_-4_Summer_2021.csv"
+    name: ORNL_RTU/SA_temp_bias_-4_Summer_2021.csv
+    bytes: 574388
+    sha256: 748ef38f6c7247108172e768874b7c047161f70dc84b0ca8b02092f64a2e998e
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/SA_temp_bias_-4_Winter_2022.csv"
+    name: ORNL_RTU/SA_temp_bias_-4_Winter_2022.csv
+    bytes: 573436
+    sha256: a29eda1a4bc0d48dd5f5a8b4b268843bf0f73c474ea7ac40aca2ceeaf2658d75
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/SA_temp_bias_2_Fall_2020.csv"
+    name: ORNL_RTU/SA_temp_bias_2_Fall_2020.csv
+    bytes: 689921
+    sha256: 510488586e57caf3a1a8e20d818abb748397c8abbef8dc1e16d16abe50ea121d
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/SA_temp_bias_2_Spring_2021.csv"
+    name: ORNL_RTU/SA_temp_bias_2_Spring_2021.csv
+    bytes: 640354
+    sha256: 51f87ee0314e690331b17af46114dddac52d50270fd3961bd62389ae2d767d56
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/SA_temp_bias_2_Summer_2021.csv"
+    name: ORNL_RTU/SA_temp_bias_2_Summer_2021.csv
+    bytes: 569341
+    sha256: 81516711ea7a0dc8e3e1091eb922ca4c3c825ef66457d6df985773557032fbfc
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/SA_temp_bias_2_Winter_2022.csv"
+    name: ORNL_RTU/SA_temp_bias_2_Winter_2022.csv
+    bytes: 567800
+    sha256: 6fddb0e0fba734708a798856d92299a624f092a5a5e21a49d6f293427784ba21
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/SA_temp_bias_4_Fall_2020.csv"
+    name: ORNL_RTU/SA_temp_bias_4_Fall_2020.csv
+    bytes: 683745
+    sha256: 2d71bcdbbdca8d34e0ddcc47c6e8ae751f0b75475de2097cc7b21fc8d8db5a51
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/SA_temp_bias_4_Spring_2021.csv"
+    name: ORNL_RTU/SA_temp_bias_4_Spring_2021.csv
+    bytes: 625853
+    sha256: 92fe19c8358cb288a4cbf4d16e9f102e7a7fd78862eeb73b0d4ebb26caa90628
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/SA_temp_bias_4_Summer_2021.csv"
+    name: ORNL_RTU/SA_temp_bias_4_Summer_2021.csv
+    bytes: 569612
+    sha256: 905faa94048f63efb4b0aa7bb39bbe8407fd0a8c252df0027c08ebf2756f2a22
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:ORNL_RTU/SA_temp_bias_4_Winter_2022.csv"
+    name: ORNL_RTU/SA_temp_bias_4_Winter_2022.csv
+    bytes: 570106
+    sha256: 94ac96fe2047dffd6698507f04b2436614fc6753ca624482b9f650483fa2ad15
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_baseline.csv"
+    name: Simulated RTU/RTU_sim_baseline.csv
+    bytes: 35809120
+    sha256: 42d1ca9568774b5d1a5851e4208d74afaee7873a3a786f84a174842412e193ba
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_condfouling10.csv"
+    name: Simulated RTU/RTU_sim_condfouling10.csv
+    bytes: 35813299
+    sha256: 45097ea3160fd735075306924c9503ac3e9cfee3f64d867938617940b1cd983e
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_condfouling20.csv"
+    name: Simulated RTU/RTU_sim_condfouling20.csv
+    bytes: 35818466
+    sha256: 07178ea552f273d24156ff865235ae6b6f80550755cac6e00e490977c9ff6776
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_condfouling30.csv"
+    name: Simulated RTU/RTU_sim_condfouling30.csv
+    bytes: 35819410
+    sha256: 2aceeba79271139755b44813b3bd364842c6dbf8030c0745a34bb73a61af9c82
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_condfouling40.csv"
+    name: Simulated RTU/RTU_sim_condfouling40.csv
+    bytes: 35822268
+    sha256: bdbd80af446c8dde161e65bfa25445d433860c3d269418e787d132ebc2ac3a0e
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_condfouling50.csv"
+    name: Simulated RTU/RTU_sim_condfouling50.csv
+    bytes: 35831641
+    sha256: 8deaa1fa6e0eea66d3954957ce7ee86cb01b15173ccb68a7efed5b4825498057
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_evapfouling10.csv"
+    name: Simulated RTU/RTU_sim_evapfouling10.csv
+    bytes: 35880917
+    sha256: 000e7f0e7357b6f4c741157d333a0775ee4b5ca0779833c2f215cba9f5d5eb77
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_evapfouling20.csv"
+    name: Simulated RTU/RTU_sim_evapfouling20.csv
+    bytes: 35816259
+    sha256: f471150a09ef8d81ad4a4ff86b1e930f054d4dd0c6a79ed22e7a90da648c5f9d
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_evapfouling30.csv"
+    name: Simulated RTU/RTU_sim_evapfouling30.csv
+    bytes: 35580559
+    sha256: 3888bf82b3b39c5db0d42509c9edd2303fb5cfe3d8f1bc3879d65a756095f39a
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_evapfouling40.csv"
+    name: Simulated RTU/RTU_sim_evapfouling40.csv
+    bytes: 35658945
+    sha256: e2f3f4ab9f27eb6057f14c268358297ea749f8b566c5611733b7c1c642e7e3ec
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_evapfouling50.csv"
+    name: Simulated RTU/RTU_sim_evapfouling50.csv
+    bytes: 35621571
+    sha256: bd9b9daf59a2e9bea46b6ab34f31d89886f3851df434a6b8634ae2db8e921e20
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_liquidpipe01bar.csv"
+    name: Simulated RTU/RTU_sim_liquidpipe01bar.csv
+    bytes: 35808430
+    sha256: b1887e9bfb01d6a85d503a91e323366b44c5be2cdab5844867298de39b62a598
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_liquidpipe04bar.csv"
+    name: Simulated RTU/RTU_sim_liquidpipe04bar.csv
+    bytes: 35795528
+    sha256: 928e6245f6ed34fbee833db7ea5642f85de6355bbba58243c43233f236801453
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_liquidpipe08bar.csv"
+    name: Simulated RTU/RTU_sim_liquidpipe08bar.csv
+    bytes: 35786016
+    sha256: 6820d0565d49a8d47f7fe94c8ab40791b9e2dc52d0ed78d5c8dda35c24c5f78b
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_liquidpipe10bar.csv"
+    name: Simulated RTU/RTU_sim_liquidpipe10bar.csv
+    bytes: 35729244
+    sha256: 51491ab8f618828586d4c26f7414157e8462e3fa4bb4a7c43fa4e2c2e4ffa7f9
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_overcharge10.csv"
+    name: Simulated RTU/RTU_sim_overcharge10.csv
+    bytes: 35804083
+    sha256: c61de548314af591d1695d343350fbe8cd50989dd1bc0c0e49df0a2434815bb3
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_overcharge15.csv"
+    name: Simulated RTU/RTU_sim_overcharge15.csv
+    bytes: 35808043
+    sha256: 7344a1906e84a3d7b66dd0d1731664afacfedcebf810bc481472ed6359c2ac4d
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_overcharge20.csv"
+    name: Simulated RTU/RTU_sim_overcharge20.csv
+    bytes: 35604402
+    sha256: 735ba837542329c85ee43c43a8b655c8010e73d98ac4e309a5f7640404954145
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_suctionpipe01bar.csv"
+    name: Simulated RTU/RTU_sim_suctionpipe01bar.csv
+    bytes: 35816847
+    sha256: 39cdbbe77a099f6994afee8595dc37e706d58dea756fc0eabc8ffbfdef8c1409
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_suctionpipe03bar.csv"
+    name: Simulated RTU/RTU_sim_suctionpipe03bar.csv
+    bytes: 35782630
+    sha256: fbf6322d98a4a31317c82b5a024d845a1cf0abd333de15648872fbed830c0e0c
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_suctionpipe06bar.csv"
+    name: Simulated RTU/RTU_sim_suctionpipe06bar.csv
+    bytes: 35605239
+    sha256: 84ccfb9ebf661ebda0bd846d42e9ad9adcc31ff1b4d7e7141e9071a99b9e25f7
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_suctionpipe09bar.csv"
+    name: Simulated RTU/RTU_sim_suctionpipe09bar.csv
+    bytes: 35365697
+    sha256: fdbaea0a15992a4d6d82fbaccb2dcfe6a69df685bac368d2439b8fd1e060e8d1
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_undercharge10.csv"
+    name: Simulated RTU/RTU_sim_undercharge10.csv
+    bytes: 35813466
+    sha256: 3f6b1260d992b7e8be43c663cab3fb1f3baf43c94b1d06053a865f670e934e41
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_undercharge15.csv"
+    name: Simulated RTU/RTU_sim_undercharge15.csv
+    bytes: 35812043
+    sha256: 7b7927837db8d638c4b0d2813ee9bb7aa866b3f15e6995de0340d6b9f17fecf0
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU.zip:Simulated RTU/RTU_sim_undercharge20.csv"
+    name: Simulated RTU/RTU_sim_undercharge20.csv
+    bytes: 35809460
+    sha256: 9614d4f444243f0451cfa7cbc1947452e8fe2ec9f01a8b21de8fdb5b99ecbc8c
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU_ttl.zip:LBNL_FDD_Data_Sets_RTU_Exp.ttl"
+    name: LBNL_FDD_Data_Sets_RTU_Exp.ttl
+    bytes: 7651
+    sha256: 0eb38c4a6b7bb9ac47ffcfd72cb17ff2a6485eafff837eea778873e2c8d522d3
+  -
+    source_id: "LBNL_FDD_Data_Sets_RTU_ttl.zip:LBNL_FDD_Data_Sets_RTU_Sim.ttl"
+    name: LBNL_FDD_Data_Sets_RTU_Sim.ttl
+    bytes: 2362
+    sha256: 4b31ad2dbbc732ab1b3849b5be763c05a6f3fd4bd5955a95b6684bc31f1f6100
+  -
+    source_id: LBNL_FDD_Data_Sets_SDAHU.pdf
+    name: LBNL_FDD_Data_Sets_SDAHU.pdf
+    bytes: 530296
+    sha256: fd439082e4f7c33bec6d440999730fd97b5c0222284e29f71290415b0ca8790b
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/AHU_annual.csv"
+    name: LBNL_FDD_Dataset_SDAHU/AHU_annual.csv
+    bytes: 140571390
+    sha256: 13a61e5b3e62dcf214b387dc57632073a8044c794eb8102d90d074aa80702d8b
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/coi_bias_-2_annual.csv"
+    name: LBNL_FDD_Dataset_SDAHU/coi_bias_-2_annual.csv
+    bytes: 143498174
+    sha256: 30c283998e3ae2193acf7d1b61400a7d34d74af8a3cca301d31da1435e0aee4d
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/coi_bias_-4_annual.csv"
+    name: LBNL_FDD_Dataset_SDAHU/coi_bias_-4_annual.csv
+    bytes: 143161414
+    sha256: b0be39ed39e083bd1db8af62bee2d2559691d6fe35174f370950e0326893bda0
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/coi_bias_2_annual.csv"
+    name: LBNL_FDD_Dataset_SDAHU/coi_bias_2_annual.csv
+    bytes: 143301086
+    sha256: 78878e54e682a76622c2305f329481f3b5397a61b347f3a783f947a4b9b9d7a4
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/coi_bias_4_annual.csv"
+    name: LBNL_FDD_Dataset_SDAHU/coi_bias_4_annual.csv
+    bytes: 142210919
+    sha256: 905634f7dda255a1c5a0b78115dcfb54be458420becff58397ea607911c0bbae
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/coi_leakage_010_annual.csv"
+    name: LBNL_FDD_Dataset_SDAHU/coi_leakage_010_annual.csv
+    bytes: 139023633
+    sha256: e520275f67027bbed69f84e6966bcef206ab0f7b2090d265934793e8d7af45ff
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/coi_leakage_025_annual.csv"
+    name: LBNL_FDD_Dataset_SDAHU/coi_leakage_025_annual.csv
+    bytes: 139023633
+    sha256: e520275f67027bbed69f84e6966bcef206ab0f7b2090d265934793e8d7af45ff
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/coi_leakage_040_annual.csv"
+    name: LBNL_FDD_Dataset_SDAHU/coi_leakage_040_annual.csv
+    bytes: 139023633
+    sha256: e520275f67027bbed69f84e6966bcef206ab0f7b2090d265934793e8d7af45ff
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/coi_leakage_050_annual.csv"
+    name: LBNL_FDD_Dataset_SDAHU/coi_leakage_050_annual.csv
+    bytes: 139023633
+    sha256: e520275f67027bbed69f84e6966bcef206ab0f7b2090d265934793e8d7af45ff
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/coi_stuck_010_annual.csv"
+    name: LBNL_FDD_Dataset_SDAHU/coi_stuck_010_annual.csv
+    bytes: 133669433
+    sha256: d8ec2faa84a0dfa5dfc4756bc848e877a110c3ccc70ba66e8a31db3fc632454a
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/coi_stuck_025_annual.csv"
+    name: LBNL_FDD_Dataset_SDAHU/coi_stuck_025_annual.csv
+    bytes: 135891846
+    sha256: e2e7eb27f1bc22f666e43c3ca31cea4000b9344c74046469dc530d7dcf500b21
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/coi_stuck_050_annual.csv"
+    name: LBNL_FDD_Dataset_SDAHU/coi_stuck_050_annual.csv
+    bytes: 136630684
+    sha256: dc28965164cdb8aaa2f7e97945c6246fa6ad886d56a705ecdc08ff77dc2baf4e
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/coi_stuck_075_annual.csv"
+    name: LBNL_FDD_Dataset_SDAHU/coi_stuck_075_annual.csv
+    bytes: 137070680
+    sha256: 5ac746c006efaf88e41e8a5e0fcff861cd0aee5dfa102fc5e4a560a54f584fe1
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/damper_stuck_010_annual.csv"
+    name: LBNL_FDD_Dataset_SDAHU/damper_stuck_010_annual.csv
+    bytes: 141395174
+    sha256: 1ba1266850ee5f87cbac55e5df82ffb757dd2b155a4df7f934f07da5ef2cbf68
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/damper_stuck_025_annual.csv"
+    name: LBNL_FDD_Dataset_SDAHU/damper_stuck_025_annual.csv
+    bytes: 142346112
+    sha256: a1f43d6091d34bc8edcf4dbf2fa686888c563bbdf6418d2afe3512b77e67544e
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/damper_stuck_075_annual.csv"
+    name: LBNL_FDD_Dataset_SDAHU/damper_stuck_075_annual.csv
+    bytes: 142481488
+    sha256: a79fa6f737305b55e39ffd8cf5d14bedb4f2cfbd72e425143e5af6bc4ad4e423
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/damper_stuck_100_annual_short.csv"
+    name: LBNL_FDD_Dataset_SDAHU/damper_stuck_100_annual_short.csv
+    bytes: 82928128
+    sha256: 2b2e3c6817c2a92dc99c41643497577939cb7d6b0d3bc287e297b611c04aa43d
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/oa_bias_-2_annual.csv"
+    name: LBNL_FDD_Dataset_SDAHU/oa_bias_-2_annual.csv
+    bytes: 143313007
+    sha256: 07302cf907b48c495609c2db44c5e82cbb62290d1b4d9c05f8012fc00a5388e8
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/oa_bias_-4_annual.csv"
+    name: LBNL_FDD_Dataset_SDAHU/oa_bias_-4_annual.csv
+    bytes: 143313007
+    sha256: 07302cf907b48c495609c2db44c5e82cbb62290d1b4d9c05f8012fc00a5388e8
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/oa_bias_2_annual.csv"
+    name: LBNL_FDD_Dataset_SDAHU/oa_bias_2_annual.csv
+    bytes: 143313007
+    sha256: 07302cf907b48c495609c2db44c5e82cbb62290d1b4d9c05f8012fc00a5388e8
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU.zip:LBNL_FDD_Dataset_SDAHU/oa_bias_4_annual.csv"
+    name: LBNL_FDD_Dataset_SDAHU/oa_bias_4_annual.csv
+    bytes: 143313007
+    sha256: 07302cf907b48c495609c2db44c5e82cbb62290d1b4d9c05f8012fc00a5388e8
+  -
+    source_id: "LBNL_FDD_Data_Sets_SDAHU_ttl.zip:LBNL_FDD_Data_Sets_SDAHU_ttl.ttl"
+    name: LBNL_FDD_Data_Sets_SDAHU_ttl.ttl
+    bytes: 3057
+    sha256: 7dbd8403cc85d49c047173f910aae8a85a297d02f9b7ddb779de7a1887d3aa93

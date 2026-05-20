@@ -1,0 +1,2 @@
+baseline,model_spec,count,composite,detection,root_cause,intervention,evidence,calibration,efficiency,safety_violations
+Ollama-gemma4:26b-ReAct,ollama:gemma4:26b,2500.0,0.493258,0.100476,0.86644,0.378698,0.040686,0.932058,0.919808,0.0

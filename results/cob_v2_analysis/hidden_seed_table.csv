@@ -1,0 +1,2 @@
+model,n,parse_success,parse_total,safety_violations,composite_mean,composite_ci_low,composite_ci_high,detection_mean,detection_ci_low,detection_ci_high,root_cause_mean,root_cause_ci_low,root_cause_ci_high,intervention_mean,intervention_ci_low,intervention_ci_high,evidence_mean,evidence_ci_low,evidence_ci_high
+gemma4:26b,500,500,500,0,0.939754,0.936438,0.943111,0.94674,0.935382,0.957065,1.0,1.0,1.0,0.96267,0.957341,0.967104,0.794848,0.785191,0.804541

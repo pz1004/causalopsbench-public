@@ -1,0 +1,3023 @@
+{
+  "condition": "neutral-identifiers",
+  "count": 200,
+  "scores": [
+    {
+      "calibration": 0.866673,
+      "composite": 0.73864,
+      "detection": 0.22313,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0000",
+      "evidence": 0.888889,
+      "intervention": 0.624427,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.7006,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.759262,
+      "composite": 0.564214,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0001",
+      "evidence": 0.888889,
+      "intervention": 0.454333,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 96.1356,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870198,
+      "composite": 0.778145,
+      "detection": 0.311403,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0002",
+      "evidence": 0.888889,
+      "intervention": 0.7108,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 57.14,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.866945,
+      "composite": 0.868407,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0003",
+      "evidence": 0.888889,
+      "intervention": 0.865193,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.7685,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.760361,
+      "composite": 0.523235,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0004",
+      "evidence": 0.888889,
+      "intervention": 0.396619,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 91.0865,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.768958,
+      "composite": 0.53795,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0005",
+      "evidence": 0.888889,
+      "intervention": 0.418553,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 102.8271,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.867345,
+      "composite": 0.749698,
+      "detection": 0.242521,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0006",
+      "evidence": 0.888889,
+      "intervention": 0.651368,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 58.1966,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.876984,
+      "composite": 0.846362,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0007",
+      "evidence": 0.888889,
+      "intervention": 0.834919,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 66.2309,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.758946,
+      "composite": 0.548073,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0008",
+      "evidence": 0.888889,
+      "intervention": 0.42928,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 76.6646,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.876739,
+      "composite": 0.800943,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0009",
+      "evidence": 0.888889,
+      "intervention": 0.756375,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 65.2141,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.753986,
+      "composite": 0.544565,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0010",
+      "evidence": 0.888889,
+      "intervention": 0.41924,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 58.8258,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.779454,
+      "composite": 0.568004,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0011",
+      "evidence": 0.888889,
+      "intervention": 0.460234,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 129.8437,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.872389,
+      "composite": 0.843567,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0012",
+      "evidence": 0.888889,
+      "intervention": 0.827136,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.4156,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.770895,
+      "composite": 0.521681,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0013",
+      "evidence": 0.888889,
+      "intervention": 0.387926,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 70.3964,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.867672,
+      "composite": 0.777667,
+      "detection": 0.311403,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0014",
+      "evidence": 0.888889,
+      "intervention": 0.710047,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.321,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.760677,
+      "composite": 0.564991,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0015",
+      "evidence": 0.888889,
+      "intervention": 0.45645,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 105.8562,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.748114,
+      "composite": 0.563462,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0016",
+      "evidence": 0.888889,
+      "intervention": 0.455543,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 101.4423,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.880887,
+      "composite": 0.855709,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0017",
+      "evidence": 0.888889,
+      "intervention": 0.842466,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.5963,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.867469,
+      "composite": 0.805322,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0018",
+      "evidence": 0.888889,
+      "intervention": 0.758077,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.5854,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.880647,
+      "composite": 0.854219,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0019",
+      "evidence": 0.888889,
+      "intervention": 0.837579,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.935,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.884005,
+      "composite": 0.856949,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0020",
+      "evidence": 0.888889,
+      "intervention": 0.845561,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.3019,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.875923,
+      "composite": 0.819864,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0021",
+      "evidence": 0.888889,
+      "intervention": 0.786358,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.6392,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.767622,
+      "composite": 0.547781,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0022",
+      "evidence": 0.888889,
+      "intervention": 0.425414,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 68.5024,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.871724,
+      "composite": 0.856692,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0023",
+      "evidence": 0.888889,
+      "intervention": 0.848796,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 55.0481,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.866852,
+      "composite": 0.821738,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0024",
+      "evidence": 0.888889,
+      "intervention": 0.795628,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 65.42,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.872899,
+      "composite": 0.826968,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0025",
+      "evidence": 0.888889,
+      "intervention": 0.79216,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.3805,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.761084,
+      "composite": 0.52444,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0026",
+      "evidence": 0.888889,
+      "intervention": 0.400395,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 105.0363,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.773634,
+      "composite": 0.566989,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0027",
+      "evidence": 0.888889,
+      "intervention": 0.458793,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 119.4468,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.752168,
+      "composite": 0.576629,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0028",
+      "evidence": 0.888889,
+      "intervention": 0.466946,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 75.7424,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.878895,
+      "composite": 0.648734,
+      "detection": 0.075522,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0029",
+      "evidence": 0.888889,
+      "intervention": 0.39447,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 83.239,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.753517,
+      "composite": 0.580265,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0030",
+      "evidence": 0.888889,
+      "intervention": 0.478615,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 129.8813,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.74991,
+      "composite": 0.54648,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0031",
+      "evidence": 0.888889,
+      "intervention": 0.426983,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 71.5689,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.867383,
+      "composite": 0.841396,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0032",
+      "evidence": 0.888889,
+      "intervention": 0.821567,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.0309,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.762112,
+      "composite": 0.550765,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0033",
+      "evidence": 0.888889,
+      "intervention": 0.437197,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 102.7739,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870746,
+      "composite": 0.833083,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0034",
+      "evidence": 0.888889,
+      "intervention": 0.813263,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 61.7446,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.881768,
+      "composite": 0.868624,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0035",
+      "evidence": 0.888889,
+      "intervention": 0.860975,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.639,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.867391,
+      "composite": 0.857208,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0036",
+      "evidence": 0.888889,
+      "intervention": 0.851962,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 60.8869,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.774168,
+      "composite": 0.581488,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0037",
+      "evidence": 0.888889,
+      "intervention": 0.475808,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 110.2829,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.880721,
+      "composite": 0.846415,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0038",
+      "evidence": 0.888889,
+      "intervention": 0.833851,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 63.8324,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.867192,
+      "composite": 0.866544,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0039",
+      "evidence": 0.888889,
+      "intervention": 0.858902,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.5649,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.868419,
+      "composite": 0.880318,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0040",
+      "evidence": 0.888889,
+      "intervention": 0.87805,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.2317,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.761636,
+      "composite": 0.536533,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0041",
+      "evidence": 0.888889,
+      "intervention": 0.41627,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 93.8812,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.748006,
+      "composite": 0.532644,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0042",
+      "evidence": 0.888889,
+      "intervention": 0.407853,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 71.6803,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.759539,
+      "composite": 0.565771,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0043",
+      "evidence": 0.888889,
+      "intervention": 0.459429,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 123.8052,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.750392,
+      "composite": 0.54591,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0044",
+      "evidence": 0.888889,
+      "intervention": 0.424923,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 67.6003,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.873418,
+      "composite": 0.83512,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0045",
+      "evidence": 0.888889,
+      "intervention": 0.819161,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 75.4933,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.763502,
+      "composite": 0.578669,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0046",
+      "evidence": 0.888889,
+      "intervention": 0.469966,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 84.5738,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.75917,
+      "composite": 0.562889,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0047",
+      "evidence": 0.888889,
+      "intervention": 0.449946,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 81.0605,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.758848,
+      "composite": 0.520429,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0048",
+      "evidence": 0.888889,
+      "intervention": 0.387768,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 70.1148,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.881731,
+      "composite": 0.832012,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0049",
+      "evidence": 0.888889,
+      "intervention": 0.806029,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.096,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.754286,
+      "composite": 0.549582,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0050",
+      "evidence": 0.888889,
+      "intervention": 0.435862,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 97.0742,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870909,
+      "composite": 0.796792,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0051",
+      "evidence": 0.888889,
+      "intervention": 0.74448,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.2885,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.875836,
+      "composite": 0.857584,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0052",
+      "evidence": 0.888889,
+      "intervention": 0.850401,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 57.8341,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.869529,
+      "composite": 0.841689,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0053",
+      "evidence": 0.888889,
+      "intervention": 0.821828,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.2882,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870271,
+      "composite": 0.781143,
+      "detection": 0.338465,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0054",
+      "evidence": 0.888889,
+      "intervention": 0.707237,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.5912,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.746616,
+      "composite": 0.575065,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0055",
+      "evidence": 0.888889,
+      "intervention": 0.463585,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 68.0204,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.764226,
+      "composite": 0.536857,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0056",
+      "evidence": 0.888889,
+      "intervention": 0.416487,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 94.6586,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.75069,
+      "composite": 0.562766,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0057",
+      "evidence": 0.888889,
+      "intervention": 0.452364,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 88.668,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.87628,
+      "composite": 0.785212,
+      "detection": 0.338465,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0058",
+      "evidence": 0.888889,
+      "intervention": 0.718798,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.2061,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.876701,
+      "composite": 0.805767,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0059",
+      "evidence": 0.888889,
+      "intervention": 0.756483,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 43.4641,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.754375,
+      "composite": 0.550789,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0060",
+      "evidence": 0.888889,
+      "intervention": 0.439858,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 116.6251,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.879765,
+      "composite": 0.820423,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0061",
+      "evidence": 0.888889,
+      "intervention": 0.78694,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.3021,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.869827,
+      "composite": 0.796305,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0062",
+      "evidence": 0.888889,
+      "intervention": 0.743218,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.1609,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.758217,
+      "composite": 0.579043,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0063",
+      "evidence": 0.888889,
+      "intervention": 0.472978,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 95.9843,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.754923,
+      "composite": 0.549601,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0064",
+      "evidence": 0.888889,
+      "intervention": 0.435714,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 96.4809,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.881913,
+      "composite": 0.867915,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0065",
+      "evidence": 0.888889,
+      "intervention": 0.858563,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.2481,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.752438,
+      "composite": 0.562574,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0066",
+      "evidence": 0.888889,
+      "intervention": 0.451141,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 84.6318,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.752202,
+      "composite": 0.547715,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0067",
+      "evidence": 0.888889,
+      "intervention": 0.430336,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 79.2896,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.877955,
+      "composite": 0.857799,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0068",
+      "evidence": 0.888889,
+      "intervention": 0.850409,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 57.8484,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.764905,
+      "composite": 0.546545,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0069",
+      "evidence": 0.888889,
+      "intervention": 0.4222,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 63.0519,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.871536,
+      "composite": 0.855585,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0070",
+      "evidence": 0.888889,
+      "intervention": 0.84517,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.7935,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.748035,
+      "composite": 0.562913,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0071",
+      "evidence": 0.888889,
+      "intervention": 0.453738,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 93.7344,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.750304,
+      "composite": 0.593738,
+      "detection": 0.846482,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0072",
+      "evidence": 0.888889,
+      "intervention": 0.490756,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 92.1518,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.753048,
+      "composite": 0.534637,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0073",
+      "evidence": 0.888889,
+      "intervention": 0.412815,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 83.1389,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.866654,
+      "composite": 0.811351,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0074",
+      "evidence": 0.888889,
+      "intervention": 0.778445,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 70.1331,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.868047,
+      "composite": 0.798728,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0075",
+      "evidence": 0.888889,
+      "intervention": 0.751888,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 58.4576,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.867273,
+      "composite": 0.855944,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0076",
+      "evidence": 0.888889,
+      "intervention": 0.847788,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 53.4561,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.752098,
+      "composite": 0.578473,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0077",
+      "evidence": 0.888889,
+      "intervention": 0.473116,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 96.5918,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.871428,
+      "composite": 0.869612,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0078",
+      "evidence": 0.888889,
+      "intervention": 0.867715,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 53.6093,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.879873,
+      "composite": 0.830652,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0079",
+      "evidence": 0.888889,
+      "intervention": 0.802117,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.959,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.872198,
+      "composite": 0.867316,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0080",
+      "evidence": 0.888889,
+      "intervention": 0.859806,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 43.4384,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.767982,
+      "composite": 0.565817,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0081",
+      "evidence": 0.888889,
+      "intervention": 0.456769,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 107.5125,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.867558,
+      "composite": 0.756083,
+      "detection": 0.263597,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0082",
+      "evidence": 0.888889,
+      "intervention": 0.662042,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.0454,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870482,
+      "composite": 0.81866,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0083",
+      "evidence": 0.888889,
+      "intervention": 0.784155,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.3059,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.760827,
+      "composite": 0.577417,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0084",
+      "evidence": 0.888889,
+      "intervention": 0.466687,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 75.0783,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.867489,
+      "composite": 0.855348,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0085",
+      "evidence": 0.888889,
+      "intervention": 0.845729,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.5234,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.874679,
+      "composite": 0.842956,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0086",
+      "evidence": 0.888889,
+      "intervention": 0.824335,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.95,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.75725,
+      "composite": 0.550505,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0087",
+      "evidence": 0.888889,
+      "intervention": 0.437951,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 106.3282,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.759821,
+      "composite": 0.579212,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0088",
+      "evidence": 0.888889,
+      "intervention": 0.473003,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 96.0976,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.877244,
+      "composite": 0.816502,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0089",
+      "evidence": 0.888889,
+      "intervention": 0.774708,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.6586,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.875817,
+      "composite": 0.74199,
+      "detection": 0.22313,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0090",
+      "evidence": 0.888889,
+      "intervention": 0.632546,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 59.5419,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.872753,
+      "composite": 0.769667,
+      "detection": 0.286505,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0091",
+      "evidence": 0.888889,
+      "intervention": 0.694138,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 61.0494,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.771597,
+      "composite": 0.581086,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0092",
+      "evidence": 0.888889,
+      "intervention": 0.475326,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 107.5313,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.752372,
+      "composite": 0.578366,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0093",
+      "evidence": 0.888889,
+      "intervention": 0.472669,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 94.6613,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.87895,
+      "composite": 0.845256,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0094",
+      "evidence": 0.888889,
+      "intervention": 0.830578,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 57.5998,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.875633,
+      "composite": 0.788574,
+      "detection": 0.338465,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0095",
+      "evidence": 0.888889,
+      "intervention": 0.730218,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.3953,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.877499,
+      "composite": 0.833997,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0096",
+      "evidence": 0.888889,
+      "intervention": 0.814056,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 63.2532,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.876939,
+      "composite": 0.757209,
+      "detection": 0.263597,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0097",
+      "evidence": 0.888889,
+      "intervention": 0.662667,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.497,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.762667,
+      "composite": 0.551788,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0098",
+      "evidence": 0.888889,
+      "intervention": 0.440424,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 120.1007,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.872272,
+      "composite": 0.797705,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0099",
+      "evidence": 0.888889,
+      "intervention": 0.74707,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.8157,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.760764,
+      "composite": 0.566101,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0100",
+      "evidence": 0.888889,
+      "intervention": 0.46012,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 128.9562,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.872284,
+      "composite": 0.843827,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0101",
+      "evidence": 0.888889,
+      "intervention": 0.828036,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 53.6604,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.771167,
+      "composite": 0.537943,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0102",
+      "evidence": 0.888889,
+      "intervention": 0.417795,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 99.6563,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.882811,
+      "composite": 0.846995,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0103",
+      "evidence": 0.888889,
+      "intervention": 0.835086,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 66.624,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.881608,
+      "composite": 0.808423,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0104",
+      "evidence": 0.888889,
+      "intervention": 0.7637,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.2079,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.876236,
+      "composite": 0.857446,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0105",
+      "evidence": 0.888889,
+      "intervention": 0.849808,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.7658,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.867967,
+      "composite": 0.883592,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0106",
+      "evidence": 0.888889,
+      "intervention": 0.889115,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.791,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.879831,
+      "composite": 0.831994,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0107",
+      "evidence": 0.888889,
+      "intervention": 0.806603,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.7802,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.758043,
+      "composite": 0.565913,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0108",
+      "evidence": 0.888889,
+      "intervention": 0.460401,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 131.175,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.876269,
+      "composite": 0.833707,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0109",
+      "evidence": 0.888889,
+      "intervention": 0.8135,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 62.1876,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.746812,
+      "composite": 0.564474,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0110",
+      "evidence": 0.888889,
+      "intervention": 0.45935,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 123.2505,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.749656,
+      "composite": 0.579162,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0111",
+      "evidence": 0.888889,
+      "intervention": 0.476226,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 112.7952,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.891375,
+      "composite": 0.847232,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0112",
+      "evidence": 0.888889,
+      "intervention": 0.833022,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 62.1078,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.755753,
+      "composite": 0.578082,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0113",
+      "evidence": 0.888889,
+      "intervention": 0.470596,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 86.7076,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.866951,
+      "composite": 0.827419,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0114",
+      "evidence": 0.888889,
+      "intervention": 0.795645,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.66,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.7484,
+      "composite": 0.521755,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0115",
+      "evidence": 0.888889,
+      "intervention": 0.395672,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 88.1941,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.867556,
+      "composite": 0.77515,
+      "detection": 0.311403,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0116",
+      "evidence": 0.888889,
+      "intervention": 0.701697,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.824,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.873557,
+      "composite": 0.846421,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0117",
+      "evidence": 0.888889,
+      "intervention": 0.836258,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 69.5479,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.868705,
+      "composite": 0.725426,
+      "detection": 0.188876,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0118",
+      "evidence": 0.888889,
+      "intervention": 0.596831,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 64.1528,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.876081,
+      "composite": 0.869394,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0119",
+      "evidence": 0.888889,
+      "intervention": 0.865439,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.1131,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.868094,
+      "composite": 0.718421,
+      "detection": 0.173774,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0120",
+      "evidence": 0.888889,
+      "intervention": 0.581236,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 69.0811,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.767852,
+      "composite": 0.551228,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0121",
+      "evidence": 0.888889,
+      "intervention": 0.436827,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 101.1241,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.88679,
+      "composite": 0.843615,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0122",
+      "evidence": 0.888889,
+      "intervention": 0.822495,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.961,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.787378,
+      "composite": 0.569029,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0123",
+      "evidence": 0.888889,
+      "intervention": 0.46101,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 136.2863,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.746788,
+      "composite": 0.559012,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0124",
+      "evidence": 0.888889,
+      "intervention": 0.441151,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 62.3481,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.758423,
+      "composite": 0.551506,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0125",
+      "evidence": 0.888889,
+      "intervention": 0.440898,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 123.1917,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.877494,
+      "composite": 0.841301,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0126",
+      "evidence": 0.888889,
+      "intervention": 0.817879,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.749,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.876764,
+      "composite": 0.88315,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0127",
+      "evidence": 0.888889,
+      "intervention": 0.884709,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.0859,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.762671,
+      "composite": 0.531732,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0128",
+      "evidence": 0.888889,
+      "intervention": 0.399924,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 59.1749,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.767061,
+      "composite": 0.5666,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0129",
+      "evidence": 0.888889,
+      "intervention": 0.459687,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 125.6807,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.749576,
+      "composite": 0.549526,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0130",
+      "evidence": 0.888889,
+      "intervention": 0.437247,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 103.0042,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.873021,
+      "composite": 0.776634,
+      "detection": 0.311403,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0131",
+      "evidence": 0.888889,
+      "intervention": 0.704822,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.3298,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.747975,
+      "composite": 0.562274,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0132",
+      "evidence": 0.888889,
+      "intervention": 0.451629,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 86.1956,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.750835,
+      "composite": 0.549036,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0133",
+      "evidence": 0.888889,
+      "intervention": 0.435193,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 94.4654,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.774667,
+      "composite": 0.580953,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0134",
+      "evidence": 0.888889,
+      "intervention": 0.47386,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 99.9998,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.883688,
+      "composite": 0.858372,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0135",
+      "evidence": 0.888889,
+      "intervention": 0.850409,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 57.8484,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.886599,
+      "composite": 0.855764,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0136",
+      "evidence": 0.888889,
+      "intervention": 0.840746,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.8125,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.869632,
+      "composite": 0.681962,
+      "detection": 0.114559,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0137",
+      "evidence": 0.888889,
+      "intervention": 0.4888,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 77.4297,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.757243,
+      "composite": 0.522687,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0138",
+      "evidence": 0.888889,
+      "intervention": 0.395831,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 88.6662,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.867,
+      "composite": 0.830641,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0139",
+      "evidence": 0.888889,
+      "intervention": 0.806369,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.4981,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.762252,
+      "composite": 0.550815,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0140",
+      "evidence": 0.888889,
+      "intervention": 0.437318,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 103.3293,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.765129,
+      "composite": 0.549863,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0141",
+      "evidence": 0.888889,
+      "intervention": 0.433184,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 87.4735,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.867415,
+      "composite": 0.796443,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0142",
+      "evidence": 0.888889,
+      "intervention": 0.744483,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.2914,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.759292,
+      "composite": 0.545506,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0143",
+      "evidence": 0.888889,
+      "intervention": 0.420608,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 60.695,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.875826,
+      "composite": 0.695608,
+      "detection": 0.135335,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0144",
+      "evidence": 0.888889,
+      "intervention": 0.521834,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 69.623,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.778392,
+      "composite": 0.550524,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0145",
+      "evidence": 0.888889,
+      "intervention": 0.430967,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 80.9557,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.750599,
+      "composite": 0.577403,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0146",
+      "evidence": 0.888889,
+      "intervention": 0.470048,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 84.8441,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.869169,
+      "composite": 0.868325,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0147",
+      "evidence": 0.888889,
+      "intervention": 0.864179,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.4054,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.762261,
+      "composite": 0.561393,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0148",
+      "evidence": 0.888889,
+      "intervention": 0.443931,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 67.1451,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.869534,
+      "composite": 0.879444,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0149",
+      "evidence": 0.888889,
+      "intervention": 0.874764,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.3892,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.770411,
+      "composite": 0.56743,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0150",
+      "evidence": 0.888889,
+      "intervention": 0.461338,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 139.2105,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.872525,
+      "composite": 0.703325,
+      "detection": 0.147096,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0151",
+      "evidence": 0.888889,
+      "intervention": 0.542777,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 70.6901,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.881972,
+      "composite": 0.822816,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0152",
+      "evidence": 0.888889,
+      "intervention": 0.794181,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 62.7056,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870518,
+      "composite": 0.806152,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0153",
+      "evidence": 0.888889,
+      "intervention": 0.759825,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.903,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.868498,
+      "composite": 0.799505,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0154",
+      "evidence": 0.888889,
+      "intervention": 0.754328,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 61.9136,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.871724,
+      "composite": 0.822101,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0155",
+      "evidence": 0.888889,
+      "intervention": 0.795214,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 64.6161,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.872724,
+      "composite": 0.72617,
+      "detection": 0.188876,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0156",
+      "evidence": 0.888889,
+      "intervention": 0.59797,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 65.3804,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.867861,
+      "composite": 0.846101,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0157",
+      "evidence": 0.888889,
+      "intervention": 0.83709,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 71.8118,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.76313,
+      "composite": 0.579468,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0158",
+      "evidence": 0.888889,
+      "intervention": 0.472755,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 95.0268,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.874585,
+      "composite": 0.735401,
+      "detection": 0.20529,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0159",
+      "evidence": 0.888889,
+      "intervention": 0.619913,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 67.7465,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.746936,
+      "composite": 0.548442,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0160",
+      "evidence": 0.888889,
+      "intervention": 0.434514,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 91.9677,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.748269,
+      "composite": 0.578762,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0161",
+      "evidence": 0.888889,
+      "intervention": 0.475356,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 107.696,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.775796,
+      "composite": 0.567422,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0162",
+      "evidence": 0.888889,
+      "intervention": 0.459515,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 124.426,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.75817,
+      "composite": 0.563496,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0163",
+      "evidence": 0.888889,
+      "intervention": 0.452304,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 88.462,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.766899,
+      "composite": 0.566076,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0164",
+      "evidence": 0.888889,
+      "intervention": 0.457995,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 114.4147,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.87283,
+      "composite": 0.839335,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0165",
+      "evidence": 0.888889,
+      "intervention": 0.81288,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.1337,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870552,
+      "composite": 0.829183,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0166",
+      "evidence": 0.888889,
+      "intervention": 0.800324,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.3255,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.74786,
+      "composite": 0.522702,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0167",
+      "evidence": 0.888889,
+      "intervention": 0.399009,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 99.4052,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.877581,
+      "composite": 0.857483,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0168",
+      "evidence": 0.888889,
+      "intervention": 0.849483,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.2002,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870132,
+      "composite": 0.794489,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0169",
+      "evidence": 0.888889,
+      "intervention": 0.737064,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.4493,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.867136,
+      "composite": 0.83999,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0170",
+      "evidence": 0.888889,
+      "intervention": 0.816962,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.0212,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.868847,
+      "composite": 0.858405,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0171",
+      "evidence": 0.888889,
+      "intervention": 0.855468,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 69.3707,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.878638,
+      "composite": 0.818202,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0172",
+      "evidence": 0.888889,
+      "intervention": 0.779913,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.4665,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.747001,
+      "composite": 0.577617,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0173",
+      "evidence": 0.888889,
+      "intervention": 0.471962,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 91.7784,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.751786,
+      "composite": 0.496091,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0174",
+      "evidence": 0.888889,
+      "intervention": 0.351831,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 74.8376,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870451,
+      "composite": 0.750898,
+      "detection": 0.242521,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0175",
+      "evidence": 0.888889,
+      "intervention": 0.654333,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 61.2734,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.882503,
+      "composite": 0.845408,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0176",
+      "evidence": 0.888889,
+      "intervention": 0.829901,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.4848,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.777855,
+      "composite": 0.564208,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0177",
+      "evidence": 0.888889,
+      "intervention": 0.448114,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 76.179,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.759558,
+      "composite": 0.580018,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0178",
+      "evidence": 0.888889,
+      "intervention": 0.475779,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 110.113,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.878447,
+      "composite": 0.835008,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0179",
+      "evidence": 0.888889,
+      "intervention": 0.81711,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 69.9641,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.877264,
+      "composite": 0.880206,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0180",
+      "evidence": 0.888889,
+      "intervention": 0.874727,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.3602,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870212,
+      "composite": 0.821102,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0181",
+      "evidence": 0.888889,
+      "intervention": 0.792387,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 59.6859,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.752594,
+      "composite": 0.549798,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0182",
+      "evidence": 0.888889,
+      "intervention": 0.437147,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 102.5491,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.869634,
+      "composite": 0.797284,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0183",
+      "evidence": 0.888889,
+      "intervention": 0.746547,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.28,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.757422,
+      "composite": 0.551124,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0184",
+      "evidence": 0.888889,
+      "intervention": 0.439958,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 117.221,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.755985,
+      "composite": 0.579378,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0185",
+      "evidence": 0.888889,
+      "intervention": 0.474836,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 104.8801,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.872011,
+      "composite": 0.803618,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0186",
+      "evidence": 0.888889,
+      "intervention": 0.750883,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.0341,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.764223,
+      "composite": 0.562671,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0187",
+      "evidence": 0.888889,
+      "intervention": 0.447537,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 74.7737,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.749521,
+      "composite": 0.550517,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0188",
+      "evidence": 0.888889,
+      "intervention": 0.44057,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 121.0353,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.869691,
+      "composite": 0.831002,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0189",
+      "evidence": 0.888889,
+      "intervention": 0.806677,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.8706,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.756631,
+      "composite": 0.521741,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0190",
+      "evidence": 0.888889,
+      "intervention": 0.392881,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 80.7258,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.752506,
+      "composite": 0.56074,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0191",
+      "evidence": 0.888889,
+      "intervention": 0.445004,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 69.2265,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.768377,
+      "composite": 0.511201,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0192",
+      "evidence": 0.888889,
+      "intervention": 0.376142,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 86.5073,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.748243,
+      "composite": 0.54631,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0193",
+      "evidence": 0.888889,
+      "intervention": 0.42697,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 71.5446,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.87024,
+      "composite": 0.856314,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0194",
+      "evidence": 0.888889,
+      "intervention": 0.848033,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 53.8332,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.873059,
+      "composite": 0.77162,
+      "detection": 0.311403,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0195",
+      "evidence": 0.888889,
+      "intervention": 0.688095,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.697,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.751226,
+      "composite": 0.531831,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0196",
+      "evidence": 0.888889,
+      "intervention": 0.40407,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 65.0361,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.75367,
+      "composite": 0.535473,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0197",
+      "evidence": 0.888889,
+      "intervention": 0.415394,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 90.877,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.867175,
+      "composite": 0.868,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0198",
+      "evidence": 0.888889,
+      "intervention": 0.86376,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 47.8682,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.767655,
+      "composite": 0.551078,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "neutral-0199",
+      "evidence": 0.888889,
+      "intervention": 0.436393,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 99.2576,
+      "root_cause": 0.066667,
+      "safety_violations": 0
+    }
+  ],
+  "summary": {
+    "calibration": 0.820255,
+    "composite": 0.696472,
+    "count": 200.0,
+    "detection": 0.557406,
+    "efficiency": 0.978417,
+    "evidence": 0.888889,
+    "intervention": 0.621535,
+    "intervention_epsilon": 1e-09,
+    "n_deg": 0.0,
+    "n_scored": 200.0,
+    "n_total": 200.0,
+    "root_cause": 0.566,
+    "safety_violations": 0.0
+  },
+  "system": "threshold",
+  "system_kind": "baseline"
+}

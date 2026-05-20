@@ -1,0 +1,3023 @@
+{
+  "condition": "original",
+  "count": 200,
+  "scores": [
+    {
+      "calibration": 0.99375,
+      "composite": 0.946943,
+      "detection": 1.0,
+      "efficiency": 0.904631,
+      "episode_id": "cob-water_grid-0004-dece1e9c",
+      "evidence": 0.75,
+      "intervention": 0.982017,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.1661,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947154,
+      "detection": 1.0,
+      "efficiency": 0.903878,
+      "episode_id": "cob-water_grid-0009-04bc3c96",
+      "evidence": 0.75,
+      "intervention": 0.982972,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 47.2146,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968272,
+      "detection": 1.0,
+      "efficiency": 0.899596,
+      "episode_id": "cob-water_grid-0014-3b3232e9",
+      "evidence": 0.888889,
+      "intervention": 0.985346,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 53.463,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947437,
+      "detection": 1.0,
+      "efficiency": 0.903064,
+      "episode_id": "cob-water_grid-0019-b037e276",
+      "evidence": 0.75,
+      "intervention": 0.984185,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.1747,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947736,
+      "detection": 1.0,
+      "efficiency": 0.903429,
+      "episode_id": "cob-water_grid-0024-87298906",
+      "evidence": 0.75,
+      "intervention": 0.985059,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.6029,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968807,
+      "detection": 1.0,
+      "efficiency": 0.901739,
+      "episode_id": "cob-water_grid-0029-ea73855e",
+      "evidence": 0.888889,
+      "intervention": 0.986415,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.9888,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946445,
+      "detection": 1.0,
+      "efficiency": 0.900151,
+      "episode_id": "cob-water_grid-0034-77d3a1b1",
+      "evidence": 0.75,
+      "intervention": 0.981848,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.8278,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968368,
+      "detection": 1.0,
+      "efficiency": 0.901293,
+      "episode_id": "cob-water_grid-0039-e63b0e23",
+      "evidence": 0.888889,
+      "intervention": 0.985101,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.7272,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947287,
+      "detection": 1.0,
+      "efficiency": 0.904449,
+      "episode_id": "cob-water_grid-0044-3bf0cf95",
+      "evidence": 0.75,
+      "intervention": 0.983224,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 47.7936,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.966774,
+      "detection": 1.0,
+      "efficiency": 0.90229,
+      "episode_id": "cob-water_grid-0049-805dd2e2",
+      "evidence": 0.888889,
+      "intervention": 0.979455,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.6133,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968593,
+      "detection": 1.0,
+      "efficiency": 0.902677,
+      "episode_id": "cob-water_grid-0054-9edcc68b",
+      "evidence": 0.888889,
+      "intervention": 0.985391,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 53.6019,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968922,
+      "detection": 1.0,
+      "efficiency": 0.902138,
+      "episode_id": "cob-water_grid-0059-548cb5b3",
+      "evidence": 0.888889,
+      "intervention": 0.986665,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 57.896,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945684,
+      "detection": 1.0,
+      "efficiency": 0.903995,
+      "episode_id": "cob-water_grid-0064-164148bd",
+      "evidence": 0.75,
+      "intervention": 0.978031,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.5402,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945934,
+      "detection": 1.0,
+      "efficiency": 0.903558,
+      "episode_id": "cob-water_grid-0069-2525d514",
+      "evidence": 0.75,
+      "intervention": 0.979009,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.9334,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947521,
+      "detection": 1.0,
+      "efficiency": 0.901775,
+      "episode_id": "cob-water_grid-0074-92e343ca",
+      "evidence": 0.75,
+      "intervention": 0.984894,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.1235,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99555,
+      "composite": 0.968509,
+      "detection": 1.0,
+      "efficiency": 0.900886,
+      "episode_id": "cob-water_grid-0079-d27093a1",
+      "evidence": 0.888889,
+      "intervention": 0.985107,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.744,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968338,
+      "detection": 1.0,
+      "efficiency": 0.901422,
+      "episode_id": "cob-water_grid-0084-27787d39",
+      "evidence": 0.888889,
+      "intervention": 0.984959,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.3117,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.969117,
+      "detection": 1.0,
+      "efficiency": 0.901267,
+      "episode_id": "cob-water_grid-0089-90c252b2",
+      "evidence": 0.888889,
+      "intervention": 0.987606,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 61.6346,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947832,
+      "detection": 1.0,
+      "efficiency": 0.904597,
+      "episode_id": "cob-water_grid-0094-4f8d7efa",
+      "evidence": 0.75,
+      "intervention": 0.984992,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.4058,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.966921,
+      "detection": 1.0,
+      "efficiency": 0.900715,
+      "episode_id": "cob-water_grid-0099-85161e4b",
+      "evidence": 0.888889,
+      "intervention": 0.980469,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.272,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.966515,
+      "detection": 1.0,
+      "efficiency": 0.902105,
+      "episode_id": "cob-water_grid-0104-a6b0bbf9",
+      "evidence": 0.888889,
+      "intervention": 0.978653,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.4115,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967042,
+      "detection": 1.0,
+      "efficiency": 0.901748,
+      "episode_id": "cob-water_grid-0109-2957e5c1",
+      "evidence": 0.888889,
+      "intervention": 0.98053,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.3784,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968571,
+      "detection": 1.0,
+      "efficiency": 0.900838,
+      "episode_id": "cob-water_grid-0114-d385c636",
+      "evidence": 0.888889,
+      "intervention": 0.98593,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 55.3245,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948229,
+      "detection": 1.0,
+      "efficiency": 0.903043,
+      "episode_id": "cob-water_grid-0119-eeac07d0",
+      "evidence": 0.75,
+      "intervention": 0.986832,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 58.5198,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.965579,
+      "detection": 1.0,
+      "efficiency": 0.902576,
+      "episode_id": "cob-water_grid-0124-cddae62d",
+      "evidence": 0.888889,
+      "intervention": 0.975375,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 35.3168,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.969373,
+      "detection": 1.0,
+      "efficiency": 0.899479,
+      "episode_id": "cob-water_grid-0129-97742380",
+      "evidence": 0.888889,
+      "intervention": 0.989057,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 68.6637,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.966903,
+      "detection": 1.0,
+      "efficiency": 0.901013,
+      "episode_id": "cob-water_grid-0134-85337e6d",
+      "evidence": 0.888889,
+      "intervention": 0.98031,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.001,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967413,
+      "detection": 1.0,
+      "efficiency": 0.901446,
+      "episode_id": "cob-water_grid-0139-eaf19946",
+      "evidence": 0.888889,
+      "intervention": 0.981868,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.8659,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94521,
+      "detection": 1.0,
+      "efficiency": 0.904087,
+      "episode_id": "cob-water_grid-0144-88b1aed5",
+      "evidence": 0.75,
+      "intervention": 0.97642,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.4984,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944719,
+      "detection": 1.0,
+      "efficiency": 0.90386,
+      "episode_id": "cob-water_grid-0149-df283b36",
+      "evidence": 0.75,
+      "intervention": 0.97486,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 34.7702,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946553,
+      "detection": 1.0,
+      "efficiency": 0.904152,
+      "episode_id": "cob-water_grid-0154-107eaa81",
+      "evidence": 0.75,
+      "intervention": 0.980876,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.9877,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99855,
+      "composite": 0.935596,
+      "detection": 1.0,
+      "efficiency": 0.903384,
+      "episode_id": "cob-water_grid-0159-b2224624",
+      "evidence": 0.666667,
+      "intervention": 0.984675,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.5019,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.965884,
+      "detection": 1.0,
+      "efficiency": 0.901613,
+      "episode_id": "cob-water_grid-0164-605fc692",
+      "evidence": 0.888889,
+      "intervention": 0.976715,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.8512,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944778,
+      "detection": 1.0,
+      "efficiency": 0.904255,
+      "episode_id": "cob-water_grid-0169-9f6df105",
+      "evidence": 0.75,
+      "intervention": 0.974926,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 34.8386,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968895,
+      "detection": 1.0,
+      "efficiency": 0.901717,
+      "episode_id": "cob-water_grid-0174-5df4f5a4",
+      "evidence": 0.888889,
+      "intervention": 0.986716,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 58.0864,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948327,
+      "detection": 1.0,
+      "efficiency": 0.903472,
+      "episode_id": "cob-water_grid-0179-3e36b0b6",
+      "evidence": 0.75,
+      "intervention": 0.987016,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 59.2266,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.966352,
+      "detection": 1.0,
+      "efficiency": 0.901359,
+      "episode_id": "cob-water_grid-0184-81962fcc",
+      "evidence": 0.888889,
+      "intervention": 0.978361,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.996,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968796,
+      "detection": 1.0,
+      "efficiency": 0.9012,
+      "episode_id": "cob-water_grid-0189-e396e004",
+      "evidence": 0.888889,
+      "intervention": 0.98656,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 57.513,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968574,
+      "detection": 1.0,
+      "efficiency": 0.901417,
+      "episode_id": "cob-water_grid-0194-080798d1",
+      "evidence": 0.888889,
+      "intervention": 0.985747,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 54.7242,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947394,
+      "detection": 1.0,
+      "efficiency": 0.904985,
+      "episode_id": "cob-water_grid-0199-4e38ead5",
+      "evidence": 0.75,
+      "intervention": 0.983401,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.2125,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.96716,
+      "detection": 1.0,
+      "efficiency": 0.900764,
+      "episode_id": "cob-water_grid-0204-e35959e7",
+      "evidence": 0.888889,
+      "intervention": 0.981249,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 43.672,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967622,
+      "detection": 1.0,
+      "efficiency": 0.900687,
+      "episode_id": "cob-water_grid-0209-5f92e873",
+      "evidence": 0.888889,
+      "intervention": 0.982816,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.8651,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.96714,
+      "detection": 1.0,
+      "efficiency": 0.901014,
+      "episode_id": "cob-water_grid-0214-99cd12ec",
+      "evidence": 0.888889,
+      "intervention": 0.981101,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 43.3976,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.966815,
+      "detection": 1.0,
+      "efficiency": 0.902442,
+      "episode_id": "cob-water_grid-0219-328abc9e",
+      "evidence": 0.888889,
+      "intervention": 0.979541,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.7466,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968729,
+      "detection": 1.0,
+      "efficiency": 0.902401,
+      "episode_id": "cob-water_grid-0224-b7281bd3",
+      "evidence": 0.888889,
+      "intervention": 0.985936,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 55.3435,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967604,
+      "detection": 1.0,
+      "efficiency": 0.90146,
+      "episode_id": "cob-water_grid-0229-a95d38b8",
+      "evidence": 0.888889,
+      "intervention": 0.982497,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.1696,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946137,
+      "detection": 1.0,
+      "efficiency": 0.903997,
+      "episode_id": "cob-water_grid-0234-b2ecd16a",
+      "evidence": 0.75,
+      "intervention": 0.979541,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.7466,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947534,
+      "detection": 1.0,
+      "efficiency": 0.903502,
+      "episode_id": "cob-water_grid-0239-d7439e82",
+      "evidence": 0.75,
+      "intervention": 0.984364,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.6496,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947942,
+      "detection": 1.0,
+      "efficiency": 0.904186,
+      "episode_id": "cob-water_grid-0244-790dee62",
+      "evidence": 0.75,
+      "intervention": 0.985495,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 53.9245,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99855,
+      "composite": 0.947461,
+      "detection": 1.0,
+      "efficiency": 0.903673,
+      "episode_id": "cob-water_grid-0249-cc5596f6",
+      "evidence": 0.75,
+      "intervention": 0.982462,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.0934,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94763,
+      "detection": 1.0,
+      "efficiency": 0.90338,
+      "episode_id": "cob-water_grid-0254-63a5c2a4",
+      "evidence": 0.75,
+      "intervention": 0.984723,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.6363,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.969401,
+      "detection": 1.0,
+      "efficiency": 0.903046,
+      "episode_id": "cob-water_grid-0259-abccc9b6",
+      "evidence": 0.888889,
+      "intervention": 0.987959,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 63.1914,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967339,
+      "detection": 1.0,
+      "efficiency": 0.901205,
+      "episode_id": "cob-water_grid-0264-a012e26a",
+      "evidence": 0.888889,
+      "intervention": 0.9817,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.5344,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.96687,
+      "detection": 1.0,
+      "efficiency": 0.901587,
+      "episode_id": "cob-water_grid-0269-245e2224",
+      "evidence": 0.888889,
+      "intervention": 0.980011,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.5026,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967413,
+      "detection": 1.0,
+      "efficiency": 0.902294,
+      "episode_id": "cob-water_grid-0274-bc1c6951",
+      "evidence": 0.888889,
+      "intervention": 0.981583,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.3059,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946139,
+      "detection": 1.0,
+      "efficiency": 0.90355,
+      "episode_id": "cob-water_grid-0279-86f786cc",
+      "evidence": 0.75,
+      "intervention": 0.979698,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.9952,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.965498,
+      "detection": 1.0,
+      "efficiency": 0.902191,
+      "episode_id": "cob-water_grid-0284-e242bde5",
+      "evidence": 0.888889,
+      "intervention": 0.975235,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 35.1656,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947623,
+      "detection": 1.0,
+      "efficiency": 0.904358,
+      "episode_id": "cob-water_grid-0289-a69ea4dc",
+      "evidence": 0.75,
+      "intervention": 0.984374,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.6765,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967471,
+      "detection": 1.0,
+      "efficiency": 0.900597,
+      "episode_id": "cob-water_grid-0294-7c30c35f",
+      "evidence": 0.888889,
+      "intervention": 0.982345,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.8448,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99555,
+      "composite": 0.968839,
+      "detection": 1.0,
+      "efficiency": 0.901013,
+      "episode_id": "cob-water_grid-0299-60dcf0fe",
+      "evidence": 0.888889,
+      "intervention": 0.986164,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.1118,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947408,
+      "detection": 1.0,
+      "efficiency": 0.903311,
+      "episode_id": "cob-water_grid-0304-8045e614",
+      "evidence": 0.75,
+      "intervention": 0.984005,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.7066,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947364,
+      "detection": 1.0,
+      "efficiency": 0.903083,
+      "episode_id": "cob-water_grid-0309-1424c7c3",
+      "evidence": 0.75,
+      "intervention": 0.983936,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.5296,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967224,
+      "detection": 1.0,
+      "efficiency": 0.900905,
+      "episode_id": "cob-water_grid-0314-a9a93738",
+      "evidence": 0.888889,
+      "intervention": 0.981416,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 43.9856,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947144,
+      "detection": 1.0,
+      "efficiency": 0.902261,
+      "episode_id": "cob-water_grid-0319-c0997012",
+      "evidence": 0.75,
+      "intervention": 0.983475,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.3894,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947498,
+      "detection": 1.0,
+      "efficiency": 0.903261,
+      "episode_id": "cob-water_grid-0324-622e3f8e",
+      "evidence": 0.75,
+      "intervention": 0.984322,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.5376,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.966717,
+      "detection": 1.0,
+      "efficiency": 0.901281,
+      "episode_id": "cob-water_grid-0329-401b9254",
+      "evidence": 0.888889,
+      "intervention": 0.979603,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.8451,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967539,
+      "detection": 1.0,
+      "efficiency": 0.901074,
+      "episode_id": "cob-water_grid-0334-50256376",
+      "evidence": 0.888889,
+      "intervention": 0.982409,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.9814,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99855,
+      "composite": 0.946705,
+      "detection": 1.0,
+      "efficiency": 0.903125,
+      "episode_id": "cob-water_grid-0339-e4025994",
+      "evidence": 0.75,
+      "intervention": 0.980125,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.6907,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967759,
+      "detection": 1.0,
+      "efficiency": 0.900056,
+      "episode_id": "cob-water_grid-0344-428a4a1b",
+      "evidence": 0.888889,
+      "intervention": 0.983482,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.4062,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947166,
+      "detection": 1.0,
+      "efficiency": 0.90396,
+      "episode_id": "cob-water_grid-0349-7824116c",
+      "evidence": 0.75,
+      "intervention": 0.982983,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 47.2392,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945631,
+      "detection": 1.0,
+      "efficiency": 0.904865,
+      "episode_id": "cob-water_grid-0354-fa113ed0",
+      "evidence": 0.75,
+      "intervention": 0.977565,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 37.9197,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.965452,
+      "detection": 1.0,
+      "efficiency": 0.900871,
+      "episode_id": "cob-water_grid-0359-f02c344e",
+      "evidence": 0.888889,
+      "intervention": 0.97552,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 35.4747,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.964264,
+      "detection": 1.0,
+      "efficiency": 0.901878,
+      "episode_id": "cob-water_grid-0364-0df0912c",
+      "evidence": 0.888889,
+      "intervention": 0.971226,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 31.4707,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968477,
+      "detection": 1.0,
+      "efficiency": 0.901603,
+      "episode_id": "cob-water_grid-0369-d24c8148",
+      "evidence": 0.888889,
+      "intervention": 0.98536,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 53.5056,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968044,
+      "detection": 1.0,
+      "efficiency": 0.901745,
+      "episode_id": "cob-water_grid-0374-bb1e40c7",
+      "evidence": 0.888889,
+      "intervention": 0.983872,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.3683,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947512,
+      "detection": 1.0,
+      "efficiency": 0.904565,
+      "episode_id": "cob-water_grid-0379-ab6d3bc5",
+      "evidence": 0.75,
+      "intervention": 0.983936,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.5296,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967292,
+      "detection": 1.0,
+      "efficiency": 0.901017,
+      "episode_id": "cob-water_grid-0384-1a37c1db",
+      "evidence": 0.888889,
+      "intervention": 0.981606,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.3518,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945526,
+      "detection": 1.0,
+      "efficiency": 0.903305,
+      "episode_id": "cob-water_grid-0389-d7ce2b64",
+      "evidence": 0.75,
+      "intervention": 0.977734,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.1414,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967198,
+      "detection": 1.0,
+      "efficiency": 0.901737,
+      "episode_id": "cob-water_grid-0394-47987be2",
+      "evidence": 0.888889,
+      "intervention": 0.981052,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 43.3069,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948173,
+      "detection": 1.0,
+      "efficiency": 0.902643,
+      "episode_id": "cob-water_grid-0399-8e81867b",
+      "evidence": 0.75,
+      "intervention": 0.986778,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 58.3194,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948258,
+      "detection": 1.0,
+      "efficiency": 0.904662,
+      "episode_id": "cob-water_grid-0404-e3040bcb",
+      "evidence": 0.75,
+      "intervention": 0.986389,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.8992,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.966043,
+      "detection": 1.0,
+      "efficiency": 0.90227,
+      "episode_id": "cob-water_grid-0409-135cb270",
+      "evidence": 0.888889,
+      "intervention": 0.977025,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 37.232,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968755,
+      "detection": 1.0,
+      "efficiency": 0.900911,
+      "episode_id": "cob-water_grid-0414-94f19e54",
+      "evidence": 0.888889,
+      "intervention": 0.986519,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 57.364,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948289,
+      "detection": 1.0,
+      "efficiency": 0.902103,
+      "episode_id": "cob-water_grid-0419-e4acf18c",
+      "evidence": 0.75,
+      "intervention": 0.987345,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 60.5426,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948738,
+      "detection": 1.0,
+      "efficiency": 0.904173,
+      "episode_id": "cob-water_grid-0424-6bbc9161",
+      "evidence": 0.75,
+      "intervention": 0.988153,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 64.0806,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967193,
+      "detection": 1.0,
+      "efficiency": 0.902657,
+      "episode_id": "cob-water_grid-0429-4a4fa4de",
+      "evidence": 0.888889,
+      "intervention": 0.980729,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.7256,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.966863,
+      "detection": 1.0,
+      "efficiency": 0.901102,
+      "episode_id": "cob-water_grid-0434-c0617892",
+      "evidence": 0.888889,
+      "intervention": 0.980147,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.7277,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944451,
+      "detection": 1.0,
+      "efficiency": 0.903752,
+      "episode_id": "cob-water_grid-0439-1b2abfb9",
+      "evidence": 0.75,
+      "intervention": 0.974003,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 33.909,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967661,
+      "detection": 1.0,
+      "efficiency": 0.902043,
+      "episode_id": "cob-water_grid-0444-f6f3a4ba",
+      "evidence": 0.888889,
+      "intervention": 0.982496,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.1662,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.921058,
+      "detection": 1.0,
+      "efficiency": 0.904908,
+      "episode_id": "cob-water_grid-0449-729ea482",
+      "evidence": 0.571429,
+      "intervention": 0.984928,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.221,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.966308,
+      "detection": 1.0,
+      "efficiency": 0.901381,
+      "episode_id": "cob-water_grid-0454-5bf5a069",
+      "evidence": 0.888889,
+      "intervention": 0.978204,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.7776,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948919,
+      "detection": 1.0,
+      "efficiency": 0.903929,
+      "episode_id": "cob-water_grid-0459-b7844304",
+      "evidence": 0.75,
+      "intervention": 0.988836,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 67.472,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.966626,
+      "detection": 1.0,
+      "efficiency": 0.901711,
+      "episode_id": "cob-water_grid-0464-bb3a4a48",
+      "evidence": 0.888889,
+      "intervention": 0.979154,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.1507,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967395,
+      "detection": 1.0,
+      "efficiency": 0.902303,
+      "episode_id": "cob-water_grid-0469-17158cfe",
+      "evidence": 0.888889,
+      "intervention": 0.981521,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.1872,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.96857,
+      "detection": 1.0,
+      "efficiency": 0.901555,
+      "episode_id": "cob-water_grid-0474-f83d22a4",
+      "evidence": 0.888889,
+      "intervention": 0.985688,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 54.5338,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94674,
+      "detection": 1.0,
+      "efficiency": 0.902855,
+      "episode_id": "cob-water_grid-0479-9b7f7334",
+      "evidence": 0.75,
+      "intervention": 0.981933,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.997,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94846,
+      "detection": 1.0,
+      "efficiency": 0.904762,
+      "episode_id": "cob-water_grid-0484-147ce3ea",
+      "evidence": 0.75,
+      "intervention": 0.987031,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 59.2848,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945204,
+      "detection": 1.0,
+      "efficiency": 0.903857,
+      "episode_id": "cob-water_grid-0489-bbca3126",
+      "evidence": 0.75,
+      "intervention": 0.976478,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.5667,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947637,
+      "detection": 1.0,
+      "efficiency": 0.902556,
+      "episode_id": "cob-water_grid-0494-e5a026e4",
+      "evidence": 0.75,
+      "intervention": 0.985021,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.492,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948366,
+      "detection": 1.0,
+      "efficiency": 0.901388,
+      "episode_id": "cob-water_grid-0499-1f06e39c",
+      "evidence": 0.75,
+      "intervention": 0.98784,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 62.656,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968459,
+      "detection": 1.0,
+      "efficiency": 0.902176,
+      "episode_id": "cob-water_grid-0004-f93ced16",
+      "evidence": 0.888889,
+      "intervention": 0.985112,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.7586,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947578,
+      "detection": 1.0,
+      "efficiency": 0.904219,
+      "episode_id": "cob-water_grid-0009-cc921d90",
+      "evidence": 0.75,
+      "intervention": 0.98427,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.3987,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946351,
+      "detection": 1.0,
+      "efficiency": 0.902358,
+      "episode_id": "cob-water_grid-0014-e54c50b7",
+      "evidence": 0.75,
+      "intervention": 0.980801,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.8544,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94863,
+      "detection": 1.0,
+      "efficiency": 0.902388,
+      "episode_id": "cob-water_grid-0019-e6932e67",
+      "evidence": 0.75,
+      "intervention": 0.988388,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 65.204,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947583,
+      "detection": 1.0,
+      "efficiency": 0.904221,
+      "episode_id": "cob-water_grid-0024-fe0da132",
+      "evidence": 0.75,
+      "intervention": 0.984285,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.4368,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945406,
+      "detection": 1.0,
+      "efficiency": 0.903564,
+      "episode_id": "cob-water_grid-0029-67fc3e1c",
+      "evidence": 0.75,
+      "intervention": 0.977248,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 37.512,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99855,
+      "composite": 0.94887,
+      "detection": 1.0,
+      "efficiency": 0.903091,
+      "episode_id": "cob-water_grid-0034-707274f8",
+      "evidence": 0.75,
+      "intervention": 0.987354,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 60.5784,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.966427,
+      "detection": 1.0,
+      "efficiency": 0.900969,
+      "episode_id": "cob-water_grid-0039-77672e50",
+      "evidence": 0.888889,
+      "intervention": 0.978739,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.5358,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.96849,
+      "detection": 1.0,
+      "efficiency": 0.899947,
+      "episode_id": "cob-water_grid-0044-704c33b5",
+      "evidence": 0.888889,
+      "intervention": 0.985955,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 55.4074,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947262,
+      "detection": 1.0,
+      "efficiency": 0.903122,
+      "episode_id": "cob-water_grid-0049-d21c4696",
+      "evidence": 0.75,
+      "intervention": 0.983581,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.647,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948228,
+      "detection": 1.0,
+      "efficiency": 0.903824,
+      "episode_id": "cob-water_grid-0054-49d76ccf",
+      "evidence": 0.75,
+      "intervention": 0.986568,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 57.5398,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945156,
+      "detection": 1.0,
+      "efficiency": 0.904053,
+      "episode_id": "cob-water_grid-0059-1560d5be",
+      "evidence": 0.75,
+      "intervention": 0.976254,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.3035,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947409,
+      "detection": 1.0,
+      "efficiency": 0.902807,
+      "episode_id": "cob-water_grid-0064-9c977b25",
+      "evidence": 0.75,
+      "intervention": 0.984178,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.1546,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968875,
+      "detection": 1.0,
+      "efficiency": 0.899567,
+      "episode_id": "cob-water_grid-0069-575f0f04",
+      "evidence": 0.888889,
+      "intervention": 0.987368,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 60.6378,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948052,
+      "detection": 1.0,
+      "efficiency": 0.905163,
+      "episode_id": "cob-water_grid-0074-28c36cb6",
+      "evidence": 0.75,
+      "intervention": 0.985536,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 54.0522,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99855,
+      "composite": 0.948626,
+      "detection": 1.0,
+      "efficiency": 0.903016,
+      "episode_id": "cob-water_grid-0079-a6215c33",
+      "evidence": 0.75,
+      "intervention": 0.986564,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 57.5264,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.9478,
+      "detection": 1.0,
+      "efficiency": 0.904989,
+      "episode_id": "cob-water_grid-0084-abeb9db1",
+      "evidence": 0.75,
+      "intervention": 0.984754,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.7248,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948257,
+      "detection": 1.0,
+      "efficiency": 0.903661,
+      "episode_id": "cob-water_grid-0089-a9c36d6d",
+      "evidence": 0.75,
+      "intervention": 0.98672,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 58.101,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99555,
+      "composite": 0.966597,
+      "detection": 1.0,
+      "efficiency": 0.902413,
+      "episode_id": "cob-water_grid-0094-4174ceed",
+      "evidence": 0.888889,
+      "intervention": 0.978223,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.8045,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.965917,
+      "detection": 1.0,
+      "efficiency": 0.901267,
+      "episode_id": "cob-water_grid-0099-65f104a7",
+      "evidence": 0.888889,
+      "intervention": 0.976939,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 37.1256,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948321,
+      "detection": 1.0,
+      "efficiency": 0.904608,
+      "episode_id": "cob-water_grid-0104-3fdf9bbd",
+      "evidence": 0.75,
+      "intervention": 0.986618,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 57.7235,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946892,
+      "detection": 1.0,
+      "efficiency": 0.904276,
+      "episode_id": "cob-water_grid-0109-d8419f70",
+      "evidence": 0.75,
+      "intervention": 0.981963,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.0586,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946653,
+      "detection": 1.0,
+      "efficiency": 0.904342,
+      "episode_id": "cob-water_grid-0114-334edb6f",
+      "evidence": 0.75,
+      "intervention": 0.981147,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 43.4816,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99855,
+      "composite": 0.935613,
+      "detection": 1.0,
+      "efficiency": 0.904055,
+      "episode_id": "cob-water_grid-0119-0b8754b4",
+      "evidence": 0.666667,
+      "intervention": 0.984509,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.0416,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946603,
+      "detection": 1.0,
+      "efficiency": 0.903409,
+      "episode_id": "cob-water_grid-0124-f2111390",
+      "evidence": 0.75,
+      "intervention": 0.981291,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 43.7504,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948589,
+      "detection": 1.0,
+      "efficiency": 0.904151,
+      "episode_id": "cob-water_grid-0129-4aec4408",
+      "evidence": 0.75,
+      "intervention": 0.987662,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 61.8776,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947851,
+      "detection": 1.0,
+      "efficiency": 0.903844,
+      "episode_id": "cob-water_grid-0134-e89b2fb5",
+      "evidence": 0.75,
+      "intervention": 0.985305,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 53.3376,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99555,
+      "composite": 0.969374,
+      "detection": 1.0,
+      "efficiency": 0.902587,
+      "episode_id": "cob-water_grid-0139-e3ae0abc",
+      "evidence": 0.888889,
+      "intervention": 0.987423,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 60.864,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.965142,
+      "detection": 1.0,
+      "efficiency": 0.90233,
+      "episode_id": "cob-water_grid-0144-99cfb5e9",
+      "evidence": 0.888889,
+      "intervention": 0.974003,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 33.909,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947893,
+      "detection": 1.0,
+      "efficiency": 0.903038,
+      "episode_id": "cob-water_grid-0149-f22f66a2",
+      "evidence": 0.75,
+      "intervention": 0.985714,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 54.6189,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947931,
+      "detection": 1.0,
+      "efficiency": 0.903636,
+      "episode_id": "cob-water_grid-0154-b37c9c0f",
+      "evidence": 0.75,
+      "intervention": 0.985643,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 54.3904,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947818,
+      "detection": 1.0,
+      "efficiency": 0.90358,
+      "episode_id": "cob-water_grid-0159-a75caf7b",
+      "evidence": 0.75,
+      "intervention": 0.985283,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 53.2704,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947048,
+      "detection": 1.0,
+      "efficiency": 0.904069,
+      "episode_id": "cob-water_grid-0164-a65c7b27",
+      "evidence": 0.75,
+      "intervention": 0.982554,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.2906,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947707,
+      "detection": 1.0,
+      "efficiency": 0.90403,
+      "episode_id": "cob-water_grid-0169-37c105fd",
+      "evidence": 0.75,
+      "intervention": 0.984762,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.7472,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99855,
+      "composite": 0.935263,
+      "detection": 1.0,
+      "efficiency": 0.904768,
+      "episode_id": "cob-water_grid-0174-cc4bcbd9",
+      "evidence": 0.666667,
+      "intervention": 0.983103,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 47.5136,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946674,
+      "detection": 1.0,
+      "efficiency": 0.903309,
+      "episode_id": "cob-water_grid-0179-5eb1e11e",
+      "evidence": 0.75,
+      "intervention": 0.981561,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.2645,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94914,
+      "detection": 1.0,
+      "efficiency": 0.905191,
+      "episode_id": "cob-water_grid-0184-f3efe7b1",
+      "evidence": 0.75,
+      "intervention": 0.989152,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 69.1856,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968611,
+      "detection": 1.0,
+      "efficiency": 0.902701,
+      "episode_id": "cob-water_grid-0189-ce7cc896",
+      "evidence": 0.888889,
+      "intervention": 0.985443,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 53.7632,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968409,
+      "detection": 1.0,
+      "efficiency": 0.901932,
+      "episode_id": "cob-water_grid-0194-2f48cc59",
+      "evidence": 0.888889,
+      "intervention": 0.985025,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.5032,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948426,
+      "detection": 1.0,
+      "efficiency": 0.903349,
+      "episode_id": "cob-water_grid-0199-f5bca9c6",
+      "evidence": 0.75,
+      "intervention": 0.987388,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 60.7184,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945659,
+      "detection": 1.0,
+      "efficiency": 0.903968,
+      "episode_id": "cob-water_grid-0204-72a487da",
+      "evidence": 0.75,
+      "intervention": 0.977958,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.4416,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.966462,
+      "detection": 1.0,
+      "efficiency": 0.901272,
+      "episode_id": "cob-water_grid-0209-ebb1b0b0",
+      "evidence": 0.888889,
+      "intervention": 0.978756,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.5605,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968305,
+      "detection": 1.0,
+      "efficiency": 0.902372,
+      "episode_id": "cob-water_grid-0214-06eccc01",
+      "evidence": 0.888889,
+      "intervention": 0.984531,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.1032,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94657,
+      "detection": 1.0,
+      "efficiency": 0.903905,
+      "episode_id": "cob-water_grid-0219-38b698fb",
+      "evidence": 0.75,
+      "intervention": 0.981016,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 43.2408,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967551,
+      "detection": 1.0,
+      "efficiency": 0.902098,
+      "episode_id": "cob-water_grid-0224-ab969027",
+      "evidence": 0.888889,
+      "intervention": 0.98211,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.3576,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.966681,
+      "detection": 1.0,
+      "efficiency": 0.899978,
+      "episode_id": "cob-water_grid-0229-0d544508",
+      "evidence": 0.888889,
+      "intervention": 0.979915,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.3446,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.966713,
+      "detection": 1.0,
+      "efficiency": 0.90186,
+      "episode_id": "cob-water_grid-0234-242b953c",
+      "evidence": 0.888889,
+      "intervention": 0.979395,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.5203,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944777,
+      "detection": 1.0,
+      "efficiency": 0.903509,
+      "episode_id": "cob-water_grid-0239-e9dcd916",
+      "evidence": 0.75,
+      "intervention": 0.975169,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 35.095,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967361,
+      "detection": 1.0,
+      "efficiency": 0.901716,
+      "episode_id": "cob-water_grid-0244-79c2ec02",
+      "evidence": 0.888889,
+      "intervention": 0.981604,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.3462,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99855,
+      "composite": 0.947402,
+      "detection": 1.0,
+      "efficiency": 0.903076,
+      "episode_id": "cob-water_grid-0249-6e1d6106",
+      "evidence": 0.75,
+      "intervention": 0.982466,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.1024,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945186,
+      "detection": 1.0,
+      "efficiency": 0.902378,
+      "episode_id": "cob-water_grid-0254-b9708545",
+      "evidence": 0.75,
+      "intervention": 0.976911,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 37.0909,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967805,
+      "detection": 1.0,
+      "efficiency": 0.900553,
+      "episode_id": "cob-water_grid-0259-78304ec8",
+      "evidence": 0.888889,
+      "intervention": 0.983471,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.3794,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968725,
+      "detection": 1.0,
+      "efficiency": 0.901397,
+      "episode_id": "cob-water_grid-0264-19510344",
+      "evidence": 0.888889,
+      "intervention": 0.986255,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.4288,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.964527,
+      "detection": 1.0,
+      "efficiency": 0.901482,
+      "episode_id": "cob-water_grid-0269-d7d8f0a7",
+      "evidence": 0.888889,
+      "intervention": 0.972234,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 32.2995,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947218,
+      "detection": 1.0,
+      "efficiency": 0.90415,
+      "episode_id": "cob-water_grid-0274-7fcbd138",
+      "evidence": 0.75,
+      "intervention": 0.983095,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 47.4957,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968425,
+      "detection": 1.0,
+      "efficiency": 0.902108,
+      "episode_id": "cob-water_grid-0279-dc4234e6",
+      "evidence": 0.888889,
+      "intervention": 0.985019,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.4864,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948631,
+      "detection": 1.0,
+      "efficiency": 0.903391,
+      "episode_id": "cob-water_grid-0284-7c0686f4",
+      "evidence": 0.75,
+      "intervention": 0.988058,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 63.6416,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947308,
+      "detection": 1.0,
+      "efficiency": 0.903358,
+      "episode_id": "cob-water_grid-0289-3a8de387",
+      "evidence": 0.75,
+      "intervention": 0.983657,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.8307,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946465,
+      "detection": 1.0,
+      "efficiency": 0.903999,
+      "episode_id": "cob-water_grid-0294-ee9dcc3f",
+      "evidence": 0.75,
+      "intervention": 0.980633,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.5576,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968365,
+      "detection": 1.0,
+      "efficiency": 0.902477,
+      "episode_id": "cob-water_grid-0299-82ccfd05",
+      "evidence": 0.888889,
+      "intervention": 0.984697,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.5635,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968264,
+      "detection": 1.0,
+      "efficiency": 0.902233,
+      "episode_id": "cob-water_grid-0304-39bc3b68",
+      "evidence": 0.888889,
+      "intervention": 0.98444,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.8534,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968542,
+      "detection": 1.0,
+      "efficiency": 0.899998,
+      "episode_id": "cob-water_grid-0309-40008601",
+      "evidence": 0.888889,
+      "intervention": 0.986111,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 55.9338,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948464,
+      "detection": 1.0,
+      "efficiency": 0.902878,
+      "episode_id": "cob-water_grid-0314-80218f0e",
+      "evidence": 0.75,
+      "intervention": 0.98767,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 61.9123,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945789,
+      "detection": 1.0,
+      "efficiency": 0.903009,
+      "episode_id": "cob-water_grid-0319-a7176a20",
+      "evidence": 0.75,
+      "intervention": 0.97871,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.4944,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968315,
+      "detection": 1.0,
+      "efficiency": 0.902041,
+      "episode_id": "cob-water_grid-0324-27d8da7e",
+      "evidence": 0.888889,
+      "intervention": 0.984676,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.5053,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.969239,
+      "detection": 1.0,
+      "efficiency": 0.90119,
+      "episode_id": "cob-water_grid-0329-b7c0161f",
+      "evidence": 0.888889,
+      "intervention": 0.988039,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 63.5542,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99555,
+      "composite": 0.968093,
+      "detection": 1.0,
+      "efficiency": 0.902801,
+      "episode_id": "cob-water_grid-0334-25ceccb8",
+      "evidence": 0.888889,
+      "intervention": 0.983081,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 47.4632,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94631,
+      "detection": 1.0,
+      "efficiency": 0.903449,
+      "episode_id": "cob-water_grid-0339-069b2815",
+      "evidence": 0.75,
+      "intervention": 0.980301,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.9864,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.964617,
+      "detection": 1.0,
+      "efficiency": 0.900922,
+      "episode_id": "cob-water_grid-0344-899c3a13",
+      "evidence": 0.888889,
+      "intervention": 0.97272,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 32.7206,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968555,
+      "detection": 1.0,
+      "efficiency": 0.90106,
+      "episode_id": "cob-water_grid-0349-820533d3",
+      "evidence": 0.888889,
+      "intervention": 0.985801,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 54.9011,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.96868,
+      "detection": 1.0,
+      "efficiency": 0.900857,
+      "episode_id": "cob-water_grid-0354-2d46c555",
+      "evidence": 0.888889,
+      "intervention": 0.986286,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.5352,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.966786,
+      "detection": 1.0,
+      "efficiency": 0.901729,
+      "episode_id": "cob-water_grid-0359-2203d2cc",
+      "evidence": 0.888889,
+      "intervention": 0.979684,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.9728,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99855,
+      "composite": 0.945122,
+      "detection": 1.0,
+      "efficiency": 0.904432,
+      "episode_id": "cob-water_grid-0364-49a92f5d",
+      "evidence": 0.75,
+      "intervention": 0.974413,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 34.3133,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948396,
+      "detection": 1.0,
+      "efficiency": 0.903975,
+      "episode_id": "cob-water_grid-0369-d51fb7d1",
+      "evidence": 0.75,
+      "intervention": 0.987079,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 59.4763,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.96788,
+      "detection": 1.0,
+      "efficiency": 0.901381,
+      "episode_id": "cob-water_grid-0374-b091f94d",
+      "evidence": 0.888889,
+      "intervention": 0.983446,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.32,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947259,
+      "detection": 1.0,
+      "efficiency": 0.903671,
+      "episode_id": "cob-water_grid-0379-a61dc83b",
+      "evidence": 0.75,
+      "intervention": 0.98339,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.1856,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945156,
+      "detection": 1.0,
+      "efficiency": 0.903399,
+      "episode_id": "cob-water_grid-0384-72d12862",
+      "evidence": 0.75,
+      "intervention": 0.97647,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.5578,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948368,
+      "detection": 1.0,
+      "efficiency": 0.90453,
+      "episode_id": "cob-water_grid-0389-12ab1250",
+      "evidence": 0.75,
+      "intervention": 0.9868,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 58.4,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948177,
+      "detection": 1.0,
+      "efficiency": 0.903374,
+      "episode_id": "cob-water_grid-0394-a24482b6",
+      "evidence": 0.75,
+      "intervention": 0.986549,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 57.4726,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946427,
+      "detection": 1.0,
+      "efficiency": 0.905406,
+      "episode_id": "cob-water_grid-0399-7eed4ae3",
+      "evidence": 0.75,
+      "intervention": 0.980038,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.5462,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947873,
+      "detection": 1.0,
+      "efficiency": 0.905956,
+      "episode_id": "cob-water_grid-0404-afd79ab8",
+      "evidence": 0.75,
+      "intervention": 0.984675,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.5019,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.96795,
+      "detection": 1.0,
+      "efficiency": 0.901341,
+      "episode_id": "cob-water_grid-0409-f3be6a2b",
+      "evidence": 0.888889,
+      "intervention": 0.983691,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.9147,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967868,
+      "detection": 1.0,
+      "efficiency": 0.901122,
+      "episode_id": "cob-water_grid-0414-0b816a52",
+      "evidence": 0.888889,
+      "intervention": 0.983493,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.432,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.964569,
+      "detection": 1.0,
+      "efficiency": 0.90236,
+      "episode_id": "cob-water_grid-0419-8ee518c4",
+      "evidence": 0.888889,
+      "intervention": 0.972084,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 32.1718,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.966449,
+      "detection": 1.0,
+      "efficiency": 0.901276,
+      "episode_id": "cob-water_grid-0424-46f0254e",
+      "evidence": 0.888889,
+      "intervention": 0.97871,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.4944,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.969339,
+      "detection": 1.0,
+      "efficiency": 0.902132,
+      "episode_id": "cob-water_grid-0429-a0cd399a",
+      "evidence": 0.888889,
+      "intervention": 0.988058,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 63.6416,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947976,
+      "detection": 1.0,
+      "efficiency": 0.903594,
+      "episode_id": "cob-water_grid-0434-fbd2a73f",
+      "evidence": 0.75,
+      "intervention": 0.985805,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 54.9123,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.966276,
+      "detection": 1.0,
+      "efficiency": 0.901168,
+      "episode_id": "cob-water_grid-0439-7a5a1a37",
+      "evidence": 0.888889,
+      "intervention": 0.978171,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.7328,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946824,
+      "detection": 1.0,
+      "efficiency": 0.902983,
+      "episode_id": "cob-water_grid-0444-26a5a74a",
+      "evidence": 0.75,
+      "intervention": 0.982169,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.4774,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.966046,
+      "detection": 1.0,
+      "efficiency": 0.899852,
+      "episode_id": "cob-water_grid-0449-9e1a0a5c",
+      "evidence": 0.888889,
+      "intervention": 0.977841,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.2848,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947401,
+      "detection": 1.0,
+      "efficiency": 0.902266,
+      "episode_id": "cob-water_grid-0454-2d4a69b9",
+      "evidence": 0.75,
+      "intervention": 0.98433,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.5589,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947444,
+      "detection": 1.0,
+      "efficiency": 0.903413,
+      "episode_id": "cob-water_grid-0459-8a5629d7",
+      "evidence": 0.75,
+      "intervention": 0.984093,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.9328,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947372,
+      "detection": 1.0,
+      "efficiency": 0.903357,
+      "episode_id": "cob-water_grid-0464-21e3371d",
+      "evidence": 0.75,
+      "intervention": 0.983872,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.3683,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968451,
+      "detection": 1.0,
+      "efficiency": 0.900961,
+      "episode_id": "cob-water_grid-0469-19e3e20d",
+      "evidence": 0.888889,
+      "intervention": 0.98549,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 53.9077,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946388,
+      "detection": 1.0,
+      "efficiency": 0.903031,
+      "episode_id": "cob-water_grid-0474-0f68052d",
+      "evidence": 0.75,
+      "intervention": 0.9807,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.6752,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.968868,
+      "detection": 1.0,
+      "efficiency": 0.902895,
+      "episode_id": "cob-water_grid-0479-beb464ea",
+      "evidence": 0.888889,
+      "intervention": 0.986234,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.3538,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967146,
+      "detection": 1.0,
+      "efficiency": 0.900371,
+      "episode_id": "cob-water_grid-0484-7b1899c3",
+      "evidence": 0.888889,
+      "intervention": 0.981337,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 43.8355,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99855,
+      "composite": 0.947653,
+      "detection": 1.0,
+      "efficiency": 0.903402,
+      "episode_id": "cob-water_grid-0489-9aab8cc3",
+      "evidence": 0.75,
+      "intervention": 0.983192,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 47.7197,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947062,
+      "detection": 1.0,
+      "efficiency": 0.903364,
+      "episode_id": "cob-water_grid-0494-dd2e3d1a",
+      "evidence": 0.75,
+      "intervention": 0.982836,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.9088,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947891,
+      "detection": 1.0,
+      "efficiency": 0.905627,
+      "episode_id": "cob-water_grid-0499-99fee870",
+      "evidence": 0.75,
+      "intervention": 0.984845,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.9824,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    }
+  ],
+  "summary": {
+    "calibration": 0.994035,
+    "composite": 0.956543,
+    "count": 200.0,
+    "detection": 1.0,
+    "efficiency": 0.90263,
+    "evidence": 0.813829,
+    "intervention": 0.982674,
+    "intervention_epsilon": 1e-09,
+    "n_deg": 0.0,
+    "n_scored": 200.0,
+    "n_total": 200.0,
+    "root_cause": 1.0,
+    "safety_violations": 0.0
+  },
+  "system": "gemma4:26b",
+  "system_kind": "model"
+}

@@ -1,0 +1,122 @@
+{
+  "claim_policy": "foundation-agent results; report only generated prediction artifacts.",
+  "configuration": {
+    "episodes_dir": "results/cob_v2/episodes",
+    "keep_alive": "5m",
+    "limit": null,
+    "max_steps": 4,
+    "models": [
+      "ollama:gemma4:e2b",
+      "ollama:qwen3.5:4b",
+      "ollama:granite4.1:3b",
+      "ollama:gemma4:e4b",
+      "ollama:qwen3.5:9b",
+      "ollama:granite4.1:8b",
+      "ollama:gemma4:26b"
+    ],
+    "num_ctx": 8192,
+    "ollama_host": "http://localhost:11434",
+    "policy": "react-json",
+    "seed": 0,
+    "temperature": 0.0,
+    "think": false,
+    "timeout_s": 120.0,
+    "view_ablation": "none"
+  },
+  "created_at_utc": "2026-05-16T14:50:03.883458+00:00",
+  "episodes": 2500,
+  "runner": "scripts/run_foundation_agent_experiments.py",
+  "summary": [
+    {
+      "baseline": "Ollama-gemma4:e2b-ReAct",
+      "calibration": 0.970905,
+      "composite": 0.535226,
+      "count": 2500.0,
+      "detection": 0.0008,
+      "efficiency": 0.906711,
+      "evidence": 0.801754,
+      "intervention": 0.223026,
+      "model_spec": "ollama:gemma4:e2b",
+      "root_cause": 0.848307,
+      "safety_violations": 1216.0
+    },
+    {
+      "baseline": "Ollama-qwen3.5:4b-ReAct",
+      "calibration": 0.967509,
+      "composite": 0.813331,
+      "count": 2500.0,
+      "detection": 0.563361,
+      "efficiency": 0.909726,
+      "evidence": 0.785788,
+      "intervention": 0.744117,
+      "model_spec": "ollama:qwen3.5:4b",
+      "root_cause": 1.0,
+      "safety_violations": 0.0
+    },
+    {
+      "baseline": "Ollama-granite4.1:3b-ReAct",
+      "calibration": 0.818526,
+      "composite": 0.603035,
+      "count": 2500.0,
+      "detection": 0.113253,
+      "efficiency": 0.919463,
+      "evidence": 0.793227,
+      "intervention": 0.371484,
+      "model_spec": "ollama:granite4.1:3b",
+      "root_cause": 0.909093,
+      "safety_violations": 0.0
+    },
+    {
+      "baseline": "Ollama-gemma4:e4b-ReAct",
+      "calibration": 0.984176,
+      "composite": 0.887737,
+      "count": 2500.0,
+      "detection": 0.861424,
+      "efficiency": 0.905976,
+      "evidence": 0.594736,
+      "intervention": 0.934324,
+      "model_spec": "ollama:gemma4:e4b",
+      "root_cause": 1.0,
+      "safety_violations": 0.0
+    },
+    {
+      "baseline": "Ollama-qwen3.5:9b-ReAct",
+      "calibration": 0.99205,
+      "composite": 0.827409,
+      "count": 2500.0,
+      "detection": 0.608479,
+      "efficiency": 0.909576,
+      "evidence": 0.803287,
+      "intervention": 0.751604,
+      "model_spec": "ollama:qwen3.5:9b",
+      "root_cause": 1.0,
+      "safety_violations": 0.0
+    },
+    {
+      "baseline": "Ollama-granite4.1:8b-ReAct",
+      "calibration": 0.98652,
+      "composite": 0.659289,
+      "count": 2500.0,
+      "detection": 0.177337,
+      "efficiency": 0.919273,
+      "evidence": 0.746768,
+      "intervention": 0.447746,
+      "model_spec": "ollama:granite4.1:8b",
+      "root_cause": 0.978853,
+      "safety_violations": 0.0
+    },
+    {
+      "baseline": "Ollama-gemma4:26b-ReAct",
+      "calibration": 0.992694,
+      "composite": 0.938729,
+      "count": 2500.0,
+      "detection": 0.942244,
+      "efficiency": 0.904669,
+      "evidence": 0.794151,
+      "intervention": 0.961779,
+      "model_spec": "ollama:gemma4:26b",
+      "root_cause": 1.0,
+      "safety_violations": 0.0
+    }
+  ]
+}

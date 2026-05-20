@@ -1,0 +1,11 @@
+left,right,n,mean_delta,paired_bootstrap_p
+oracle,topology_rca,2500,0.176478,0.0
+oracle,threshold,2500,0.229701,0.0
+oracle,random,2500,0.521075,0.0
+oracle,noop,2500,0.84061,0.0
+topology_rca,threshold,2500,0.053223,0.0
+topology_rca,random,2500,0.344597,0.0
+topology_rca,noop,2500,0.664131,0.0
+threshold,random,2500,0.291375,0.0
+threshold,noop,2500,0.610909,0.0
+random,noop,2500,0.319534,0.0

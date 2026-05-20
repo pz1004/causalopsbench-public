@@ -1,0 +1,3023 @@
+{
+  "condition": "original",
+  "count": 200,
+  "scores": [
+    {
+      "calibration": 0.99375,
+      "composite": 0.941608,
+      "detection": 1.0,
+      "efficiency": 0.907474,
+      "episode_id": "cob-manufacturing-0002-120a391f",
+      "evidence": 0.75,
+      "intervention": 0.963285,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 26.534,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946437,
+      "detection": 1.0,
+      "efficiency": 0.909105,
+      "episode_id": "cob-manufacturing-0007-dcb160a7",
+      "evidence": 0.75,
+      "intervention": 0.978839,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.6817,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946675,
+      "detection": 1.0,
+      "efficiency": 0.90948,
+      "episode_id": "cob-manufacturing-0012-0fece431",
+      "evidence": 0.75,
+      "intervention": 0.979507,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.6936,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946744,
+      "detection": 1.0,
+      "efficiency": 0.908117,
+      "episode_id": "cob-manufacturing-0017-85c93d99",
+      "evidence": 0.75,
+      "intervention": 0.980192,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.8029,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945756,
+      "detection": 1.0,
+      "efficiency": 0.907408,
+      "episode_id": "cob-manufacturing-0022-b58b586b",
+      "evidence": 0.75,
+      "intervention": 0.977133,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 37.3666,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946981,
+      "detection": 1.0,
+      "efficiency": 0.908545,
+      "episode_id": "cob-manufacturing-0027-4e44c884",
+      "evidence": 0.75,
+      "intervention": 0.980839,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.9222,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945989,
+      "detection": 1.0,
+      "efficiency": 0.907447,
+      "episode_id": "cob-manufacturing-0032-81927c93",
+      "evidence": 0.75,
+      "intervention": 0.977898,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.3603,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944016,
+      "detection": 1.0,
+      "efficiency": 0.907107,
+      "episode_id": "cob-manufacturing-0037-56f7103d",
+      "evidence": 0.75,
+      "intervention": 0.971436,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 31.6382,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948163,
+      "detection": 1.0,
+      "efficiency": 0.907667,
+      "episode_id": "cob-manufacturing-0042-2d999610",
+      "evidence": 0.75,
+      "intervention": 0.985072,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.641,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946879,
+      "detection": 1.0,
+      "efficiency": 0.908075,
+      "episode_id": "cob-manufacturing-0047-01d638dd",
+      "evidence": 0.75,
+      "intervention": 0.980654,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.5946,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944895,
+      "detection": 1.0,
+      "efficiency": 0.907792,
+      "episode_id": "cob-manufacturing-0052-230289d3",
+      "evidence": 0.75,
+      "intervention": 0.974136,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 34.0387,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946238,
+      "detection": 1.0,
+      "efficiency": 0.907839,
+      "episode_id": "cob-manufacturing-0057-f3258134",
+      "evidence": 0.75,
+      "intervention": 0.978596,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.3295,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94175,
+      "detection": 1.0,
+      "efficiency": 0.908028,
+      "episode_id": "cob-manufacturing-0062-726f6abf",
+      "evidence": 0.75,
+      "intervention": 0.963572,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 26.675,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945451,
+      "detection": 1.0,
+      "efficiency": 0.908661,
+      "episode_id": "cob-manufacturing-0067-8a2d4f6c",
+      "evidence": 0.75,
+      "intervention": 0.975698,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 35.6713,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945376,
+      "detection": 1.0,
+      "efficiency": 0.908111,
+      "episode_id": "cob-manufacturing-0072-eec6896e",
+      "evidence": 0.75,
+      "intervention": 0.975634,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 35.6003,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94547,
+      "detection": 1.0,
+      "efficiency": 0.908346,
+      "episode_id": "cob-manufacturing-0077-96d2bd96",
+      "evidence": 0.75,
+      "intervention": 0.975867,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 35.8597,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94484,
+      "detection": 1.0,
+      "efficiency": 0.907896,
+      "episode_id": "cob-manufacturing-0082-7aae5b3c",
+      "evidence": 0.75,
+      "intervention": 0.973917,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 33.8258,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948059,
+      "detection": 1.0,
+      "efficiency": 0.90726,
+      "episode_id": "cob-manufacturing-0087-9a16760f",
+      "evidence": 0.75,
+      "intervention": 0.984859,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.0213,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947607,
+      "detection": 1.0,
+      "efficiency": 0.908466,
+      "episode_id": "cob-manufacturing-0092-234a2329",
+      "evidence": 0.75,
+      "intervention": 0.982952,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 47.1691,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944274,
+      "detection": 1.0,
+      "efficiency": 0.909365,
+      "episode_id": "cob-manufacturing-0097-a5ce7269",
+      "evidence": 0.75,
+      "intervention": 0.971542,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 31.7237,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947359,
+      "detection": 1.0,
+      "efficiency": 0.907471,
+      "episode_id": "cob-manufacturing-0102-f6363790",
+      "evidence": 0.75,
+      "intervention": 0.982455,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.078,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947635,
+      "detection": 1.0,
+      "efficiency": 0.909149,
+      "episode_id": "cob-manufacturing-0107-1f8b057c",
+      "evidence": 0.75,
+      "intervention": 0.982817,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.8679,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945969,
+      "detection": 1.0,
+      "efficiency": 0.90814,
+      "episode_id": "cob-manufacturing-0112-a463e03e",
+      "evidence": 0.75,
+      "intervention": 0.977599,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 37.9645,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947602,
+      "detection": 1.0,
+      "efficiency": 0.907691,
+      "episode_id": "cob-manufacturing-0117-a58b18d0",
+      "evidence": 0.75,
+      "intervention": 0.983192,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 47.7197,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946359,
+      "detection": 1.0,
+      "efficiency": 0.907182,
+      "episode_id": "cob-manufacturing-0122-b58d8332",
+      "evidence": 0.75,
+      "intervention": 0.979221,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.2522,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946724,
+      "detection": 1.0,
+      "efficiency": 0.908507,
+      "episode_id": "cob-manufacturing-0127-8e45c3f6",
+      "evidence": 0.75,
+      "intervention": 0.979994,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.4734,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948535,
+      "detection": 1.0,
+      "efficiency": 0.909892,
+      "episode_id": "cob-manufacturing-0132-afbaf0ac",
+      "evidence": 0.75,
+      "intervention": 0.985568,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 54.1525,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946911,
+      "detection": 1.0,
+      "efficiency": 0.908845,
+      "episode_id": "cob-manufacturing-0137-f6805fa8",
+      "evidence": 0.75,
+      "intervention": 0.980504,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.3325,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945613,
+      "detection": 1.0,
+      "efficiency": 0.908578,
+      "episode_id": "cob-manufacturing-0142-2e9981d8",
+      "evidence": 0.75,
+      "intervention": 0.976269,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.321,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947339,
+      "detection": 1.0,
+      "efficiency": 0.909152,
+      "episode_id": "cob-manufacturing-0147-b7d5deaa",
+      "evidence": 0.75,
+      "intervention": 0.981829,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.7895,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946683,
+      "detection": 1.0,
+      "efficiency": 0.907663,
+      "episode_id": "cob-manufacturing-0152-211010bd",
+      "evidence": 0.75,
+      "intervention": 0.98014,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.7155,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946057,
+      "detection": 1.0,
+      "efficiency": 0.908104,
+      "episode_id": "cob-manufacturing-0157-a679911e",
+      "evidence": 0.75,
+      "intervention": 0.977904,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.3685,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948524,
+      "detection": 1.0,
+      "efficiency": 0.907464,
+      "episode_id": "cob-manufacturing-0162-dbe29f55",
+      "evidence": 0.75,
+      "intervention": 0.986342,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.7305,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944609,
+      "detection": 1.0,
+      "efficiency": 0.908347,
+      "episode_id": "cob-manufacturing-0167-ce15f082",
+      "evidence": 0.75,
+      "intervention": 0.972998,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 32.9686,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945753,
+      "detection": 1.0,
+      "efficiency": 0.909391,
+      "episode_id": "cob-manufacturing-0172-a82f1ddc",
+      "evidence": 0.75,
+      "intervention": 0.976464,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.5503,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94576,
+      "detection": 1.0,
+      "efficiency": 0.906553,
+      "episode_id": "cob-manufacturing-0177-fe18e908",
+      "evidence": 0.75,
+      "intervention": 0.977431,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 37.7461,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945057,
+      "detection": 1.0,
+      "efficiency": 0.906756,
+      "episode_id": "cob-manufacturing-0182-e88b381c",
+      "evidence": 0.75,
+      "intervention": 0.975023,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 34.9406,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945765,
+      "detection": 1.0,
+      "efficiency": 0.908357,
+      "episode_id": "cob-manufacturing-0187-4fa29a52",
+      "evidence": 0.75,
+      "intervention": 0.976848,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 37.0126,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946051,
+      "detection": 1.0,
+      "efficiency": 0.907834,
+      "episode_id": "cob-manufacturing-0192-994bc22c",
+      "evidence": 0.75,
+      "intervention": 0.977977,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.4668,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946178,
+      "detection": 1.0,
+      "efficiency": 0.906364,
+      "episode_id": "cob-manufacturing-0197-8a6b3f26",
+      "evidence": 0.75,
+      "intervention": 0.978888,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.7545,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944569,
+      "detection": 1.0,
+      "efficiency": 0.910313,
+      "episode_id": "cob-manufacturing-0202-3076f851",
+      "evidence": 0.75,
+      "intervention": 0.97221,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 32.2788,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947744,
+      "detection": 1.0,
+      "efficiency": 0.907017,
+      "episode_id": "cob-manufacturing-0207-765f8e20",
+      "evidence": 0.75,
+      "intervention": 0.98389,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.4141,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947463,
+      "detection": 1.0,
+      "efficiency": 0.907267,
+      "episode_id": "cob-manufacturing-0212-9286139f",
+      "evidence": 0.75,
+      "intervention": 0.982872,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.9899,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945567,
+      "detection": 1.0,
+      "efficiency": 0.907401,
+      "episode_id": "cob-manufacturing-0217-03635b39",
+      "evidence": 0.75,
+      "intervention": 0.976507,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.6013,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967037,
+      "detection": 1.0,
+      "efficiency": 0.906775,
+      "episode_id": "cob-manufacturing-0222-2bc64a08",
+      "evidence": 0.888889,
+      "intervention": 0.978837,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.6789,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946521,
+      "detection": 1.0,
+      "efficiency": 0.907899,
+      "episode_id": "cob-manufacturing-0227-7356f350",
+      "evidence": 0.75,
+      "intervention": 0.979521,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.7163,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946205,
+      "detection": 1.0,
+      "efficiency": 0.908085,
+      "episode_id": "cob-manufacturing-0232-129b49ca",
+      "evidence": 0.75,
+      "intervention": 0.978406,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.0592,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946602,
+      "detection": 1.0,
+      "efficiency": 0.907601,
+      "episode_id": "cob-manufacturing-0237-6a5399c1",
+      "evidence": 0.75,
+      "intervention": 0.979891,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.306,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944188,
+      "detection": 1.0,
+      "efficiency": 0.90901,
+      "episode_id": "cob-manufacturing-0242-91fe06d0",
+      "evidence": 0.75,
+      "intervention": 0.971372,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 31.5872,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.629707,
+      "detection": 0.063928,
+      "efficiency": 0.908278,
+      "episode_id": "cob-manufacturing-0247-03f1e1cc",
+      "evidence": 0.75,
+      "intervention": 0.391385,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 177.5412,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.942657,
+      "detection": 1.0,
+      "efficiency": 0.90772,
+      "episode_id": "cob-manufacturing-0252-f9d910d1",
+      "evidence": 0.75,
+      "intervention": 0.966699,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 28.3676,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944703,
+      "detection": 1.0,
+      "efficiency": 0.909487,
+      "episode_id": "cob-manufacturing-0257-2afcbe2c",
+      "evidence": 0.75,
+      "intervention": 0.972932,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 32.9094,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946787,
+      "detection": 1.0,
+      "efficiency": 0.909327,
+      "episode_id": "cob-manufacturing-0262-7d9f16ae",
+      "evidence": 0.75,
+      "intervention": 0.97993,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.3697,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944754,
+      "detection": 1.0,
+      "efficiency": 0.906105,
+      "episode_id": "cob-manufacturing-0267-e6fc30b4",
+      "evidence": 0.75,
+      "intervention": 0.974227,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 34.1279,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946439,
+      "detection": 1.0,
+      "efficiency": 0.90649,
+      "episode_id": "cob-manufacturing-0272-c67bdee8",
+      "evidence": 0.75,
+      "intervention": 0.979717,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.0257,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945361,
+      "detection": 1.0,
+      "efficiency": 0.908136,
+      "episode_id": "cob-manufacturing-0277-02573888",
+      "evidence": 0.75,
+      "intervention": 0.975573,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 35.533,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947425,
+      "detection": 1.0,
+      "efficiency": 0.907803,
+      "episode_id": "cob-manufacturing-0282-e2a50512",
+      "evidence": 0.75,
+      "intervention": 0.982565,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.3156,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947706,
+      "detection": 1.0,
+      "efficiency": 0.909195,
+      "episode_id": "cob-manufacturing-0287-9daaea9e",
+      "evidence": 0.75,
+      "intervention": 0.983039,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 47.3666,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947407,
+      "detection": 1.0,
+      "efficiency": 0.908503,
+      "episode_id": "cob-manufacturing-0292-d96ad0b6",
+      "evidence": 0.75,
+      "intervention": 0.982272,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.6922,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.645853,
+      "detection": 0.082085,
+      "efficiency": 0.908536,
+      "episode_id": "cob-manufacturing-0297-af65b58d",
+      "evidence": 0.75,
+      "intervention": 0.436038,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 126.8352,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947591,
+      "detection": 1.0,
+      "efficiency": 0.910796,
+      "episode_id": "cob-manufacturing-0302-de2bf597",
+      "evidence": 0.75,
+      "intervention": 0.982121,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.3792,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944869,
+      "detection": 1.0,
+      "efficiency": 0.909741,
+      "episode_id": "cob-manufacturing-0307-ebcf2333",
+      "evidence": 0.75,
+      "intervention": 0.973398,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 33.3344,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945785,
+      "detection": 1.0,
+      "efficiency": 0.90808,
+      "episode_id": "cob-manufacturing-0312-f63e4e7e",
+      "evidence": 0.75,
+      "intervention": 0.977006,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 37.2083,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948301,
+      "detection": 1.0,
+      "efficiency": 0.909325,
+      "episode_id": "cob-manufacturing-0317-aa92f517",
+      "evidence": 0.75,
+      "intervention": 0.984978,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.3643,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.943656,
+      "detection": 1.0,
+      "efficiency": 0.910154,
+      "episode_id": "cob-manufacturing-0322-4bc45b5a",
+      "evidence": 0.75,
+      "intervention": 0.969218,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 29.982,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.918395,
+      "detection": 1.0,
+      "efficiency": 0.907285,
+      "episode_id": "cob-manufacturing-0327-a7cd4299",
+      "evidence": 0.571429,
+      "intervention": 0.975259,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 35.1908,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945256,
+      "detection": 1.0,
+      "efficiency": 0.909339,
+      "episode_id": "cob-manufacturing-0332-61aa68e0",
+      "evidence": 0.75,
+      "intervention": 0.974825,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 34.734,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946775,
+      "detection": 1.0,
+      "efficiency": 0.908144,
+      "episode_id": "cob-manufacturing-0337-e7ff1608",
+      "evidence": 0.75,
+      "intervention": 0.980287,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.9612,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.942928,
+      "detection": 1.0,
+      "efficiency": 0.90815,
+      "episode_id": "cob-manufacturing-0342-3c3ad563",
+      "evidence": 0.75,
+      "intervention": 0.967461,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 28.8299,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947149,
+      "detection": 1.0,
+      "efficiency": 0.905771,
+      "episode_id": "cob-manufacturing-0347-a502537d",
+      "evidence": 0.75,
+      "intervention": 0.982323,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.7996,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945527,
+      "detection": 1.0,
+      "efficiency": 0.908917,
+      "episode_id": "cob-manufacturing-0352-74cb6765",
+      "evidence": 0.75,
+      "intervention": 0.975867,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 35.8597,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947641,
+      "detection": 1.0,
+      "efficiency": 0.909828,
+      "episode_id": "cob-manufacturing-0357-8fc758de",
+      "evidence": 0.75,
+      "intervention": 0.982609,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.4111,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947206,
+      "detection": 1.0,
+      "efficiency": 0.907905,
+      "episode_id": "cob-manufacturing-0362-6e5ffa80",
+      "evidence": 0.75,
+      "intervention": 0.9818,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.7322,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94701,
+      "detection": 1.0,
+      "efficiency": 0.9069,
+      "episode_id": "cob-manufacturing-0367-1b22767b",
+      "evidence": 0.75,
+      "intervention": 0.981485,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.1179,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.647762,
+      "detection": 0.089219,
+      "efficiency": 0.90882,
+      "episode_id": "cob-manufacturing-0372-9a222b56",
+      "evidence": 0.75,
+      "intervention": 0.43874,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 89.926,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.616486,
+      "detection": 0.054114,
+      "efficiency": 0.908351,
+      "episode_id": "cob-manufacturing-0377-9d7ba684",
+      "evidence": 0.75,
+      "intervention": 0.352195,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 167.1329,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944591,
+      "detection": 1.0,
+      "efficiency": 0.90808,
+      "episode_id": "cob-manufacturing-0382-34042666",
+      "evidence": 0.75,
+      "intervention": 0.973026,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 32.9941,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944171,
+      "detection": 1.0,
+      "efficiency": 0.909671,
+      "episode_id": "cob-manufacturing-0387-0f83c25b",
+      "evidence": 0.75,
+      "intervention": 0.971097,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 31.3688,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94389,
+      "detection": 1.0,
+      "efficiency": 0.907195,
+      "episode_id": "cob-manufacturing-0392-c29ea6c5",
+      "evidence": 0.75,
+      "intervention": 0.970986,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 31.2814,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948507,
+      "detection": 1.0,
+      "efficiency": 0.909698,
+      "episode_id": "cob-manufacturing-0397-eecc436e",
+      "evidence": 0.75,
+      "intervention": 0.985541,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 54.0688,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945809,
+      "detection": 1.0,
+      "efficiency": 0.909089,
+      "episode_id": "cob-manufacturing-0402-08f3ea4c",
+      "evidence": 0.75,
+      "intervention": 0.976751,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.8943,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947891,
+      "detection": 1.0,
+      "efficiency": 0.906746,
+      "episode_id": "cob-manufacturing-0407-b97673b1",
+      "evidence": 0.75,
+      "intervention": 0.984473,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.9438,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947378,
+      "detection": 1.0,
+      "efficiency": 0.906134,
+      "episode_id": "cob-manufacturing-0412-05c11de9",
+      "evidence": 0.75,
+      "intervention": 0.982966,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 47.2028,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94536,
+      "detection": 1.0,
+      "efficiency": 0.908199,
+      "episode_id": "cob-manufacturing-0417-4682f726",
+      "evidence": 0.75,
+      "intervention": 0.97555,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 35.5075,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948197,
+      "detection": 1.0,
+      "efficiency": 0.90906,
+      "episode_id": "cob-manufacturing-0422-679bf01e",
+      "evidence": 0.75,
+      "intervention": 0.984721,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.63,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947777,
+      "detection": 1.0,
+      "efficiency": 0.908705,
+      "episode_id": "cob-manufacturing-0427-6981b9a5",
+      "evidence": 0.75,
+      "intervention": 0.983439,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.3039,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948274,
+      "detection": 1.0,
+      "efficiency": 0.9095,
+      "episode_id": "cob-manufacturing-0432-4f660fbf",
+      "evidence": 0.75,
+      "intervention": 0.984829,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.9366,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.943665,
+      "detection": 1.0,
+      "efficiency": 0.908028,
+      "episode_id": "cob-manufacturing-0437-1cfecd02",
+      "evidence": 0.75,
+      "intervention": 0.969956,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 30.5061,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947239,
+      "detection": 1.0,
+      "efficiency": 0.908203,
+      "episode_id": "cob-manufacturing-0442-c6acc736",
+      "evidence": 0.75,
+      "intervention": 0.981813,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.7567,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.969108,
+      "detection": 1.0,
+      "efficiency": 0.905398,
+      "episode_id": "cob-manufacturing-0447-2a2bb38d",
+      "evidence": 0.888889,
+      "intervention": 0.986201,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.2391,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947356,
+      "detection": 1.0,
+      "efficiency": 0.909077,
+      "episode_id": "cob-manufacturing-0452-a9af4ddf",
+      "evidence": 0.75,
+      "intervention": 0.981911,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.9533,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94691,
+      "detection": 1.0,
+      "efficiency": 0.908841,
+      "episode_id": "cob-manufacturing-0457-54e5b4d6",
+      "evidence": 0.75,
+      "intervention": 0.980504,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.3325,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94484,
+      "detection": 1.0,
+      "efficiency": 0.9093,
+      "episode_id": "cob-manufacturing-0462-f500fe85",
+      "evidence": 0.75,
+      "intervention": 0.973449,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 33.3817,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946586,
+      "detection": 1.0,
+      "efficiency": 0.90875,
+      "episode_id": "cob-manufacturing-0467-f6a6e299",
+      "evidence": 0.75,
+      "intervention": 0.979453,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.6089,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944576,
+      "detection": 1.0,
+      "efficiency": 0.909457,
+      "episode_id": "cob-manufacturing-0472-4c2fe014",
+      "evidence": 0.75,
+      "intervention": 0.972517,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 32.5427,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94814,
+      "detection": 1.0,
+      "efficiency": 0.908595,
+      "episode_id": "cob-manufacturing-0477-a014dd56",
+      "evidence": 0.75,
+      "intervention": 0.984687,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.5344,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947337,
+      "detection": 1.0,
+      "efficiency": 0.907963,
+      "episode_id": "cob-manufacturing-0482-6853a0f7",
+      "evidence": 0.75,
+      "intervention": 0.98222,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.5839,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948158,
+      "detection": 1.0,
+      "efficiency": 0.908849,
+      "episode_id": "cob-manufacturing-0487-7cf964c5",
+      "evidence": 0.75,
+      "intervention": 0.984661,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.4616,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947335,
+      "detection": 1.0,
+      "efficiency": 0.909744,
+      "episode_id": "cob-manufacturing-0492-1be5df06",
+      "evidence": 0.75,
+      "intervention": 0.981617,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.3727,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944577,
+      "detection": 1.0,
+      "efficiency": 0.908327,
+      "episode_id": "cob-manufacturing-0497-a5fd01ca",
+      "evidence": 0.75,
+      "intervention": 0.972898,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 32.8785,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944139,
+      "detection": 1.0,
+      "efficiency": 0.907767,
+      "episode_id": "cob-manufacturing-0002-200308e4",
+      "evidence": 0.75,
+      "intervention": 0.971625,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 31.7919,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946463,
+      "detection": 1.0,
+      "efficiency": 0.908412,
+      "episode_id": "cob-manufacturing-0007-3d01748a",
+      "evidence": 0.75,
+      "intervention": 0.979156,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.1539,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.835208,
+      "detection": 1.0,
+      "efficiency": 0.907242,
+      "episode_id": "cob-manufacturing-0012-82f9c37e",
+      "evidence": 0.0,
+      "intervention": 0.983697,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.93,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94688,
+      "detection": 1.0,
+      "efficiency": 0.908706,
+      "episode_id": "cob-manufacturing-0017-05019236",
+      "evidence": 0.75,
+      "intervention": 0.980449,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.2388,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944265,
+      "detection": 1.0,
+      "efficiency": 0.90802,
+      "episode_id": "cob-manufacturing-0022-5c0ee232",
+      "evidence": 0.75,
+      "intervention": 0.971959,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 32.0677,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946022,
+      "detection": 1.0,
+      "efficiency": 0.90863,
+      "episode_id": "cob-manufacturing-0027-d9b22d58",
+      "evidence": 0.75,
+      "intervention": 0.977612,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 37.9809,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94674,
+      "detection": 1.0,
+      "efficiency": 0.906895,
+      "episode_id": "cob-manufacturing-0032-4be08263",
+      "evidence": 0.75,
+      "intervention": 0.980586,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.4744,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946007,
+      "detection": 1.0,
+      "efficiency": 0.908678,
+      "episode_id": "cob-manufacturing-0037-50197b1e",
+      "evidence": 0.75,
+      "intervention": 0.977549,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 37.899,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948041,
+      "detection": 1.0,
+      "efficiency": 0.907476,
+      "episode_id": "cob-manufacturing-0042-b4f1c71f",
+      "evidence": 0.75,
+      "intervention": 0.984729,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.6527,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948048,
+      "detection": 1.0,
+      "efficiency": 0.908307,
+      "episode_id": "cob-manufacturing-0047-e8727762",
+      "evidence": 0.75,
+      "intervention": 0.984473,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.9438,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.943702,
+      "detection": 1.0,
+      "efficiency": 0.907069,
+      "episode_id": "cob-manufacturing-0052-738f1932",
+      "evidence": 0.75,
+      "intervention": 0.9704,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 30.8337,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944673,
+      "detection": 1.0,
+      "efficiency": 0.90698,
+      "episode_id": "cob-manufacturing-0057-556a4e54",
+      "evidence": 0.75,
+      "intervention": 0.973666,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 33.5856,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.596563,
+      "detection": 0.042144,
+      "efficiency": 0.909183,
+      "episode_id": "cob-manufacturing-0062-974ba3d5",
+      "evidence": 0.75,
+      "intervention": 0.291494,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 149.219,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946485,
+      "detection": 1.0,
+      "efficiency": 0.908805,
+      "episode_id": "cob-manufacturing-0067-65817f5c",
+      "evidence": 0.75,
+      "intervention": 0.979099,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.0684,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948153,
+      "detection": 1.0,
+      "efficiency": 0.907962,
+      "episode_id": "cob-manufacturing-0072-8df75bdf",
+      "evidence": 0.75,
+      "intervention": 0.984938,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.2497,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945311,
+      "detection": 1.0,
+      "efficiency": 0.907184,
+      "episode_id": "cob-manufacturing-0077-043c103b",
+      "evidence": 0.75,
+      "intervention": 0.975725,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 35.7004,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.645927,
+      "detection": 0.082085,
+      "efficiency": 0.909568,
+      "episode_id": "cob-manufacturing-0082-cad33834",
+      "evidence": 0.75,
+      "intervention": 0.435942,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 126.5284,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946124,
+      "detection": 1.0,
+      "efficiency": 0.909229,
+      "episode_id": "cob-manufacturing-0087-537ef9a5",
+      "evidence": 0.75,
+      "intervention": 0.977754,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.1683,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946217,
+      "detection": 1.0,
+      "efficiency": 0.906474,
+      "episode_id": "cob-manufacturing-0092-aac917d5",
+      "evidence": 0.75,
+      "intervention": 0.97898,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.891,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946093,
+      "detection": 1.0,
+      "efficiency": 0.908876,
+      "episode_id": "cob-manufacturing-0097-c3054a53",
+      "evidence": 0.75,
+      "intervention": 0.977769,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.1883,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947221,
+      "detection": 1.0,
+      "efficiency": 0.907541,
+      "episode_id": "cob-manufacturing-0102-290e8374",
+      "evidence": 0.75,
+      "intervention": 0.981973,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.077,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.606554,
+      "detection": 0.045806,
+      "efficiency": 0.907145,
+      "episode_id": "cob-manufacturing-0107-2d82c27d",
+      "evidence": 0.75,
+      "intervention": 0.323646,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 221.2486,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948585,
+      "detection": 1.0,
+      "efficiency": 0.910163,
+      "episode_id": "cob-manufacturing-0112-26084714",
+      "evidence": 0.75,
+      "intervention": 0.985645,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 54.3963,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.616486,
+      "detection": 0.054114,
+      "efficiency": 0.908357,
+      "episode_id": "cob-manufacturing-0117-b9ce4a99",
+      "evidence": 0.75,
+      "intervention": 0.352195,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 167.1329,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.98375,
+      "composite": 0.945208,
+      "detection": 1.0,
+      "efficiency": 0.909034,
+      "episode_id": "cob-manufacturing-0122-8c7ee359",
+      "evidence": 0.75,
+      "intervention": 0.978098,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.6315,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.577853,
+      "detection": 0.030197,
+      "efficiency": 0.908295,
+      "episode_id": "cob-manufacturing-0127-b2dc9151",
+      "evidence": 0.75,
+      "intervention": 0.235396,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 253.7655,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.943612,
+      "detection": 1.0,
+      "efficiency": 0.907478,
+      "episode_id": "cob-manufacturing-0132-873b1e4d",
+      "evidence": 0.75,
+      "intervention": 0.969964,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 30.5116,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947133,
+      "detection": 1.0,
+      "efficiency": 0.906866,
+      "episode_id": "cob-manufacturing-0137-0fa5aeb6",
+      "evidence": 0.75,
+      "intervention": 0.981904,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.9387,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94482,
+      "detection": 1.0,
+      "efficiency": 0.909041,
+      "episode_id": "cob-manufacturing-0142-667bb936",
+      "evidence": 0.75,
+      "intervention": 0.973471,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 33.4017,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948028,
+      "detection": 1.0,
+      "efficiency": 0.908303,
+      "episode_id": "cob-manufacturing-0147-10310510",
+      "evidence": 0.75,
+      "intervention": 0.984408,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.7682,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946847,
+      "detection": 1.0,
+      "efficiency": 0.907787,
+      "episode_id": "cob-manufacturing-0152-ec9e3af1",
+      "evidence": 0.75,
+      "intervention": 0.980646,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.5791,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946631,
+      "detection": 1.0,
+      "efficiency": 0.909499,
+      "episode_id": "cob-manufacturing-0157-9fa704cc",
+      "evidence": 0.75,
+      "intervention": 0.979353,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.4552,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944819,
+      "detection": 1.0,
+      "efficiency": 0.908833,
+      "episode_id": "cob-manufacturing-0162-7b0364c7",
+      "evidence": 0.75,
+      "intervention": 0.973537,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 33.4636,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94572,
+      "detection": 1.0,
+      "efficiency": 0.908686,
+      "episode_id": "cob-manufacturing-0167-02496f87",
+      "evidence": 0.75,
+      "intervention": 0.976587,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.6968,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94426,
+      "detection": 1.0,
+      "efficiency": 0.909048,
+      "episode_id": "cob-manufacturing-0172-9dab4689",
+      "evidence": 0.75,
+      "intervention": 0.9716,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 31.771,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947693,
+      "detection": 1.0,
+      "efficiency": 0.908299,
+      "episode_id": "cob-manufacturing-0177-0612a54a",
+      "evidence": 0.75,
+      "intervention": 0.983294,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 47.959,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946753,
+      "detection": 1.0,
+      "efficiency": 0.908289,
+      "episode_id": "cob-manufacturing-0182-f53e7403",
+      "evidence": 0.75,
+      "intervention": 0.980163,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.7537,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947789,
+      "detection": 1.0,
+      "efficiency": 0.907865,
+      "episode_id": "cob-manufacturing-0187-fe180d95",
+      "evidence": 0.75,
+      "intervention": 0.98376,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.0865,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944677,
+      "detection": 1.0,
+      "efficiency": 0.908854,
+      "episode_id": "cob-manufacturing-0192-46a5f6e5",
+      "evidence": 0.75,
+      "intervention": 0.973056,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 33.0205,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.593619,
+      "detection": 0.038774,
+      "efficiency": 0.908142,
+      "episode_id": "cob-manufacturing-0197-b0a29e7d",
+      "evidence": 0.75,
+      "intervention": 0.283712,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 199.893,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948339,
+      "detection": 1.0,
+      "efficiency": 0.908363,
+      "episode_id": "cob-manufacturing-0202-41fd0929",
+      "evidence": 0.75,
+      "intervention": 0.985424,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 53.7048,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946869,
+      "detection": 1.0,
+      "efficiency": 0.908633,
+      "episode_id": "cob-manufacturing-0207-2294e588",
+      "evidence": 0.75,
+      "intervention": 0.980434,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.2124,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947467,
+      "detection": 1.0,
+      "efficiency": 0.907418,
+      "episode_id": "cob-manufacturing-0212-c4119c2a",
+      "evidence": 0.75,
+      "intervention": 0.982833,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.9025,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.942901,
+      "detection": 1.0,
+      "efficiency": 0.908756,
+      "episode_id": "cob-manufacturing-0217-99d0c812",
+      "evidence": 0.75,
+      "intervention": 0.967168,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 28.6497,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946049,
+      "detection": 1.0,
+      "efficiency": 0.90955,
+      "episode_id": "cob-manufacturing-0222-b5abf94b",
+      "evidence": 0.75,
+      "intervention": 0.977397,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 37.7024,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946925,
+      "detection": 1.0,
+      "efficiency": 0.907996,
+      "episode_id": "cob-manufacturing-0227-0d8df511",
+      "evidence": 0.75,
+      "intervention": 0.980836,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.9158,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945948,
+      "detection": 1.0,
+      "efficiency": 0.909264,
+      "episode_id": "cob-manufacturing-0232-3b08ace6",
+      "evidence": 0.75,
+      "intervention": 0.977154,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 37.393,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944921,
+      "detection": 1.0,
+      "efficiency": 0.90732,
+      "episode_id": "cob-manufacturing-0237-e124e77b",
+      "evidence": 0.75,
+      "intervention": 0.97438,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 34.2808,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947017,
+      "detection": 1.0,
+      "efficiency": 0.907388,
+      "episode_id": "cob-manufacturing-0242-29928c21",
+      "evidence": 0.75,
+      "intervention": 0.981344,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 43.8504,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946928,
+      "detection": 1.0,
+      "efficiency": 0.908642,
+      "episode_id": "cob-manufacturing-0247-fb792ccf",
+      "evidence": 0.75,
+      "intervention": 0.98063,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.5518,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.942432,
+      "detection": 1.0,
+      "efficiency": 0.908269,
+      "episode_id": "cob-manufacturing-0252-240f9670",
+      "evidence": 0.75,
+      "intervention": 0.965768,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 27.8316,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947228,
+      "detection": 1.0,
+      "efficiency": 0.907509,
+      "episode_id": "cob-manufacturing-0257-9c07ed33",
+      "evidence": 0.75,
+      "intervention": 0.982007,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.1471,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946385,
+      "detection": 1.0,
+      "efficiency": 0.906968,
+      "episode_id": "cob-manufacturing-0262-230b892f",
+      "evidence": 0.75,
+      "intervention": 0.979377,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.4916,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.941945,
+      "detection": 1.0,
+      "efficiency": 0.908303,
+      "episode_id": "cob-manufacturing-0267-748598fe",
+      "evidence": 0.75,
+      "intervention": 0.964134,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 26.9571,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945897,
+      "detection": 1.0,
+      "efficiency": 0.908314,
+      "episode_id": "cob-manufacturing-0272-e4322de4",
+      "evidence": 0.75,
+      "intervention": 0.977303,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 37.5823,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945123,
+      "detection": 1.0,
+      "efficiency": 0.908578,
+      "episode_id": "cob-manufacturing-0277-ff4d4d39",
+      "evidence": 0.75,
+      "intervention": 0.974632,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 34.5356,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946444,
+      "detection": 1.0,
+      "efficiency": 0.909298,
+      "episode_id": "cob-manufacturing-0282-b7caf2d4",
+      "evidence": 0.75,
+      "intervention": 0.978798,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.6216,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947781,
+      "detection": 1.0,
+      "efficiency": 0.908451,
+      "episode_id": "cob-manufacturing-0287-2cc7bcad",
+      "evidence": 0.75,
+      "intervention": 0.983538,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.5405,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.920292,
+      "detection": 1.0,
+      "efficiency": 0.906049,
+      "episode_id": "cob-manufacturing-0292-051e0325",
+      "evidence": 0.571429,
+      "intervention": 0.981992,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.1171,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944525,
+      "detection": 1.0,
+      "efficiency": 0.908363,
+      "episode_id": "cob-manufacturing-0297-b4267012",
+      "evidence": 0.75,
+      "intervention": 0.972712,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 32.7138,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.601175,
+      "detection": 0.045806,
+      "efficiency": 0.909035,
+      "episode_id": "cob-manufacturing-0302-426c7ee7",
+      "evidence": 0.75,
+      "intervention": 0.305085,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 132.683,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944835,
+      "detection": 1.0,
+      "efficiency": 0.908843,
+      "episode_id": "cob-manufacturing-0307-a5d45783",
+      "evidence": 0.75,
+      "intervention": 0.973585,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 33.5091,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944554,
+      "detection": 1.0,
+      "efficiency": 0.909143,
+      "episode_id": "cob-manufacturing-0312-ffeb71f9",
+      "evidence": 0.75,
+      "intervention": 0.972548,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 32.57,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946316,
+      "detection": 1.0,
+      "efficiency": 0.909846,
+      "episode_id": "cob-manufacturing-0317-a61e6117",
+      "evidence": 0.75,
+      "intervention": 0.978187,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.7544,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.941627,
+      "detection": 1.0,
+      "efficiency": 0.90849,
+      "episode_id": "cob-manufacturing-0322-6143a9bf",
+      "evidence": 0.75,
+      "intervention": 0.963008,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 26.4002,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947104,
+      "detection": 1.0,
+      "efficiency": 0.907711,
+      "episode_id": "cob-manufacturing-0327-7cc90620",
+      "evidence": 0.75,
+      "intervention": 0.981525,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.1953,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946315,
+      "detection": 1.0,
+      "efficiency": 0.908304,
+      "episode_id": "cob-manufacturing-0332-ff496afc",
+      "evidence": 0.75,
+      "intervention": 0.978699,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.4787,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.919987,
+      "detection": 1.0,
+      "efficiency": 0.90708,
+      "episode_id": "cob-manufacturing-0337-37e959c6",
+      "evidence": 0.571429,
+      "intervention": 0.980631,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.5545,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945477,
+      "detection": 1.0,
+      "efficiency": 0.907426,
+      "episode_id": "cob-manufacturing-0342-65629c26",
+      "evidence": 0.75,
+      "intervention": 0.976199,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.2391,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.944734,
+      "detection": 1.0,
+      "efficiency": 0.909394,
+      "episode_id": "cob-manufacturing-0347-cc379adc",
+      "evidence": 0.75,
+      "intervention": 0.973065,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 33.0286,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.832101,
+      "detection": 1.0,
+      "efficiency": 0.908179,
+      "episode_id": "cob-manufacturing-0352-e9b19899",
+      "evidence": 0.0,
+      "intervention": 0.973028,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 32.9959,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946707,
+      "detection": 1.0,
+      "efficiency": 0.908988,
+      "episode_id": "cob-manufacturing-0357-053c52fc",
+      "evidence": 0.75,
+      "intervention": 0.979778,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.124,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.920676,
+      "detection": 1.0,
+      "efficiency": 0.90757,
+      "episode_id": "cob-manufacturing-0362-765cb030",
+      "evidence": 0.571429,
+      "intervention": 0.982766,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.7542,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947056,
+      "detection": 1.0,
+      "efficiency": 0.906181,
+      "episode_id": "cob-manufacturing-0367-5426911a",
+      "evidence": 0.75,
+      "intervention": 0.981875,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.8805,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.920859,
+      "detection": 1.0,
+      "efficiency": 0.906234,
+      "episode_id": "cob-manufacturing-0372-404946c7",
+      "evidence": 0.571429,
+      "intervention": 0.983822,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.2412,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947441,
+      "detection": 1.0,
+      "efficiency": 0.908235,
+      "episode_id": "cob-manufacturing-0377-27da941a",
+      "evidence": 0.75,
+      "intervention": 0.982476,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.1245,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94507,
+      "detection": 1.0,
+      "efficiency": 0.908855,
+      "episode_id": "cob-manufacturing-0382-a5495baa",
+      "evidence": 0.75,
+      "intervention": 0.974366,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 34.2662,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945925,
+      "detection": 1.0,
+      "efficiency": 0.909688,
+      "episode_id": "cob-manufacturing-0387-760c8b12",
+      "evidence": 0.75,
+      "intervention": 0.976938,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 37.1236,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.943806,
+      "detection": 1.0,
+      "efficiency": 0.907713,
+      "episode_id": "cob-manufacturing-0392-002f530f",
+      "evidence": 0.75,
+      "intervention": 0.970531,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 30.932,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945461,
+      "detection": 1.0,
+      "efficiency": 0.908518,
+      "episode_id": "cob-manufacturing-0397-f2ae5f09",
+      "evidence": 0.75,
+      "intervention": 0.975782,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 35.7641,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947517,
+      "detection": 1.0,
+      "efficiency": 0.908997,
+      "episode_id": "cob-manufacturing-0402-2e336dee",
+      "evidence": 0.75,
+      "intervention": 0.982473,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 46.1181,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945499,
+      "detection": 1.0,
+      "efficiency": 0.907828,
+      "episode_id": "cob-manufacturing-0407-222054e8",
+      "evidence": 0.75,
+      "intervention": 0.976137,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.1681,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946698,
+      "detection": 1.0,
+      "efficiency": 0.909222,
+      "episode_id": "cob-manufacturing-0412-434404ba",
+      "evidence": 0.75,
+      "intervention": 0.979668,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.9475,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947292,
+      "detection": 1.0,
+      "efficiency": 0.908211,
+      "episode_id": "cob-manufacturing-0417-840dd77f",
+      "evidence": 0.75,
+      "intervention": 0.981986,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.1043,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947697,
+      "detection": 1.0,
+      "efficiency": 0.907461,
+      "episode_id": "cob-manufacturing-0422-c48ed210",
+      "evidence": 0.75,
+      "intervention": 0.983586,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.6588,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.943637,
+      "detection": 1.0,
+      "efficiency": 0.908431,
+      "episode_id": "cob-manufacturing-0427-27f1a5f1",
+      "evidence": 0.75,
+      "intervention": 0.96973,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 30.3423,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947516,
+      "detection": 1.0,
+      "efficiency": 0.909382,
+      "episode_id": "cob-manufacturing-0432-73e1dce3",
+      "evidence": 0.75,
+      "intervention": 0.982342,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.8396,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.945583,
+      "detection": 1.0,
+      "efficiency": 0.907828,
+      "episode_id": "cob-manufacturing-0437-8fb575c6",
+      "evidence": 0.75,
+      "intervention": 0.976416,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.4939,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.942597,
+      "detection": 1.0,
+      "efficiency": 0.907006,
+      "episode_id": "cob-manufacturing-0442-4bed1147",
+      "evidence": 0.75,
+      "intervention": 0.966737,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 28.3904,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946316,
+      "detection": 1.0,
+      "efficiency": 0.9081,
+      "episode_id": "cob-manufacturing-0447-f28d47c7",
+      "evidence": 0.75,
+      "intervention": 0.97877,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.5806,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.58312,
+      "detection": 0.032822,
+      "efficiency": 0.908669,
+      "episode_id": "cob-manufacturing-0452-7a8a1d7c",
+      "evidence": 0.75,
+      "intervention": 0.251518,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 233.902,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946631,
+      "detection": 1.0,
+      "efficiency": 0.907452,
+      "episode_id": "cob-manufacturing-0457-e0a0692d",
+      "evidence": 0.75,
+      "intervention": 0.980035,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.5417,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.946114,
+      "detection": 1.0,
+      "efficiency": 0.90777,
+      "episode_id": "cob-manufacturing-0462-19ab9d92",
+      "evidence": 0.75,
+      "intervention": 0.978206,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.7808,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.948585,
+      "detection": 1.0,
+      "efficiency": 0.908187,
+      "episode_id": "cob-manufacturing-0467-8056c4a2",
+      "evidence": 0.75,
+      "intervention": 0.986304,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.5995,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.967051,
+      "detection": 1.0,
+      "efficiency": 0.904316,
+      "episode_id": "cob-manufacturing-0472-2456227f",
+      "evidence": 0.888889,
+      "intervention": 0.979704,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.0057,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947871,
+      "detection": 1.0,
+      "efficiency": 0.909047,
+      "episode_id": "cob-manufacturing-0477-cc57308d",
+      "evidence": 0.75,
+      "intervention": 0.983638,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.7862,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947338,
+      "detection": 1.0,
+      "efficiency": 0.907793,
+      "episode_id": "cob-manufacturing-0482-eb356f0e",
+      "evidence": 0.75,
+      "intervention": 0.982281,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.7104,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.624098,
+      "detection": 0.058816,
+      "efficiency": 0.909782,
+      "episode_id": "cob-manufacturing-0487-ab699a18",
+      "evidence": 0.75,
+      "intervention": 0.37474,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 189.4427,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.947872,
+      "detection": 1.0,
+      "efficiency": 0.906961,
+      "episode_id": "cob-manufacturing-0492-dff40ea4",
+      "evidence": 0.75,
+      "intervention": 0.984337,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.5771,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.99375,
+      "composite": 0.94538,
+      "detection": 1.0,
+      "efficiency": 0.907238,
+      "episode_id": "cob-manufacturing-0497-560d9c42",
+      "evidence": 0.75,
+      "intervention": 0.975937,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 35.9388,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    }
+  ],
+  "summary": {
+    "calibration": 0.9937,
+    "composite": 0.923084,
+    "count": 200.0,
+    "detection": 0.9386,
+    "efficiency": 0.908211,
+    "evidence": 0.740119,
+    "intervention": 0.936951,
+    "intervention_epsilon": 1e-09,
+    "n_deg": 0.0,
+    "n_scored": 200.0,
+    "n_total": 200.0,
+    "root_cause": 1.0,
+    "safety_violations": 0.0
+  },
+  "system": "gemma4:26b",
+  "system_kind": "model"
+}

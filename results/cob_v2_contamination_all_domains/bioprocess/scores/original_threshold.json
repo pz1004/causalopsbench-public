@@ -1,0 +1,3023 @@
+{
+  "condition": "original",
+  "count": 200,
+  "scores": [
+    {
+      "calibration": 0.751713,
+      "composite": 0.421528,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0000-8c80da74",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 304.6667,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.871402,
+      "composite": 0.837396,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0005-a2adacac",
+      "evidence": 0.888889,
+      "intervention": 0.827418,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 113.8508,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.754258,
+      "composite": 0.417371,
+      "detection": 0.338465,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0010-e6be2c6f",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 333.3388,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.867977,
+      "composite": 0.825928,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0015-5310783e",
+      "evidence": 0.888889,
+      "intervention": 0.80922,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 116.7117,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.885041,
+      "composite": 0.861952,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0020-78a75046",
+      "evidence": 0.888889,
+      "intervention": 0.861892,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 95.2298,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870532,
+      "composite": 0.885313,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0025-58dc3e86",
+      "evidence": 0.888889,
+      "intervention": 0.893996,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 69.7188,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.884785,
+      "composite": 0.857821,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0030-fb8d25df",
+      "evidence": 0.888889,
+      "intervention": 0.848209,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 54.1065,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.749804,
+      "composite": 0.426133,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0035-c3ca05f8",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 495.5591,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.884383,
+      "composite": 0.862282,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0040-94415519",
+      "evidence": 0.888889,
+      "intervention": 0.863211,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 103.5537,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.748449,
+      "composite": 0.390002,
+      "detection": 0.15988,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0045-6ce75efb",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 350.7071,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870864,
+      "composite": 0.846767,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0050-66bc926c",
+      "evidence": 0.888889,
+      "intervention": 0.838311,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 75.4622,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.879408,
+      "composite": 0.838619,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0055-20d57c4b",
+      "evidence": 0.888889,
+      "intervention": 0.828826,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 125.315,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870813,
+      "composite": 0.823738,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0060-b3c33e63",
+      "evidence": 0.888889,
+      "intervention": 0.800973,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 78.3917,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870557,
+      "composite": 0.871516,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0065-d2133ac2",
+      "evidence": 0.888889,
+      "intervention": 0.874351,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 68.3177,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.878784,
+      "composite": 0.828009,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0070-eff456a8",
+      "evidence": 0.888889,
+      "intervention": 0.812554,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 147.7603,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.7476,
+      "composite": 0.421117,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0075-be149420",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 420.0161,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.871188,
+      "composite": 0.914812,
+      "detection": 0.778801,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0080-38e67d8c",
+      "evidence": 0.888889,
+      "intervention": 0.932328,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 70.1378,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.755723,
+      "composite": 0.417517,
+      "detection": 0.338465,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0085-93b8ceb7",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 340.8014,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.880667,
+      "composite": 0.837787,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0090-de754dd8",
+      "evidence": 0.888889,
+      "intervention": 0.825634,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 102.2233,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.868167,
+      "composite": 0.856872,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0095-ad2e800d",
+      "evidence": 0.888889,
+      "intervention": 0.850584,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 58.1725,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.753298,
+      "composite": 0.402883,
+      "detection": 0.242521,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0100-2f450f03",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 264.2843,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.877888,
+      "composite": 0.827097,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0105-cb3f6d18",
+      "evidence": 0.888889,
+      "intervention": 0.809812,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 121.1696,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.752502,
+      "composite": 0.431615,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0110-379eb1d2",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 506.4496,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.893434,
+      "composite": 0.889519,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0115-9c61071f",
+      "evidence": 0.888889,
+      "intervention": 0.90038,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 102.9698,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.86876,
+      "composite": 0.885701,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0120-bbb681ee",
+      "evidence": 0.888889,
+      "intervention": 0.895881,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 76.8028,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.871401,
+      "composite": 0.835989,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0125-26ce061b",
+      "evidence": 0.888889,
+      "intervention": 0.822729,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 87.9673,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.753843,
+      "composite": 0.426537,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0130-e0439175",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 500.4471,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.879502,
+      "composite": 0.861034,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0135-cb26befc",
+      "evidence": 0.888889,
+      "intervention": 0.860678,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 88.7691,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.879917,
+      "composite": 0.825679,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0140-e8cec426",
+      "evidence": 0.888889,
+      "intervention": 0.804408,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 90.4499,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.881381,
+      "composite": 0.900064,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0145-aa3d6bd4",
+      "evidence": 0.888889,
+      "intervention": 0.910904,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 62.486,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.87487,
+      "composite": 0.899346,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0150-882bf21f",
+      "evidence": 0.888889,
+      "intervention": 0.910682,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 61.856,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.756489,
+      "composite": 0.437679,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0155-43420c71",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 366.4111,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.883864,
+      "composite": 0.874795,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0160-fd41d1d2",
+      "evidence": 0.888889,
+      "intervention": 0.880845,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 96.6042,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.880737,
+      "composite": 0.861732,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0165-5c284d94",
+      "evidence": 0.888889,
+      "intervention": 0.862593,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 99.4634,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.875267,
+      "composite": 0.859229,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0170-0be25f63",
+      "evidence": 0.888889,
+      "intervention": 0.856075,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 71.1291,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.746776,
+      "composite": 0.442865,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0175-c48edf45",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 491.1973,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.747301,
+      "composite": 0.416675,
+      "detection": 0.338465,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0180-f20b3ad4",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 228.0566,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.749309,
+      "composite": 0.421288,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0185-53e2cbd2",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 246.9256,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870779,
+      "composite": 0.814938,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0190-72dc1a0e",
+      "evidence": 0.888889,
+      "intervention": 0.789026,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 106.9243,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.753751,
+      "composite": 0.397344,
+      "detection": 0.20529,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0195-f1caf4bc",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 388.542,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870524,
+      "composite": 0.886555,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0200-2803ce7d",
+      "evidence": 0.888889,
+      "intervention": 0.898137,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 87.8071,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.866655,
+      "composite": 0.82592,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0205-24242ba4",
+      "evidence": 0.888889,
+      "intervention": 0.809633,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 119.7811,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.87034,
+      "composite": 0.826613,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0210-21b41db9",
+      "evidence": 0.888889,
+      "intervention": 0.810714,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 128.7073,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.748386,
+      "composite": 0.425991,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0215-5da72a82",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 318.2481,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.75695,
+      "composite": 0.413581,
+      "detection": 0.311403,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0220-e6c3936f",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 411.6472,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.877095,
+      "composite": 0.845009,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0225-fe65655d",
+      "evidence": 0.888889,
+      "intervention": 0.830372,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 57.2546,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.869425,
+      "composite": 0.835,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0230-af21143b",
+      "evidence": 0.888889,
+      "intervention": 0.820091,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 78.3469,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.74847,
+      "composite": 0.416792,
+      "detection": 0.338465,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0235-0e5b59be",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 355.592,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.757067,
+      "composite": 0.400351,
+      "detection": 0.22313,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0240-6b0d725e",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 343.7411,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.750691,
+      "composite": 0.412955,
+      "detection": 0.311403,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0245-9a68c51f",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 271.5642,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.876997,
+      "composite": 0.845512,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0250-b7448d3e",
+      "evidence": 0.888889,
+      "intervention": 0.832082,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 60.278,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.887961,
+      "composite": 0.887552,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0255-d7e852b0",
+      "evidence": 0.888889,
+      "intervention": 0.89565,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 75.8488,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.752083,
+      "composite": 0.431573,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0260-cad7d28d",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 328.7464,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.881777,
+      "composite": 0.901083,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0265-4f28780b",
+      "evidence": 0.888889,
+      "intervention": 0.914168,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 73.7882,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.878957,
+      "composite": 0.900836,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0270-2b4b3f16",
+      "evidence": 0.888889,
+      "intervention": 0.914287,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 74.2904,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.873878,
+      "composite": 0.887176,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0275-0f758a96",
+      "evidence": 0.888889,
+      "intervention": 0.89909,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 93.6024,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.878784,
+      "composite": 0.827533,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0280-b99f1af2",
+      "evidence": 0.888889,
+      "intervention": 0.810966,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 131.0041,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.74779,
+      "composite": 0.421136,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0285-45f6d751",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 412.8206,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.754883,
+      "composite": 0.406203,
+      "detection": 0.263597,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0290-6b5144b6",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 319.8593,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.869027,
+      "composite": 0.837875,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0295-742d33d8",
+      "evidence": 0.888889,
+      "intervention": 0.829809,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 134.9229,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.867387,
+      "composite": 0.825324,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0300-184a7e19",
+      "evidence": 0.888889,
+      "intervention": 0.8074,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 104.998,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.874697,
+      "composite": 0.88717,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0305-7e743679",
+      "evidence": 0.888889,
+      "intervention": 0.898799,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 91.7468,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.749351,
+      "composite": 0.4313,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0310-69aa8411",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 527.596,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.875555,
+      "composite": 0.872432,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0315-d7607942",
+      "evidence": 0.888889,
+      "intervention": 0.875741,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 72.7185,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.74812,
+      "composite": 0.431177,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0320-a2643062",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 267.856,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.878549,
+      "composite": 0.838667,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0325-3e887f4a",
+      "evidence": 0.888889,
+      "intervention": 0.829275,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 129.5176,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.871162,
+      "composite": 0.899588,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0330-114e0a9a",
+      "evidence": 0.888889,
+      "intervention": 0.912724,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 68.2496,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870929,
+      "composite": 0.858001,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0335-7d647f09",
+      "evidence": 0.888889,
+      "intervention": 0.853427,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 64.1216,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.875425,
+      "composite": 0.816476,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0340-ec05e973",
+      "evidence": 0.888889,
+      "intervention": 0.792604,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 132.0548,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.879721,
+      "composite": 0.846057,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0345-e93d05f3",
+      "evidence": 0.888889,
+      "intervention": 0.83299,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 62.0423,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.758578,
+      "composite": 0.417803,
+      "detection": 0.338465,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0350-9c0f010d",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 344.4766,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.867526,
+      "composite": 0.825971,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0355-f65cbc92",
+      "evidence": 0.888889,
+      "intervention": 0.809513,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 118.8728,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.873314,
+      "composite": 0.872638,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0360-010b5481",
+      "evidence": 0.888889,
+      "intervention": 0.877174,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 78.0033,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.872122,
+      "composite": 0.814639,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0365-44c2bce8",
+      "evidence": 0.888889,
+      "intervention": 0.787583,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 99.4799,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.868338,
+      "composite": 0.871012,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0370-69357447",
+      "evidence": 0.888889,
+      "intervention": 0.873411,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 65.6702,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.757431,
+      "composite": 0.417688,
+      "detection": 0.338465,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0375-6ef21d2b",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 450.6552,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.879704,
+      "composite": 0.873385,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0380-0952f1ea",
+      "evidence": 0.888889,
+      "intervention": 0.877533,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 79.4646,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870158,
+      "composite": 0.884768,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0385-eb64293d",
+      "evidence": 0.888889,
+      "intervention": 0.892303,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 64.5117,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.8708,
+      "composite": 0.899276,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0390-f2bc7791",
+      "evidence": 0.888889,
+      "intervention": 0.911803,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 65.186,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.87094,
+      "composite": 0.900989,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0395-d0d8f55c",
+      "evidence": 0.888889,
+      "intervention": 0.917469,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 91.394,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.873959,
+      "composite": 0.849839,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0400-7d7b4017",
+      "evidence": 0.888889,
+      "intervention": 0.84752,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 127.4102,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.873274,
+      "composite": 0.873933,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0405-0aea2ebe",
+      "evidence": 0.888889,
+      "intervention": 0.881503,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 101.0569,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.867856,
+      "composite": 0.85791,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0410-445d4fdd",
+      "evidence": 0.888889,
+      "intervention": 0.854147,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 65.868,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.755001,
+      "composite": 0.43753,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0415-27ef3866",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 351.9707,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.87502,
+      "composite": 0.90143,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0420-a22074b4",
+      "evidence": 0.888889,
+      "intervention": 0.917577,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 92.132,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.766224,
+      "composite": 0.414508,
+      "detection": 0.311403,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0425-47e4efed",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 345.0134,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.88343,
+      "composite": 0.886067,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0430-c6dd5cca",
+      "evidence": 0.888889,
+      "intervention": 0.89221,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 64.2505,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.873632,
+      "composite": 0.824407,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0435-37d6b494",
+      "evidence": 0.888889,
+      "intervention": 0.802264,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 82.479,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.871704,
+      "composite": 0.848144,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0440-fae5e517",
+      "evidence": 0.888889,
+      "intervention": 0.84262,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 92.6144,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.876937,
+      "composite": 0.846408,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0445-31f306ec",
+      "evidence": 0.888889,
+      "intervention": 0.835089,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 66.6311,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.869174,
+      "composite": 0.869745,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0450-bcc54f15",
+      "evidence": 0.888889,
+      "intervention": 0.86891,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 55.6928,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.878927,
+      "composite": 0.901127,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0455-a485554e",
+      "evidence": 0.888889,
+      "intervention": 0.915266,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 78.749,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.869881,
+      "composite": 0.872938,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0460-876aa2af",
+      "evidence": 0.888889,
+      "intervention": 0.879317,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 87.7633,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.874453,
+      "composite": 0.884714,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0465-408ffba8",
+      "evidence": 0.888889,
+      "intervention": 0.890692,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 60.3224,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.877127,
+      "composite": 0.859904,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0470-c2a0843e",
+      "evidence": 0.888889,
+      "intervention": 0.857703,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 76.3991,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.885931,
+      "composite": 0.88786,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0475-a161aa35",
+      "evidence": 0.888889,
+      "intervention": 0.897354,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 83.6043,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.751411,
+      "composite": 0.443329,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0480-6b5a6f03",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 300.0778,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.873581,
+      "composite": 0.81566,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0485-dd664f4d",
+      "evidence": 0.888889,
+      "intervention": 0.7905,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 115.9114,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.868632,
+      "composite": 0.848651,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0490-7381e444",
+      "evidence": 0.888889,
+      "intervention": 0.845334,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 108.8657,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.878502,
+      "composite": 0.826711,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0495-4d31579d",
+      "evidence": 0.888889,
+      "intervention": 0.808321,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 110.5861,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.866725,
+      "composite": 0.846906,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0000-dcc4adea",
+      "evidence": 0.888889,
+      "intervention": 0.840154,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 81.8504,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.747323,
+      "composite": 0.425885,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0005-59a90e98",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 412.2126,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.74901,
+      "composite": 0.431266,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0010-36f488bf",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 439.2844,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.872994,
+      "composite": 0.872658,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0015-57c9e228",
+      "evidence": 0.888889,
+      "intervention": 0.877346,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 78.6926,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.751259,
+      "composite": 0.417071,
+      "detection": 0.338465,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0020-7c1bce61",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 283.6895,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.876044,
+      "composite": 0.834704,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0025-b4d39949",
+      "evidence": 0.888889,
+      "intervention": 0.816899,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 69.4468,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.880729,
+      "composite": 0.901651,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0030-10bcb50f",
+      "evidence": 0.888889,
+      "intervention": 0.916412,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 84.797,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.877453,
+      "composite": 0.887604,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0035-7a51c388",
+      "evidence": 0.888889,
+      "intervention": 0.899324,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 95.1621,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.749456,
+      "composite": 0.41689,
+      "detection": 0.338465,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0040-0b613386",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 368.6794,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.878201,
+      "composite": 0.88796,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0045-b353f6fd",
+      "evidence": 0.888889,
+      "intervention": 0.900263,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 102.0293,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.869641,
+      "composite": 0.883742,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0050-682019af",
+      "evidence": 0.888889,
+      "intervention": 0.889057,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.6691,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.75239,
+      "composite": 0.421596,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0055-4eee4089",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 489.1926,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.869463,
+      "composite": 0.90119,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0060-f73b31f0",
+      "evidence": 0.888889,
+      "intervention": 0.918631,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 100.1024,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.868989,
+      "composite": 0.871823,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0065-eb79fba9",
+      "evidence": 0.888889,
+      "intervention": 0.875897,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 73.2546,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.872708,
+      "composite": 0.901469,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0070-f53a5f32",
+      "evidence": 0.888889,
+      "intervention": 0.918477,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 98.8478,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.75411,
+      "composite": 0.402964,
+      "detection": 0.242521,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0075-307f9a89",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 402.4877,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.8788,
+      "composite": 0.886875,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0080-717ba916",
+      "evidence": 0.888889,
+      "intervention": 0.896446,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 79.2622,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.746774,
+      "composite": 0.436707,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0085-6058f543",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 366.4431,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.882155,
+      "composite": 0.874372,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0090-c89ac963",
+      "evidence": 0.888889,
+      "intervention": 0.880005,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 91.512,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.877163,
+      "composite": 0.873451,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0095-dfbecf22",
+      "evidence": 0.888889,
+      "intervention": 0.878602,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 84.2133,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.881089,
+      "composite": 0.849592,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0100-ee546fde",
+      "evidence": 0.888889,
+      "intervention": 0.84432,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 102.1031,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.871189,
+      "composite": 0.901186,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0105-0258d219",
+      "evidence": 0.888889,
+      "intervention": 0.91804,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 95.453,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.875149,
+      "composite": 0.826107,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0110-7038d314",
+      "evidence": 0.888889,
+      "intervention": 0.807424,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 105.1311,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.866899,
+      "composite": 0.803704,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0115-1816849a",
+      "evidence": 0.888889,
+      "intervention": 0.768857,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 99.9296,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.761034,
+      "composite": 0.432468,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0120-3fc6b549",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 455.29,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.751723,
+      "composite": 0.426325,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0125-9be596aa",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 363.8033,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.871967,
+      "composite": 0.845985,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0130-ddbc8831",
+      "evidence": 0.888889,
+      "intervention": 0.835335,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 67.2207,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.866865,
+      "composite": 0.84842,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0135-72f38eb8",
+      "evidence": 0.888889,
+      "intervention": 0.845154,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 107.5904,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870695,
+      "composite": 0.836254,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0140-8f5ddf6a",
+      "evidence": 0.888889,
+      "intervention": 0.823848,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 92.9074,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.755696,
+      "composite": 0.426722,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0145-5d636e42",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 452.5846,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.873515,
+      "composite": 0.848622,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0150-d062d6b7",
+      "evidence": 0.888889,
+      "intervention": 0.843609,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 97.8841,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.747212,
+      "composite": 0.431086,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0155-29d33b9b",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 337.03,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.879581,
+      "composite": 0.872053,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0160-c3c69ac0",
+      "evidence": 0.888889,
+      "intervention": 0.873135,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 64.9375,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.748177,
+      "composite": 0.436848,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0165-baf41f0e",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 465.0197,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.746786,
+      "composite": 0.442866,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0170-f5e82888",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 343.1666,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.882023,
+      "composite": 0.901151,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0175-a2b82e0e",
+      "evidence": 0.888889,
+      "intervention": 0.914313,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 74.402,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870897,
+      "composite": 0.901385,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0180-add2f63a",
+      "evidence": 0.888889,
+      "intervention": 0.918801,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 101.5352,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.871537,
+      "composite": 0.794347,
+      "detection": 0.338465,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0185-7b177790",
+      "evidence": 0.888889,
+      "intervention": 0.75083,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 103.5514,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.869416,
+      "composite": 0.835348,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0190-564779fa",
+      "evidence": 0.888889,
+      "intervention": 0.821256,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 82.2871,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.886374,
+      "composite": 0.87316,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0195-2329eafd",
+      "evidence": 0.888889,
+      "intervention": 0.87456,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 68.9408,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870113,
+      "composite": 0.885758,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0200-b210f75c",
+      "evidence": 0.888889,
+      "intervention": 0.895619,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 75.7211,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.876272,
+      "composite": 0.860355,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0205-93e93edb",
+      "evidence": 0.888889,
+      "intervention": 0.85949,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 83.3228,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870519,
+      "composite": 0.886261,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0210-be1bd95f",
+      "evidence": 0.888889,
+      "intervention": 0.897161,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 82.6349,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.8853,
+      "composite": 0.888696,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0215-289c4f6f",
+      "evidence": 0.888889,
+      "intervention": 0.90035,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 102.726,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.875296,
+      "composite": 0.825827,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0220-2b2843fa",
+      "evidence": 0.888889,
+      "intervention": 0.806442,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 99.7989,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.880168,
+      "composite": 0.837963,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0225-3886b4b3",
+      "evidence": 0.888889,
+      "intervention": 0.826389,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 106.8119,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.86877,
+      "composite": 0.824425,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0230-f53fec80",
+      "evidence": 0.888889,
+      "intervention": 0.803943,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 88.5759,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.749018,
+      "composite": 0.399546,
+      "detection": 0.22313,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0235-db66728d",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 353.6966,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.875361,
+      "composite": 0.848932,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0240-758e750f",
+      "evidence": 0.888889,
+      "intervention": 0.844029,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 100.3271,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.748289,
+      "composite": 0.425981,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0245-653df08e",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 390.5832,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.750661,
+      "composite": 0.426219,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0250-db0aa0ef",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 417.8769,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.751132,
+      "composite": 0.417058,
+      "detection": 0.338465,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0255-238c92e0",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 421.074,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870661,
+      "composite": 0.837877,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0260-09d74a50",
+      "evidence": 0.888889,
+      "intervention": 0.82927,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 129.4656,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.880951,
+      "composite": 0.828214,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0265-a491a2a2",
+      "evidence": 0.888889,
+      "intervention": 0.812515,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 147.2957,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.87623,
+      "composite": 0.901061,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0270-5bdaf5ce",
+      "evidence": 0.888889,
+      "intervention": 0.915946,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 82.214,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.86763,
+      "composite": 0.848009,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0275-7f7bc3cb",
+      "evidence": 0.888889,
+      "intervention": 0.843527,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 97.4207,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.754901,
+      "composite": 0.431855,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0280-1518f976",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 351.016,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.748092,
+      "composite": 0.40896,
+      "detection": 0.286505,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0285-38e35f72",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 337.4782,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.874298,
+      "composite": 0.871786,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0290-ee6dcc96",
+      "evidence": 0.888889,
+      "intervention": 0.874006,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 67.318,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.746691,
+      "composite": 0.412555,
+      "detection": 0.311403,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0295-47e11729",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 249.111,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870762,
+      "composite": 0.83775,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0300-9b1dfbc9",
+      "evidence": 0.888889,
+      "intervention": 0.828811,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 125.1814,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870272,
+      "composite": 0.847708,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0305-ab61c6bf",
+      "evidence": 0.888889,
+      "intervention": 0.841645,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 87.9999,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.75317,
+      "composite": 0.413202,
+      "detection": 0.311403,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0310-f15a05b1",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 250.3357,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.750538,
+      "composite": 0.426206,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0315-31679dfb",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 459.9329,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.757647,
+      "composite": 0.41771,
+      "detection": 0.338465,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0320-632bf2e0",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 352.97,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.87938,
+      "composite": 0.860007,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0325-7e4a9c03",
+      "evidence": 0.888889,
+      "intervention": 0.857295,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 74.9967,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.749089,
+      "composite": 0.449789,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0330-2fe22444",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 456.5536,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.870051,
+      "composite": 0.81296,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0335-20503477",
+      "evidence": 0.888889,
+      "intervention": 0.782676,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 80.9209,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.877254,
+      "composite": 0.806037,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0340-0dc40a2a",
+      "evidence": 0.888889,
+      "intervention": 0.773181,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 124.8128,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.750346,
+      "composite": 0.437065,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0345-52f94031",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 391.9431,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.750174,
+      "composite": 0.421374,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0350-27e4cde9",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 352.4006,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.893283,
+      "composite": 0.888141,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0355-e5f5385d",
+      "evidence": 0.888889,
+      "intervention": 0.895837,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 76.6189,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.753637,
+      "composite": 0.421721,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0360-f7fd481a",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 280.1356,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.877525,
+      "composite": 0.887416,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0365-d1f976e2",
+      "evidence": 0.888889,
+      "intervention": 0.898676,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 90.9844,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.746855,
+      "composite": 0.412571,
+      "detection": 0.311403,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0370-f1044231",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 396.3042,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.751801,
+      "composite": 0.421537,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0375-fe742966",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 381.9353,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.878445,
+      "composite": 0.87218,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0380-d77a2b44",
+      "evidence": 0.888889,
+      "intervention": 0.873936,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 67.1192,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.747673,
+      "composite": 0.396736,
+      "detection": 0.20529,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0385-19971560",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 382.991,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.87609,
+      "composite": 0.859948,
+      "detection": 0.558035,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0390-02599fbd",
+      "evidence": 0.888889,
+      "intervention": 0.858195,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 78.1719,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.891096,
+      "composite": 0.87478,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0395-4bdfff09",
+      "evidence": 0.888889,
+      "intervention": 0.878386,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 83.2031,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.872355,
+      "composite": 0.899034,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0400-bc90768e",
+      "evidence": 0.888889,
+      "intervention": 0.91048,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 61.298,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.877172,
+      "composite": 0.824634,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0405-45517b34",
+      "evidence": 0.888889,
+      "intervention": 0.801841,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 81.0879,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.873573,
+      "composite": 0.871791,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0410-cad3256b",
+      "evidence": 0.888889,
+      "intervention": 0.874264,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 68.0632,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.871537,
+      "composite": 0.83559,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0415-8f50c093",
+      "evidence": 0.888889,
+      "intervention": 0.821353,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 82.6361,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.871517,
+      "composite": 0.82458,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0420-ec4a4cfe",
+      "evidence": 0.888889,
+      "intervention": 0.803546,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 87.0438,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.868328,
+      "composite": 0.847667,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0425-4b1062c0",
+      "evidence": 0.888889,
+      "intervention": 0.842154,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 90.3446,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.874836,
+      "composite": 0.871405,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0430-5711e397",
+      "evidence": 0.888889,
+      "intervention": 0.872556,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 63.4594,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.75391,
+      "composite": 0.443579,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0435-80841f1d",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 318.4,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.752569,
+      "composite": 0.426409,
+      "detection": 0.39985,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0440-8c965a1e",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 392.5296,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.8788,
+      "composite": 0.849487,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0445-9d42cc24",
+      "evidence": 0.888889,
+      "intervention": 0.84473,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 104.7239,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.885309,
+      "composite": 0.874604,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0450-e2f2657b",
+      "evidence": 0.888889,
+      "intervention": 0.87973,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 89.972,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.872887,
+      "composite": 0.871857,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0455-5afab370",
+      "evidence": 0.888889,
+      "intervention": 0.874713,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 69.4044,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.74911,
+      "composite": 0.421268,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0460-fdd26b93",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 321.7145,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.879504,
+      "composite": 0.888194,
+      "detection": 0.659241,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0465-465ce62a",
+      "evidence": 0.888889,
+      "intervention": 0.900609,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 104.8506,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.880701,
+      "composite": 0.849451,
+      "detection": 0.513417,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0470-49d7b46e",
+      "evidence": 0.888889,
+      "intervention": 0.843979,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 100.0322,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.868182,
+      "composite": 0.899248,
+      "detection": 0.716531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0475-e28f0012",
+      "evidence": 0.888889,
+      "intervention": 0.912582,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 67.7564,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.74845,
+      "composite": 0.421202,
+      "detection": 0.367879,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0480-7a5231ac",
+      "evidence": 0.888889,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 419.6065,
+      "root_cause": 0.3,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.881694,
+      "composite": 0.824484,
+      "detection": 0.434598,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0485-e5198793",
+      "evidence": 0.888889,
+      "intervention": 0.799833,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 75.1449,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.871001,
+      "composite": 0.869346,
+      "detection": 0.606531,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0490-541c38e7",
+      "evidence": 0.888889,
+      "intervention": 0.86697,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.4015,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    },
+    {
+      "calibration": 0.86954,
+      "composite": 0.835884,
+      "detection": 0.472367,
+      "efficiency": 0.978417,
+      "episode_id": "cob-bioprocess-0495-422afe58",
+      "evidence": 0.888889,
+      "intervention": 0.822999,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 89.1032,
+      "root_cause": 1.0,
+      "safety_violations": 0
+    }
+  ],
+  "summary": {
+    "calibration": 0.836205,
+    "composite": 0.722086,
+    "count": 200.0,
+    "detection": 0.501644,
+    "efficiency": 0.978417,
+    "evidence": 0.888889,
+    "intervention": 0.587146,
+    "intervention_epsilon": 1e-09,
+    "n_deg": 0.0,
+    "n_scored": 200.0,
+    "n_total": 200.0,
+    "root_cause": 0.7795,
+    "safety_violations": 0.0
+  },
+  "system": "threshold",
+  "system_kind": "baseline"
+}

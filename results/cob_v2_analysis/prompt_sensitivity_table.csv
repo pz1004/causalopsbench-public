@@ -1,0 +1,4 @@
+prompt_style,count,composite_mean,composite_ci_low,composite_ci_high,detection_mean,root_cause_mean,intervention_mean,evidence_mean,safety_violations
+terse-json,500,0.952987,0.951283,0.954617,0.976552906,1.0,0.9725224960000001,0.833671496,0
+react-verbose,500,0.935534,0.93097,0.939689,0.9322375519999999,1.0,0.955904102,0.795436568,0
+evidence-first,500,0.94247,0.940084,0.944496,0.961953772,1.0,0.96895057,0.7852588100000001,0

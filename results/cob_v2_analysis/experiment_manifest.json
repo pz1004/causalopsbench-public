@@ -1,0 +1,31 @@
+{
+  "N": 2500,
+  "N_deg": 0,
+  "configuration": {
+    "ablation_root": "results/cob_v2_ollama_ablation",
+    "bootstrap": 10000,
+    "contamination_dir": "results/cob_v2_contamination_all_domains",
+    "extra_ablation_root": "results/cob_v2_ollama_ablation_extra",
+    "hidden_ollama_dir": "results/cob_v2_hidden_seed_ollama",
+    "hidden_scaffold_dir": "results/cob_v2_hidden_seed",
+    "joint_contamination_dir": "results/cob_v2_contamination_no_topology",
+    "model_card_dir": "results/cob_v2_ollama_model_cards",
+    "ollama_dir": "results/cob_v2_ollama",
+    "prompt_root": "results/cob_v2_prompt_sweep",
+    "random_weight_samples": 1000,
+    "random_weight_seed": 20260516,
+    "scaffold_dir": "results/cob_v2",
+    "seed": 20260516
+  },
+  "created_at_utc": "2026-05-20T01:21:16.732829+00:00",
+  "intervention_epsilon": 1e-09,
+  "random_weight_sweep": {
+    "fraction": 0.98,
+    "preserved": 980,
+    "samples": 1000,
+    "target_ranking": "oracle > topology_rca > threshold > random > noop",
+    "weight_distribution": "Dirichlet(1,1,1,1,1,1) via normalized exponential draws"
+  },
+  "runner": "scripts/analyze_revision_artifacts.py",
+  "scaffold_records": 12500
+}

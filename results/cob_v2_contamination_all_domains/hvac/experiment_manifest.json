@@ -1,0 +1,32 @@
+{
+  "N": 200,
+  "N_deg": 0,
+  "configuration": {
+    "baselines": [
+      "threshold"
+    ],
+    "domain": "hvac",
+    "keep_alive": "5m",
+    "models": [
+      "ollama:gemma4:26b"
+    ],
+    "num_ctx": 8192,
+    "policy": "react-json",
+    "prompt_style": "react-json",
+    "seeds": [
+      0,
+      1
+    ],
+    "temperature": 0.0,
+    "think": false,
+    "timeout_s": 120.0,
+    "transform": "neutral-identifiers",
+    "view_ablation": "none"
+  },
+  "created_at_utc": "2026-05-17T17:18:02.421452+00:00",
+  "intervention_epsilon": 1e-09,
+  "neutral_N": 200,
+  "neutral_N_deg": 0,
+  "runner": "scripts/run_contamination_stress.py",
+  "transform_policy": "Public names are mapped to neutral identifiers while numeric traces, topology shape, replay losses, costs, and safety metadata are preserved."
+}

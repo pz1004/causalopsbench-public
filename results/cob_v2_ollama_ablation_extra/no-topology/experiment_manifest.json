@@ -1,0 +1,63 @@
+{
+  "N": 100,
+  "N_deg": 0,
+  "claim_policy": "foundation-agent results; report only generated prediction artifacts.",
+  "configuration": {
+    "episodes_dir": "results/cob_v2_seed01_stratified/episodes",
+    "keep_alive": "5m",
+    "limit": null,
+    "max_steps": 4,
+    "models": [
+      "ollama:gemma4:e4b",
+      "ollama:granite4.1:8b"
+    ],
+    "num_ctx": 8192,
+    "ollama_host": "http://localhost:11434",
+    "policy": "react-json",
+    "seed": 0,
+    "temperature": 0.0,
+    "think": false,
+    "timeout_s": 120.0,
+    "view_ablation": "no-topology"
+  },
+  "created_at_utc": "2026-05-17T08:38:07.935686+00:00",
+  "episodes": 100,
+  "intervention_epsilon": 1e-09,
+  "runner": "scripts/run_foundation_agent_experiments.py",
+  "summary": [
+    {
+      "baseline": "Ollama-gemma4:e4b-ReAct",
+      "calibration": 0.993563,
+      "composite": 0.892691,
+      "count": 100.0,
+      "detection": 0.902672,
+      "efficiency": 0.908592,
+      "evidence": 0.567778,
+      "intervention": 0.955693,
+      "intervention_epsilon": 1e-09,
+      "model_spec": "ollama:gemma4:e4b",
+      "n_deg": 0.0,
+      "n_scored": 100.0,
+      "n_total": 100.0,
+      "root_cause": 0.976,
+      "safety_violations": 0.0
+    },
+    {
+      "baseline": "Ollama-granite4.1:8b-ReAct",
+      "calibration": 0.996112,
+      "composite": 0.630768,
+      "count": 100.0,
+      "detection": 0.108774,
+      "efficiency": 0.921566,
+      "evidence": 0.727579,
+      "intervention": 0.378492,
+      "intervention_epsilon": 1e-09,
+      "model_spec": "ollama:granite4.1:8b",
+      "n_deg": 0.0,
+      "n_scored": 100.0,
+      "n_total": 100.0,
+      "root_cause": 1.0,
+      "safety_violations": 0.0
+    }
+  ]
+}

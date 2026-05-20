@@ -1,0 +1,24 @@
+dataset: rcaeval_re2
+role: primary_microservice_external_trace
+systems:
+  - SS
+  - OB
+  - TT
+pilot_system: SS
+raw_dir: external_validation/data/raw/rcaeval
+processed_episodes: external_validation/data/processed/episodes/rcaeval_re2.jsonl
+manifest: external_validation/data/processed/manifests/rcaeval_re2_manifest.yaml
+max_evidence_spans: 40
+seed: 20260519
+supported_metrics:
+  - detection
+  - root_cause_top1
+  - root_cause_topk
+  - evidence_f1
+  - calibration
+  - parsing_success
+  - runtime_efficiency
+  - external_portability_score
+unsupported_metrics:
+  - intervention
+  - native_composite

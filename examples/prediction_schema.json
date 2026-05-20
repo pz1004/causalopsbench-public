@@ -1,0 +1,28 @@
+{
+  "episode_id": "cob-microservice-0000-example",
+  "alarm_time": 31,
+  "alarm_confidence": 0.87,
+  "root_cause_topk": [
+    "database:lock-contention",
+    "checkout:lock-contention",
+    "payments:lock-contention"
+  ],
+  "causal_path": [
+    "database",
+    "checkout",
+    "api-gateway"
+  ],
+  "evidence_spans": [
+    "cob-microservice-0000-example:obs:31:0",
+    "cob-microservice-0000-example:manual:0"
+  ],
+  "action_ids": [
+    "restart-db-writer"
+  ],
+  "action_confidence": 0.82,
+  "postmortem": "Database lock contention propagated through checkout and increased API errors.",
+  "token_count": 1800,
+  "tool_calls": 8,
+  "wall_time_s": 18.4,
+  "compute_joules": 0.0
+}

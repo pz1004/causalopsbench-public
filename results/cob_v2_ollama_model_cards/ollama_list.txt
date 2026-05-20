@@ -1,0 +1,8 @@
+NAME             ID              SIZE      MODIFIED     
+qwen3.5:4b       2a654d98e6fb    3.4 GB    32 hours ago    
+gemma4:e2b       7fbdbf8f5e45    7.2 GB    32 hours ago    
+gemma4:26b       5571076f3d70    17 GB     33 hours ago    
+granite4.1:3b    6fd349357287    2.1 GB    33 hours ago    
+granite4.1:8b    444af1c4b2fe    5.3 GB    33 hours ago    
+qwen3.5:9b       6488c96fa5fa    6.6 GB    33 hours ago    
+gemma4:e4b       c6eb396dbd59    9.6 GB    33 hours ago    

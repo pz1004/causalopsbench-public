@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Public external datasets are downloaded separately and can be large.
+external_validation/data/raw/
+external_validation/data/processed/episodes/
+
+# Local run scratch space.
+logs/

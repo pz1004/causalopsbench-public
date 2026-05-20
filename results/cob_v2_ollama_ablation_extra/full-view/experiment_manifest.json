@@ -1,0 +1,11 @@
+{
+  "N": 100,
+  "N_deg": 0,
+  "filter": "10 episodes per domain for seed_0 and seed_1",
+  "models": [
+    "ollama:gemma4:e4b",
+    "ollama:granite4.1:8b"
+  ],
+  "runner": "derived full-view stratified subset from results/cob_v2_ollama",
+  "view_ablation": "none"
+}

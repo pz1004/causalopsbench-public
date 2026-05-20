@@ -1,0 +1,46 @@
+{
+  "N": 500,
+  "N_deg": 0,
+  "claim_policy": "foundation-agent results; report only generated prediction artifacts.",
+  "configuration": {
+    "episodes_dir": "results/cob_v2/episodes",
+    "keep_alive": "5m",
+    "limit": 500,
+    "max_steps": 4,
+    "models": [
+      "ollama:gemma4:26b"
+    ],
+    "num_ctx": 8192,
+    "ollama_host": "http://localhost:11434",
+    "policy": "react-json",
+    "prompt_style": "terse-json",
+    "seed": 0,
+    "temperature": 0.0,
+    "think": false,
+    "timeout_s": 120.0,
+    "view_ablation": "none"
+  },
+  "created_at_utc": "2026-05-17T19:52:48.606715+00:00",
+  "episodes": 500,
+  "intervention_epsilon": 1e-09,
+  "runner": "scripts/run_foundation_agent_experiments.py",
+  "summary": [
+    {
+      "baseline": "Ollama-gemma4:26b-ReAct",
+      "calibration": 0.992121,
+      "composite": 0.952987,
+      "count": 500.0,
+      "detection": 0.976553,
+      "efficiency": 0.904847,
+      "evidence": 0.833671,
+      "intervention": 0.972522,
+      "intervention_epsilon": 1e-09,
+      "model_spec": "ollama:gemma4:26b",
+      "n_deg": 0.0,
+      "n_scored": 500.0,
+      "n_total": 500.0,
+      "root_cause": 1.0,
+      "safety_violations": 0.0
+    }
+  ]
+}
