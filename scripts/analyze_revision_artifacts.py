@@ -1250,31 +1250,182 @@ def _write_figures(output_dir: Path, scaffold_dir: Path, ollama_dir: Path, episo
         _plot_domain_scores(output_dir / "score_by_domain_bars.pdf", scaffold_dir, plt)
         _plot_latency_cdf(output_dir / "detection_latency_cdf.pdf", scaffold_dir, plt)
         _plot_reliability(output_dir / "llm_reliability_diagram.pdf", ollama_dir, episodes, plt)
-    _write_episode_walkthrough_pdf(output_dir / "episode_walkthrough.pdf", scaffold_dir, ollama_dir)
+        _plot_episode_walkthrough(output_dir / "episode_walkthrough.pdf", scaffold_dir, ollama_dir, plt)
+    else:
+        _write_episode_walkthrough_pdf(output_dir / "episode_walkthrough.pdf", scaffold_dir, ollama_dir)
 
 
 def _plot_topologies(path: Path, plt: Any) -> None:
-    names = domain_names()
-    fig, axes = plt.subplots(1, len(names), figsize=(14, 2.7))
-    for ax, name in zip(axes, names):
+    panel_order = ["microservice", "hvac", "water_grid", "manufacturing", "bioprocess"]
+    fig, axes = plt.subplots(2, 3, figsize=(13.2, 6.8))
+    for ax, name in zip(axes.flat[:5], panel_order):
         template = get_domain(name)
-        nodes = template.components
-        positions = {}
-        for index, node in enumerate(nodes):
-            angle = 2 * math.pi * index / len(nodes)
-            positions[node] = (math.cos(angle), math.sin(angle))
-        for left, right in template.topology:
-            x1, y1 = positions[left]
-            x2, y2 = positions[right]
-            ax.annotate("", xy=(x2, y2), xytext=(x1, y1), arrowprops={"arrowstyle": "->", "lw": 1.0})
-        for node, (x, y) in positions.items():
-            ax.scatter([x], [y], s=260, color="#dceefb", edgecolor="#315f7d", zorder=3)
-            ax.text(x, y, node.replace("-", "\n"), ha="center", va="center", fontsize=6)
-        ax.set_title(name.replace("_", "\\_"), fontsize=9)
-        ax.set_axis_off()
-    fig.tight_layout()
+        _draw_topology_panel(ax, template, _topology_panel_layout(name), _domain_axis_label(name))
+    _draw_topology_key(axes.flat[5])
+    fig.tight_layout(pad=1.25, w_pad=1.0, h_pad=1.6)
     fig.savefig(path, bbox_inches="tight")
     plt.close(fig)
+
+
+def _topology_panel_layout(name: str) -> dict[str, tuple[float, float]]:
+    layouts = {
+        "microservice": {
+            "api-gateway": (0.12, 0.50),
+            "auth": (0.42, 0.78),
+            "checkout": (0.42, 0.38),
+            "payments": (0.72, 0.56),
+            "database": (0.90, 0.30),
+        },
+        "hvac": {
+            "chiller": (0.12, 0.62),
+            "air-handler": (0.36, 0.62),
+            "supply-fan": (0.60, 0.62),
+            "vav-zone-a": (0.86, 0.78),
+            "vav-zone-b": (0.86, 0.46),
+        },
+        "water_grid": {
+            "reservoir": (0.12, 0.62),
+            "pump-1": (0.38, 0.78),
+            "pump-2": (0.38, 0.46),
+            "main-line": (0.64, 0.62),
+            "north-zone": (0.88, 0.62),
+        },
+        "manufacturing": {
+            "feeder": (0.14, 0.58),
+            "press": (0.38, 0.58),
+            "cooling-loop": (0.62, 0.78),
+            "vision-station": (0.62, 0.40),
+            "packager": (0.88, 0.40),
+        },
+        "bioprocess": {
+            "feed-pump": (0.12, 0.76),
+            "air-sparger": (0.12, 0.54),
+            "ph-control": (0.12, 0.32),
+            "bioreactor": (0.56, 0.54),
+            "harvest": (0.88, 0.54),
+        },
+    }
+    return layouts[name]
+
+
+def _draw_topology_panel(ax: Any, template: Any, positions: dict[str, tuple[float, float]], title: str) -> None:
+    from matplotlib.patches import FancyArrowPatch, FancyBboxPatch
+
+    node_width = 0.15
+    node_height = 0.112
+    node_pad = 0.010
+    edge_width = node_width + 2 * node_pad
+    edge_height = node_height + 2 * node_pad
+    for left, right in template.topology:
+        start = _edge_endpoint(positions[left], positions[right], edge_width, edge_height)
+        end = _edge_endpoint(positions[right], positions[left], edge_width, edge_height)
+        arrow = FancyArrowPatch(
+            start,
+            end,
+            arrowstyle="-|>",
+            mutation_scale=13,
+            linewidth=1.5,
+            color="#3b3b3b",
+            shrinkA=0,
+            shrinkB=0,
+            zorder=1,
+        )
+        ax.add_patch(arrow)
+    for node in template.components:
+        x, y = positions[node]
+        box = FancyBboxPatch(
+            (x - node_width / 2, y - node_height / 2),
+            node_width,
+            node_height,
+            boxstyle=f"round,pad={node_pad},rounding_size=0.022",
+            linewidth=1.25,
+            edgecolor="#315f7d",
+            facecolor="#dceefb",
+            zorder=3,
+        )
+        ax.add_patch(box)
+        ax.text(x, y, _topology_display_label(node), ha="center", va="center", fontsize=8.0, zorder=4)
+    ax.set_title(title, fontsize=12.5, fontweight="semibold", pad=8)
+    ax.set_xlim(-0.08, 1.08)
+    ax.set_ylim(0.12, 0.94)
+    ax.set_axis_off()
+
+
+def _edge_endpoint(
+    source: tuple[float, float],
+    target: tuple[float, float],
+    node_width: float,
+    node_height: float,
+) -> tuple[float, float]:
+    sx, sy = source
+    tx, ty = target
+    dx = tx - sx
+    dy = ty - sy
+    if abs(dx) < 1e-9 and abs(dy) < 1e-9:
+        return source
+    scale = 0.5 / max(abs(dx) / node_width, abs(dy) / node_height)
+    return sx + dx * scale, sy + dy * scale
+
+
+def _topology_display_label(node: str) -> str:
+    labels = {
+        "api-gateway": "API\ngateway",
+        "air-handler": "air\nhandler",
+        "air-sparger": "air\nsparger",
+        "cooling-loop": "cooling\nloop",
+        "feed-pump": "feed\npump",
+        "main-line": "main\nline",
+        "north-zone": "north\nzone",
+        "ph-control": "pH\ncontrol",
+        "pump-1": "pump 1",
+        "pump-2": "pump 2",
+        "supply-fan": "supply\nfan",
+        "vav-zone-a": "VAV\nzone A",
+        "vav-zone-b": "VAV\nzone B",
+        "vision-station": "vision\nstation",
+    }
+    return labels.get(node, node.replace("-", "\n"))
+
+
+def _draw_topology_key(ax: Any) -> None:
+    from matplotlib.patches import FancyArrowPatch, FancyBboxPatch
+
+    ax.set_title("visual key", fontsize=12.5, fontweight="semibold", pad=8)
+    node_width = 0.20
+    node_height = 0.115
+    node_pad = 0.010
+    left = (0.26, 0.58)
+    right = (0.72, 0.58)
+    arrow = FancyArrowPatch(
+        _edge_endpoint(left, right, node_width + 2 * node_pad, node_height + 2 * node_pad),
+        _edge_endpoint(right, left, node_width + 2 * node_pad, node_height + 2 * node_pad),
+        arrowstyle="-|>",
+        mutation_scale=13,
+        linewidth=1.5,
+        color="#3b3b3b",
+        shrinkA=0,
+        shrinkB=0,
+        zorder=1,
+    )
+    ax.add_patch(arrow)
+    for center, label in [(left, "component"), (right, "downstream\ncomponent")]:
+        x, y = center
+        box = FancyBboxPatch(
+            (x - node_width / 2, y - node_height / 2),
+            node_width,
+            node_height,
+            boxstyle=f"round,pad={node_pad},rounding_size=0.022",
+            linewidth=1.25,
+            edgecolor="#315f7d",
+            facecolor="#dceefb",
+            zorder=3,
+        )
+        ax.add_patch(box)
+        ax.text(x, y, label, ha="center", va="center", fontsize=8.0, zorder=4)
+    ax.text(0.49, 0.69, "declared dependency /\npropagation edge", ha="center", va="bottom", fontsize=8.2)
+    ax.set_xlim(-0.08, 1.08)
+    ax.set_ylim(0.12, 0.94)
+    ax.set_axis_off()
 
 
 def _plot_domain_scores(path: Path, scaffold_dir: Path, plt: Any) -> None:
@@ -1285,20 +1436,48 @@ def _plot_domain_scores(path: Path, scaffold_dir: Path, plt: Any) -> None:
     baselines = sorted({row["baseline"] for row in rows})
     domains = sorted({row["domain"] for row in rows})
     lookup = {(row["baseline"], row["domain"]): float(row["composite_mean"]) for row in rows}
-    fig, ax = plt.subplots(figsize=(8, 3.8))
+    fig, ax = plt.subplots(figsize=(8.4, 4.8))
     width = 0.8 / max(1, len(baselines))
     x = list(range(len(domains)))
     for offset, baseline in enumerate(baselines):
         values = [lookup.get((baseline, domain), 0.0) for domain in domains]
-        ax.bar([item + offset * width for item in x], values, width=width, label=baseline)
+        label = _baseline_axis_label(baseline)
+        ax.bar([item + offset * width for item in x], values, width=width, label=label)
     ax.set_xticks([item + width * (len(baselines) - 1) / 2 for item in x])
-    ax.set_xticklabels([domain.replace("_", "\n") for domain in domains], fontsize=8)
-    ax.set_ylabel("Composite score")
+    ax.set_xticklabels([_domain_axis_label(domain) for domain in domains], fontsize=11)
+    ax.tick_params(axis="y", labelsize=11)
+    ax.set_xlabel("Domain", fontsize=13, labelpad=10)
+    ax.set_ylabel("Composite score", fontsize=13)
     ax.set_ylim(0, 1.05)
-    ax.legend(fontsize=7, ncol=3)
+    ax.legend(
+        fontsize=10,
+        ncol=len(baselines),
+        loc="upper center",
+        bbox_to_anchor=(0.5, -0.24),
+        frameon=False,
+        handlelength=1.5,
+        columnspacing=1.0,
+    )
+    ax.grid(True, axis="y", alpha=0.20, linewidth=0.6)
     fig.tight_layout()
     fig.savefig(path, bbox_inches="tight")
     plt.close(fig)
+
+
+def _domain_axis_label(domain: str) -> str:
+    labels = {
+        "hvac": "HVAC",
+        "water_grid": "water grid",
+    }
+    return labels.get(domain, domain.replace("_", " "))
+
+
+def _baseline_axis_label(baseline: str) -> str:
+    labels = {
+        "noop": "no-op",
+        "topology_rca": "topology-RCA",
+    }
+    return labels.get(baseline, baseline.replace("_", "-"))
 
 
 def _plot_latency_cdf(path: Path, scaffold_dir: Path, plt: Any) -> None:
@@ -1318,16 +1497,40 @@ def _plot_latency_cdf(path: Path, scaffold_dir: Path, plt: Any) -> None:
                 if prediction.alarm_time is None:
                     continue
                 latencies[baseline_name].append(prediction.alarm_time - episode.ground_truth.fault.start_time)
-    fig, ax = plt.subplots(figsize=(5.8, 3.6))
-    for baseline, values in latencies.items():
+    fig, ax = plt.subplots(figsize=(6.2, 3.8))
+    styles = {
+        "random": {"color": "#1f77b4", "linestyle": "-", "linewidth": 2.0, "zorder": 2, "label": "random"},
+        "topology_rca": {
+            "color": "#2ca02c",
+            "linestyle": "-",
+            "linewidth": 3.0,
+            "zorder": 3,
+            "label": "topology-RCA",
+        },
+        "threshold": {
+            "color": "#ff7f0e",
+            "linestyle": (0, (5, 2)),
+            "linewidth": 2.2,
+            "marker": "o",
+            "markersize": 2.6,
+            "markevery": 140,
+            "zorder": 4,
+            "label": "threshold",
+        },
+        "oracle": {"color": "#d62728", "linestyle": "-", "linewidth": 2.0, "zorder": 1, "label": "oracle"},
+    }
+    plot_order = ["random", "topology_rca", "threshold", "oracle"]
+    for baseline in plot_order:
+        values = latencies[baseline]
         if not values:
             continue
         ordered = sorted(values)
         y = [(index + 1) / len(ordered) for index in range(len(ordered))]
-        ax.step(ordered, y, where="post", label=baseline)
+        ax.step(ordered, y, where="post", **styles[baseline])
     ax.set_xlabel("Detection latency (time steps)")
     ax.set_ylabel("CDF")
     ax.set_ylim(0, 1.02)
+    ax.grid(True, axis="y", alpha=0.22, linewidth=0.6)
     ax.legend(fontsize=8)
     fig.tight_layout()
     fig.savefig(path, bbox_inches="tight")
@@ -1360,17 +1563,260 @@ def _plot_reliability(path: Path, ollama_dir: Path, episodes: dict[str, dict[str
         xs.append(sum(conf for conf, _ in values) / len(values))
         ys.append(sum(correct for _, correct in values) / len(values))
         counts.append(len(values))
-    fig, ax = plt.subplots(figsize=(4.4, 4.0))
-    ax.plot([0, 1], [0, 1], "--", color="#777777", lw=1)
-    sizes = [max(18, min(180, count / 12)) for count in counts]
-    ax.scatter(xs, ys, s=sizes, color="#315f7d")
-    ax.set_xlabel("Mean action confidence")
-    ax.set_ylabel("Empirical action correctness")
-    ax.set_xlim(0, 1)
-    ax.set_ylim(0, 1)
+    fig, ax = plt.subplots(figsize=(4.8, 4.4))
+    ax.plot([0, 1], [0, 1], "--", color="#777777", lw=1.2, zorder=1)
+    max_count = max(counts) if counts else 1
+    sizes = [70 + 430 * math.sqrt(count / max_count) for count in counts]
+    ax.scatter(
+        xs,
+        ys,
+        s=sizes,
+        color="#315f7d",
+        edgecolors="white",
+        linewidths=0.9,
+        alpha=0.82,
+        zorder=3,
+    )
+    ax.set_xlabel("Mean action confidence", fontsize=12)
+    ax.set_ylabel("Empirical action correctness", fontsize=12)
+    ax.set_xlim(-0.04, 1.04)
+    ax.set_ylim(-0.04, 1.04)
+    ax.set_aspect("equal", adjustable="box")
+    ax.grid(True, alpha=0.22, linewidth=0.6, zorder=0)
+    ax.tick_params(labelsize=10)
     fig.tight_layout()
     fig.savefig(path, bbox_inches="tight")
     plt.close(fig)
+
+
+def _plot_episode_walkthrough(path: Path, scaffold_dir: Path, ollama_dir: Path, plt: Any) -> None:
+    payload = _load_walkthrough_artifacts(scaffold_dir, ollama_dir)
+    if payload is None:
+        return
+    episode, prediction, score = payload
+    fig, axes = plt.subplots(2, 2, figsize=(10.8, 6.4))
+    _draw_walkthrough_topology(axes[0, 0], episode, prediction)
+    _draw_walkthrough_traces(axes[0, 1], episode, prediction)
+    _draw_walkthrough_evidence_action(axes[1, 0], episode, prediction)
+    _draw_walkthrough_losses(axes[1, 1], episode, score)
+    fig.tight_layout(pad=1.1, w_pad=1.8, h_pad=1.4)
+    fig.savefig(path, bbox_inches="tight")
+    plt.close(fig)
+
+
+def _style_walkthrough_panel(ax: Any, title: str) -> None:
+    ax.set_title(title, loc="left", fontsize=11, fontweight="semibold", pad=8)
+    ax.set_facecolor("#fbfbfb")
+    for spine in ax.spines.values():
+        spine.set_visible(True)
+        spine.set_color("#c7c7c7")
+        spine.set_linewidth(0.8)
+
+
+def _draw_walkthrough_topology(ax: Any, episode: Any, prediction: Any) -> None:
+    from matplotlib.patches import FancyArrowPatch, FancyBboxPatch
+
+    _style_walkthrough_panel(ax, "A. Topology and fault path")
+    positions = {
+        "api-gateway": (0.12, 0.55),
+        "auth": (0.38, 0.82),
+        "checkout": (0.40, 0.55),
+        "payments": (0.68, 0.66),
+        "database": (0.84, 0.34),
+    }
+    node_width = 0.20
+    node_height = 0.12
+    edge_width = node_width + 0.03
+    edge_height = node_height + 0.03
+    path_nodes = episode.ground_truth.fault.root_cause_path
+    path_node_set = set(path_nodes)
+
+    for left, right in episode.topology:
+        start = _edge_endpoint(positions[left], positions[right], edge_width, edge_height)
+        end = _edge_endpoint(positions[right], positions[left], edge_width, edge_height)
+        ax.add_patch(
+            FancyArrowPatch(
+                start,
+                end,
+                arrowstyle="-|>",
+                mutation_scale=12,
+                linewidth=1.2,
+                color="#666666",
+                alpha=0.78,
+                shrinkA=0,
+                shrinkB=0,
+                zorder=1,
+            )
+        )
+    for left, right in zip(path_nodes, path_nodes[1:]):
+        if left not in positions or right not in positions:
+            continue
+        start = _edge_endpoint(positions[left], positions[right], edge_width, edge_height)
+        end = _edge_endpoint(positions[right], positions[left], edge_width, edge_height)
+        ax.add_patch(
+            FancyArrowPatch(
+                start,
+                end,
+                arrowstyle="-|>",
+                mutation_scale=13,
+                linewidth=1.8,
+                linestyle=(0, (4, 2)),
+                color="#b24a4a",
+                connectionstyle="arc3,rad=0.16",
+                shrinkA=0,
+                shrinkB=0,
+                zorder=2,
+            )
+        )
+    for node, (x, y) in positions.items():
+        is_path = node in path_node_set
+        box = FancyBboxPatch(
+            (x - node_width / 2, y - node_height / 2),
+            node_width,
+            node_height,
+            boxstyle="round,pad=0.018,rounding_size=0.025",
+            linewidth=1.35,
+            edgecolor="#9b2d2d" if is_path else "#315f7d",
+            facecolor="#f4dada" if is_path else "#dceefb",
+            zorder=3,
+        )
+        ax.add_patch(box)
+        ax.text(x, y, _topology_display_label(node), ha="center", va="center", fontsize=8.3, zorder=4)
+    cause = prediction.root_cause_topk[0] if prediction.root_cause_topk else "none"
+    ax.text(0.06, 0.11, f"Predicted RCA: {cause}", fontsize=8.6, color="#222222", va="center")
+    ax.plot([0.06, 0.17], [0.22, 0.22], color="#666666", lw=1.2)
+    ax.text(0.19, 0.22, "declared dependency", fontsize=7.8, va="center", color="#333333")
+    ax.plot([0.55, 0.66], [0.22, 0.22], color="#b24a4a", lw=1.8, linestyle=(0, (4, 2)))
+    ax.text(0.68, 0.22, "stored fault path", fontsize=7.8, va="center", color="#333333")
+    ax.set_xlim(0.0, 1.0)
+    ax.set_ylim(0.0, 1.0)
+    ax.set_xticks([])
+    ax.set_yticks([])
+
+
+def _draw_walkthrough_traces(ax: Any, episode: Any, prediction: Any) -> None:
+    _style_walkthrough_panel(ax, "B. Propagated sensor drift")
+    sensors = [
+        ("db.lock_wait_ms", "DB lock wait", "#9b2d2d"),
+        ("checkout.queue_depth", "Checkout queue", "#315f7d"),
+        ("api.latency_ms", "API latency", "#5c8432"),
+    ]
+    times = [frame.timestamp for frame in episode.observations]
+    fault_start = episode.ground_truth.fault.start_time
+    all_values: list[float] = []
+    for sensor, label, color in sensors:
+        values = [frame.sensors[sensor] for frame in episode.observations]
+        baseline = [frame.sensors[sensor] for frame in episode.observations if frame.timestamp < fault_start]
+        mean = sum(baseline) / len(baseline)
+        variance = sum((value - mean) ** 2 for value in baseline) / max(1, len(baseline))
+        std = math.sqrt(variance) or 1.0
+        normalized = [(value - mean) / std for value in values]
+        all_values.extend(normalized)
+        ax.plot(times, normalized, color=color, lw=2.0, label=label)
+    if prediction.alarm_time == fault_start:
+        ax.axvline(fault_start, color="#8a6d1d", linestyle=(0, (4, 3)), lw=1.4)
+        ax.text(
+            fault_start + 0.6,
+            0.95,
+            f"fault/alarm t={fault_start}",
+            transform=ax.get_xaxis_transform(),
+            fontsize=8.2,
+            color="#5f4b17",
+            ha="left",
+            va="top",
+        )
+    else:
+        ax.axvline(fault_start, color="#8a6d1d", linestyle=(0, (4, 3)), lw=1.2, label=f"fault t={fault_start}")
+        if prediction.alarm_time is not None:
+            ax.axvline(prediction.alarm_time, color="#333333", linestyle=":", lw=1.2, label=f"alarm t={prediction.alarm_time}")
+    y_min = min(all_values)
+    y_max = max(all_values)
+    pad = max(0.5, (y_max - y_min) * 0.08)
+    ax.set_ylim(y_min - pad, y_max + pad)
+    ax.set_xlabel("time step", fontsize=9)
+    ax.set_ylabel("baseline-normalized drift", fontsize=9)
+    ax.grid(True, alpha=0.22, linewidth=0.6)
+    ax.legend(loc="upper left", frameon=False, fontsize=8)
+    ax.tick_params(labelsize=8)
+
+
+def _draw_walkthrough_evidence_action(ax: Any, episode: Any, prediction: Any) -> None:
+    from matplotlib.patches import FancyBboxPatch
+
+    _style_walkthrough_panel(ax, "C. Cited evidence and action")
+    ax.set_xlim(0.0, 1.0)
+    ax.set_ylim(0.0, 1.0)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    records = {record.span_id: record for record in episode.manuals}
+    for frame in episode.observations:
+        for record in frame.evidence:
+            records[record.span_id] = record
+    row_y = [0.76, 0.56, 0.36]
+    for y, span_id in zip(row_y, prediction.evidence_spans[:3]):
+        record = records.get(span_id)
+        timestamp = "" if record is None else ("manual" if record.timestamp is None else f"t={record.timestamp}")
+        text = span_id if record is None else record.text
+        ax.add_patch(
+            FancyBboxPatch(
+                (0.06, y - 0.07),
+                0.88,
+                0.14,
+                boxstyle="round,pad=0.012,rounding_size=0.018",
+                linewidth=0.7,
+                edgecolor="#d0d0d0",
+                facecolor="#ffffff",
+            )
+        )
+        ax.text(0.09, y + 0.025, timestamp, fontsize=8.8, fontweight="bold", color="#333333", va="center")
+        ax.text(0.24, y + 0.025, "\n".join(textwrap.wrap(text, width=48)[:2]), fontsize=8.4, color="#222222", va="center")
+    action = ", ".join(prediction.action_ids) if prediction.action_ids else "none"
+    ax.add_patch(
+        FancyBboxPatch(
+            (0.06, 0.09),
+            0.88,
+            0.15,
+            boxstyle="round,pad=0.012,rounding_size=0.018",
+            linewidth=0.9,
+            edgecolor="#5c8432",
+            facecolor="#edf5e8",
+        )
+    )
+    ax.text(0.09, 0.165, f"Selected action: {action}", fontsize=9.2, fontweight="bold", color="#273d16", va="center")
+
+
+def _draw_walkthrough_losses(ax: Any, episode: Any, score: dict[str, Any]) -> None:
+    _style_walkthrough_panel(ax, "D. Replay loss contrast")
+    labels = ["No-op", "gemma4:26b\npolicy", "Oracle"]
+    values = [episode.ground_truth.noop_loss, float(score["policy_loss"]), episode.ground_truth.oracle_loss]
+    colors = ["#b24a4a", "#315f7d", "#5c8432"]
+    bars = ax.bar(range(len(values)), values, color=colors, width=0.56, edgecolor="none")
+    for bar, value, color in zip(bars, values, colors):
+        ax.text(
+            bar.get_x() + bar.get_width() / 2,
+            value + max(values) * 0.035,
+            f"{value:.3f}",
+            ha="center",
+            va="bottom",
+            fontsize=9,
+            color=color,
+        )
+    ax.text(
+        0.98,
+        0.95,
+        "lower loss is better",
+        transform=ax.transAxes,
+        fontsize=8.2,
+        color="#444444",
+        ha="right",
+        va="top",
+    )
+    ax.set_ylabel("incident loss", fontsize=9)
+    ax.set_xticks(range(len(values)))
+    ax.set_xticklabels(labels, fontsize=9)
+    ax.set_ylim(0, max(values) * 1.18)
+    ax.grid(True, axis="y", alpha=0.22, linewidth=0.6)
+    ax.tick_params(axis="y", labelsize=8)
 
 
 def _write_episode_walkthrough_pdf(path: Path, scaffold_dir: Path, ollama_dir: Path) -> None:

@@ -1,0 +1,3631 @@
+{
+  "baseline": "topology_rca",
+  "count": 200,
+  "intervention_epsilon": 1e-09,
+  "n_deg": 0,
+  "n_scored": 200,
+  "n_total": 200,
+  "scores": [
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.981931,
+      "composite": 0.885258,
+      "detection": 0.558035,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0000-d52675db",
+      "evidence": 1.0,
+      "intervention": 0.854313,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 66.2848,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.993685,
+      "composite": 0.908938,
+      "detection": 0.659241,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0001-f9078a9b",
+      "evidence": 1.0,
+      "intervention": 0.878725,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.8838,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.643364,
+      "composite": 0.62996,
+      "detection": 0.659241,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0002-3dc2d5ca",
+      "evidence": 1.0,
+      "intervention": 0.44335,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 142.328,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.944059,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0003-6de077ce",
+      "evidence": 0.8,
+      "intervention": 0.964621,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.3019,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.666382,
+      "composite": 0.46556,
+      "detection": 0.434598,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0004-d5f5fc12",
+      "evidence": 1.0,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 349.1944,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.972339,
+      "composite": 0.884756,
+      "detection": 0.558035,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0005-72612910",
+      "evidence": 1.0,
+      "intervention": 0.855835,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 70.4236,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.983628,
+      "composite": 0.871655,
+      "detection": 0.513417,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0006-63901cb6",
+      "evidence": 1.0,
+      "intervention": 0.830712,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 57.8268,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.958204,
+      "detection": 0.846482,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0007-9809dbcc",
+      "evidence": 1.0,
+      "intervention": 0.948552,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 59.5151,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.941687,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0008-b9ee5787",
+      "evidence": 0.8,
+      "intervention": 0.956716,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 37.5066,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.96024,
+      "composite": 0.883585,
+      "detection": 0.558035,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0009-347bd96a",
+      "evidence": 1.0,
+      "intervention": 0.855965,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 70.8043,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.915167,
+      "detection": 0.659241,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0010-a327d0fb",
+      "evidence": 1.0,
+      "intervention": 0.898717,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 91.236,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.920203,
+      "composite": 0.776153,
+      "detection": 0.263597,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0011-046a1b33",
+      "evidence": 1.0,
+      "intervention": 0.658424,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 47.6207,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.644423,
+      "composite": 0.629713,
+      "detection": 0.659241,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0012-02677a91",
+      "evidence": 1.0,
+      "intervention": 0.442174,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 132.4203,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.944008,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0013-2880371b",
+      "evidence": 0.8,
+      "intervention": 0.964453,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.9113,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.926832,
+      "composite": 0.877216,
+      "detection": 0.558035,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0014-23014f98",
+      "evidence": 1.0,
+      "intervention": 0.845872,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.7143,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.99483,
+      "composite": 0.888832,
+      "detection": 0.558035,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0015-571cf024",
+      "evidence": 1.0,
+      "intervention": 0.861925,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 95.4216,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.991973,
+      "composite": 0.921796,
+      "detection": 0.716531,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0016-0c46f44c",
+      "evidence": 1.0,
+      "intervention": 0.893511,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.6938,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.954116,
+      "detection": 0.846482,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0017-a9bc58b3",
+      "evidence": 1.0,
+      "intervention": 0.934925,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.3875,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.943418,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0018-7a2097ae",
+      "evidence": 0.8,
+      "intervention": 0.962486,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.8448,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.949277,
+      "composite": 0.893502,
+      "detection": 0.606531,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0019-272ff3b1",
+      "evidence": 1.0,
+      "intervention": 0.868428,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 54.8298,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.978868,
+      "composite": 0.853324,
+      "detection": 0.434598,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0020-747255fb",
+      "evidence": 1.0,
+      "intervention": 0.810605,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 127.7442,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.979589,
+      "composite": 0.871225,
+      "detection": 0.513417,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0021-18636615",
+      "evidence": 1.0,
+      "intervention": 0.830626,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 57.6806,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.943668,
+      "detection": 0.920044,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0022-0fe7bc95",
+      "evidence": 0.8,
+      "intervention": 0.963319,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 47.4648,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.576,
+      "composite": 0.651801,
+      "detection": 0.778801,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0023-3446086e",
+      "evidence": 1.0,
+      "intervention": 0.478828,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 131.6788,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.952403,
+      "composite": 0.895017,
+      "detection": 0.606531,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0024-b13b02a1",
+      "evidence": 1.0,
+      "intervention": 0.872439,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 63.1706,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.91169,
+      "composite": 0.769206,
+      "detection": 0.22313,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0025-f6dddee7",
+      "evidence": 1.0,
+      "intervention": 0.65834,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 110.7518,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.95542,
+      "composite": 0.853186,
+      "detection": 0.472367,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0026-0eab783e",
+      "evidence": 1.0,
+      "intervention": 0.799076,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.2686,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.635624,
+      "composite": 0.615495,
+      "detection": 0.606531,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0027-1a3fcfb3",
+      "evidence": 1.0,
+      "intervention": 0.424068,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 134.6482,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.942533,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0028-20200664",
+      "evidence": 0.8,
+      "intervention": 0.959534,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.0523,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.902607,
+      "composite": 0.79359,
+      "detection": 0.286505,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0029-4aa48a19",
+      "evidence": 1.0,
+      "intervention": 0.710958,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 95.381,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.978392,
+      "composite": 0.885872,
+      "detection": 0.558035,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0030-7ee6234b",
+      "evidence": 1.0,
+      "intervention": 0.857538,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 75.8258,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.994339,
+      "composite": 0.920919,
+      "detection": 0.716531,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0031-b1613901",
+      "evidence": 1.0,
+      "intervention": 0.889799,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 34.1063,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.662938,
+      "composite": 0.593347,
+      "detection": 0.513417,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0032-9069b6b7",
+      "evidence": 1.0,
+      "intervention": 0.387694,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 137.9302,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.939558,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0033-3fc85be5",
+      "evidence": 0.8,
+      "intervention": 0.949617,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 31.2733,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.963266,
+      "composite": 0.885118,
+      "detection": 0.558035,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0034-d8a1b0f9",
+      "evidence": 1.0,
+      "intervention": 0.860068,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 85.8747,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.984836,
+      "composite": 0.898717,
+      "detection": 0.606531,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0035-feeed5b9",
+      "evidence": 1.0,
+      "intervention": 0.873961,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 67.1895,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.995466,
+      "composite": 0.922142,
+      "detection": 0.716531,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0036-ca79b25f",
+      "evidence": 1.0,
+      "intervention": 0.893499,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.6848,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.576,
+      "composite": 0.624699,
+      "detection": 0.659241,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0037-74c0e638",
+      "evidence": 1.0,
+      "intervention": 0.448268,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 209.303,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.943792,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0038-b957d8f2",
+      "evidence": 0.8,
+      "intervention": 0.963733,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.3229,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.589921,
+      "composite": 0.469737,
+      "detection": 0.513417,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0039-bc2d5818",
+      "evidence": 1.0,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 434.9975,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.914192,
+      "detection": 0.659241,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0040-bbce9fef",
+      "evidence": 1.0,
+      "intervention": 0.895466,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 75.1058,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.992238,
+      "composite": 0.909131,
+      "detection": 0.659241,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0041-d90eb7e6",
+      "evidence": 1.0,
+      "intervention": 0.879851,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 43.0352,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.951775,
+      "detection": 0.846482,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0042-1d0bb986",
+      "evidence": 1.0,
+      "intervention": 0.927125,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 30.6746,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.576,
+      "composite": 0.653249,
+      "detection": 0.778801,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0043-5b9ff9fd",
+      "evidence": 1.0,
+      "intervention": 0.483655,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 193.5527,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.945256,
+      "composite": 0.881453,
+      "detection": 0.558035,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0044-0798e053",
+      "evidence": 1.0,
+      "intervention": 0.853854,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 65.1438,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.975241,
+      "composite": 0.863007,
+      "detection": 0.472367,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0045-07f82da1",
+      "evidence": 1.0,
+      "intervention": 0.825207,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 99.8076,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.969323,
+      "composite": 0.867027,
+      "detection": 0.513417,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0046-da841ca1",
+      "evidence": 1.0,
+      "intervention": 0.820053,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.6093,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.957483,
+      "detection": 0.846482,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0047-b52aabab",
+      "evidence": 1.0,
+      "intervention": 0.946151,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.9878,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.576,
+      "composite": 0.635779,
+      "detection": 0.716531,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0048-ad6bd9fd",
+      "evidence": 1.0,
+      "intervention": 0.456557,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 106.406,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.608682,
+      "composite": 0.478306,
+      "detection": 0.558035,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0049-5dd2be3c",
+      "evidence": 1.0,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 394.6364,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.929304,
+      "detection": 0.716531,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0050-4699caf6",
+      "evidence": 1.0,
+      "intervention": 0.917196,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 89.585,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.9766,
+      "composite": 0.87098,
+      "detection": 0.513417,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0051-9982f226",
+      "evidence": 1.0,
+      "intervention": 0.830804,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 57.9848,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.957154,
+      "detection": 0.846482,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0052-999e2695",
+      "evidence": 1.0,
+      "intervention": 0.945054,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.5347,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.576,
+      "composite": 0.651524,
+      "detection": 0.778801,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0053-7204f6ec",
+      "evidence": 1.0,
+      "intervention": 0.477903,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 124.2394,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.959435,
+      "composite": 0.896349,
+      "detection": 0.606531,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0054-442b131b",
+      "evidence": 1.0,
+      "intervention": 0.874534,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 68.8636,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.984084,
+      "composite": 0.87632,
+      "detection": 0.513417,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0055-ef58a6e3",
+      "evidence": 1.0,
+      "intervention": 0.846111,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 114.7532,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.984068,
+      "composite": 0.893363,
+      "detection": 0.606531,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0056-2f36a366",
+      "evidence": 1.0,
+      "intervention": 0.856368,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.3355,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.68168,
+      "composite": 0.618563,
+      "detection": 0.606531,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0057-b4302b60",
+      "evidence": 1.0,
+      "intervention": 0.418943,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 104.5454,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.576,
+      "composite": 0.652416,
+      "detection": 0.778801,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0058-5c966240",
+      "evidence": 1.0,
+      "intervention": 0.48088,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 152.1273,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.663152,
+      "composite": 0.465237,
+      "detection": 0.434598,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0059-df264663",
+      "evidence": 1.0,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 400.8232,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.97083,
+      "composite": 0.895425,
+      "detection": 0.606531,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0060-324ce08d",
+      "evidence": 1.0,
+      "intervention": 0.867654,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 53.5068,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.936328,
+      "composite": 0.772734,
+      "detection": 0.242521,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0061-4710e1a9",
+      "evidence": 1.0,
+      "intervention": 0.652192,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 59.0143,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.94308,
+      "detection": 0.920044,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0062-06773fc4",
+      "evidence": 0.8,
+      "intervention": 0.961358,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 43.8549,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.942385,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0063-027db175",
+      "evidence": 0.8,
+      "intervention": 0.959041,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.371,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.966529,
+      "composite": 0.829145,
+      "detection": 0.367879,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0064-e4449c39",
+      "evidence": 1.0,
+      "intervention": 0.767483,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 94.1235,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.984474,
+      "composite": 0.887452,
+      "detection": 0.558035,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0065-912a5816",
+      "evidence": 1.0,
+      "intervention": 0.86078,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 89.2741,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.992727,
+      "composite": 0.920259,
+      "detection": 0.716531,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0066-e520de39",
+      "evidence": 1.0,
+      "intervention": 0.888135,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 33.0966,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.66405,
+      "composite": 0.618331,
+      "detection": 0.606531,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0067-70d8cded",
+      "evidence": 1.0,
+      "intervention": 0.424046,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 134.4798,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.944429,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0068-aa45892f",
+      "evidence": 0.8,
+      "intervention": 0.965855,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 53.4007,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.922587,
+      "composite": 0.834089,
+      "detection": 0.39985,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0069-4643ba94",
+      "evidence": 1.0,
+      "intervention": 0.782622,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 80.7608,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.914834,
+      "detection": 0.659241,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0070-1d3a15f7",
+      "evidence": 1.0,
+      "intervention": 0.897606,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 84.9046,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.923241,
+      "composite": 0.753479,
+      "detection": 0.20529,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0071-3f6bdcf0",
+      "evidence": 1.0,
+      "intervention": 0.610987,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 58.3294,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.944505,
+      "detection": 0.920044,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0072-1d99e6b0",
+      "evidence": 0.8,
+      "intervention": 0.966108,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 54.0951,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.944971,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0073-5e8a2f22",
+      "evidence": 0.8,
+      "intervention": 0.967661,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 58.8757,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.706387,
+      "composite": 0.475226,
+      "detection": 0.472367,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0074-f1eebe38",
+      "evidence": 1.0,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 219.2128,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.928161,
+      "detection": 0.716531,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0075-d2d4a7ed",
+      "evidence": 1.0,
+      "intervention": 0.913387,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 70.6688,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.97521,
+      "composite": 0.868985,
+      "detection": 0.513417,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0076-84256e05",
+      "evidence": 1.0,
+      "intervention": 0.824618,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.2741,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.692957,
+      "composite": 0.605935,
+      "detection": 0.558035,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0077-f257bf2a",
+      "evidence": 1.0,
+      "intervention": 0.397339,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 93.4328,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.576,
+      "composite": 0.652654,
+      "detection": 0.778801,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0078-5c202de0",
+      "evidence": 1.0,
+      "intervention": 0.481671,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 161.9371,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.953144,
+      "composite": 0.871436,
+      "detection": 0.513417,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0079-7a73a513",
+      "evidence": 1.0,
+      "intervention": 0.840146,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 81.8192,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.974096,
+      "composite": 0.897392,
+      "detection": 0.606531,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0080-7baae267",
+      "evidence": 1.0,
+      "intervention": 0.873123,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 64.9064,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.984235,
+      "composite": 0.881591,
+      "detection": 0.558035,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0081-373d4a11",
+      "evidence": 1.0,
+      "intervention": 0.841322,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.3902,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.651194,
+      "composite": 0.617101,
+      "detection": 0.606531,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0082-c023e948",
+      "evidence": 1.0,
+      "intervention": 0.424233,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 135.9276,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.943756,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0083-71e92802",
+      "evidence": 0.8,
+      "intervention": 0.96361,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 48.0647,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.940676,
+      "composite": 0.847915,
+      "detection": 0.434598,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0084-661e6dd7",
+      "evidence": 1.0,
+      "intervention": 0.805307,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 94.3318,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.920698,
+      "composite": 0.786766,
+      "detection": 0.263597,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0085-6ac9dc83",
+      "evidence": 1.0,
+      "intervention": 0.693637,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 101.1814,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.981426,
+      "composite": 0.860365,
+      "detection": 0.472367,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0086-44f4d47c",
+      "evidence": 1.0,
+      "intervention": 0.814339,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 63.8113,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.643478,
+      "composite": 0.604626,
+      "detection": 0.558035,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0087-20fc9739",
+      "evidence": 1.0,
+      "intervention": 0.409467,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 170.392,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.576,
+      "composite": 0.649541,
+      "detection": 0.778801,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0088-974acbd4",
+      "evidence": 1.0,
+      "intervention": 0.471296,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 89.2285,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.686053,
+      "composite": 0.45752,
+      "detection": 0.367879,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0089-4892688a",
+      "evidence": 1.0,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 293.764,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.974184,
+      "composite": 0.883706,
+      "detection": 0.558035,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0090-58c18af9",
+      "evidence": 1.0,
+      "intervention": 0.851721,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 60.3908,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.987109,
+      "composite": 0.884819,
+      "detection": 0.558035,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0091-73465867",
+      "evidence": 1.0,
+      "intervention": 0.851123,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 59.2001,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.614113,
+      "composite": 0.640685,
+      "detection": 0.716531,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0092-0806eedf",
+      "evidence": 1.0,
+      "intervention": 0.460204,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 129.6042,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.576,
+      "composite": 0.652919,
+      "detection": 0.778801,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0093-9745005d",
+      "evidence": 1.0,
+      "intervention": 0.482556,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 174.5978,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.609421,
+      "composite": 0.47838,
+      "detection": 0.558035,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0094-77190782",
+      "evidence": 1.0,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 331.5918,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.942686,
+      "composite": 0.81796,
+      "detection": 0.338465,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0095-7fff932c",
+      "evidence": 1.0,
+      "intervention": 0.752854,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 113.8627,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.975982,
+      "composite": 0.859759,
+      "detection": 0.472367,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0096-eb01864c",
+      "evidence": 1.0,
+      "intervention": 0.814134,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 63.4054,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.957484,
+      "detection": 0.846482,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0097-79714217",
+      "evidence": 1.0,
+      "intervention": 0.946155,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.9967,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.943058,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0098-41f1c2a3",
+      "evidence": 0.8,
+      "intervention": 0.961285,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 43.7334,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.930771,
+      "composite": 0.846011,
+      "detection": 0.434598,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0099-5c81265a",
+      "evidence": 1.0,
+      "intervention": 0.80226,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 82.465,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.915402,
+      "detection": 0.659241,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0100-3c6412d0",
+      "evidence": 1.0,
+      "intervention": 0.899501,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 96.3791,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.987016,
+      "composite": 0.907103,
+      "detection": 0.659241,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0101-eba85643",
+      "evidence": 1.0,
+      "intervention": 0.87483,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.4414,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.601144,
+      "composite": 0.613559,
+      "detection": 0.606531,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0102-c65e9c7d",
+      "evidence": 1.0,
+      "intervention": 0.429109,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 190.5065,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.941866,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0103-cba574d6",
+      "evidence": 0.8,
+      "intervention": 0.957312,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.1901,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.939231,
+      "composite": 0.869918,
+      "detection": 0.513417,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0104-df1c6b28",
+      "evidence": 1.0,
+      "intervention": 0.839723,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 80.2467,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.928505,
+      "detection": 0.716531,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0105-906d1d98",
+      "evidence": 1.0,
+      "intervention": 0.914531,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 75.347,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.99004,
+      "composite": 0.907984,
+      "detection": 0.659241,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0106-eeefe174",
+      "evidence": 1.0,
+      "intervention": 0.876759,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 40.0513,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.957891,
+      "detection": 0.846482,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0107-11796483",
+      "evidence": 1.0,
+      "intervention": 0.947509,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 56.4564,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.576,
+      "composite": 0.65238,
+      "detection": 0.778801,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0108-5949cb76",
+      "evidence": 1.0,
+      "intervention": 0.480757,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 150.7178,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.993291,
+      "composite": 0.915379,
+      "detection": 0.659241,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0109-e2edebc2",
+      "evidence": 1.0,
+      "intervention": 0.900325,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 102.5243,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.995256,
+      "composite": 0.914346,
+      "detection": 0.659241,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0110-c3219bf9",
+      "evidence": 1.0,
+      "intervention": 0.896229,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 78.2947,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.984091,
+      "composite": 0.882801,
+      "detection": 0.558035,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0111-7557ef5e",
+      "evidence": 1.0,
+      "intervention": 0.845404,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 50.0957,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.687485,
+      "composite": 0.631496,
+      "detection": 0.659241,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0112-e259c14b",
+      "evidence": 1.0,
+      "intervention": 0.433763,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 89.3695,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.945605,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0113-9f8c6b4f",
+      "evidence": 0.8,
+      "intervention": 0.969776,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 67.2736,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.987617,
+      "composite": 0.92759,
+      "detection": 0.716531,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0114-67fa95ea",
+      "evidence": 1.0,
+      "intervention": 0.914277,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 74.248,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.970721,
+      "composite": 0.841669,
+      "detection": 0.39985,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0115-b38d6859",
+      "evidence": 1.0,
+      "intervention": 0.791847,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 125.7111,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.969964,
+      "composite": 0.847096,
+      "detection": 0.434598,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0116-e62bd5db",
+      "evidence": 1.0,
+      "intervention": 0.792813,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 60.3709,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.651796,
+      "composite": 0.617462,
+      "detection": 0.606531,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0117-1d1d5b3b",
+      "evidence": 1.0,
+      "intervention": 0.425234,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 144.3015,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.944155,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0118-7fd257c2",
+      "evidence": 0.8,
+      "intervention": 0.96494,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.0614,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.600701,
+      "composite": 0.464658,
+      "detection": 0.472367,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0119-88d5cdb2",
+      "evidence": 1.0,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 469.627,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.964977,
+      "composite": 0.839227,
+      "detection": 0.39985,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0120-310a3c24",
+      "evidence": 1.0,
+      "intervention": 0.78562,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 91.0088,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.937109,
+      "detection": 0.778801,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0121-8eb88069",
+      "evidence": 1.0,
+      "intervention": 0.912076,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 34.8265,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.954364,
+      "detection": 0.846482,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0122-f72ea5f7",
+      "evidence": 1.0,
+      "intervention": 0.935752,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 37.172,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.944637,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0123-07e4b5e6",
+      "evidence": 0.8,
+      "intervention": 0.966548,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 55.3548,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.69133,
+      "composite": 0.462843,
+      "detection": 0.39985,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0124-616a291b",
+      "evidence": 1.0,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 270.9178,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.933087,
+      "composite": 0.814874,
+      "detection": 0.338465,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0125-5125da37",
+      "evidence": 1.0,
+      "intervention": 0.745765,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 84.9096,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.968441,
+      "composite": 0.876641,
+      "detection": 0.558035,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0126-dfd3db90",
+      "evidence": 1.0,
+      "intervention": 0.830086,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 36.6793,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.955476,
+      "detection": 0.846482,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0127-0efc0949",
+      "evidence": 1.0,
+      "intervention": 0.939459,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.3224,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.939742,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0128-0b6635c0",
+      "evidence": 0.8,
+      "intervention": 0.95023,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 31.7029,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.576,
+      "composite": 0.475038,
+      "detection": 0.558035,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0129-e5a32956",
+      "evidence": 1.0,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 448.986,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.992407,
+      "composite": 0.888311,
+      "detection": 0.558035,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0130-46c18db9",
+      "evidence": 1.0,
+      "intervention": 0.860999,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 90.3788,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.993643,
+      "composite": 0.909037,
+      "detection": 0.659241,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0131-c0c7cdb6",
+      "evidence": 1.0,
+      "intervention": 0.87907,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 42.2282,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.957243,
+      "detection": 0.846482,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0132-7c67abe4",
+      "evidence": 1.0,
+      "intervention": 0.945348,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 51.1657,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.576,
+      "composite": 0.653335,
+      "detection": 0.778801,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0133-f186e167",
+      "evidence": 1.0,
+      "intervention": 0.483941,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 199.1983,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.625808,
+      "composite": 0.467168,
+      "detection": 0.472367,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0134-ae12e0e1",
+      "evidence": 1.0,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 417.9989,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.993826,
+      "composite": 0.913568,
+      "detection": 0.659241,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0135-1cf0ddb0",
+      "evidence": 1.0,
+      "intervention": 0.89411,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 70.1058,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.936381,
+      "detection": 0.778801,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0136-c0769391",
+      "evidence": 1.0,
+      "intervention": 0.909651,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 33.1498,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.685343,
+      "composite": 0.618275,
+      "detection": 0.606531,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0137-468094dd",
+      "evidence": 1.0,
+      "intervention": 0.416761,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 95.6581,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.576,
+      "composite": 0.634999,
+      "detection": 0.716531,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0138-5d702b29",
+      "evidence": 1.0,
+      "intervention": 0.453956,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 94.6008,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.95799,
+      "composite": 0.895018,
+      "detection": 0.606531,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0139-776809ab",
+      "evidence": 1.0,
+      "intervention": 0.870577,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 58.9496,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.98521,
+      "composite": 0.88846,
+      "detection": 0.558035,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0140-b9c49264",
+      "evidence": 1.0,
+      "intervention": 0.863892,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 108.5127,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.93884,
+      "detection": 0.778801,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0141-522c149d",
+      "evidence": 1.0,
+      "intervention": 0.917847,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.9281,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.958559,
+      "detection": 0.846482,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0142-1d6bd4fa",
+      "evidence": 1.0,
+      "intervention": 0.949735,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 63.4931,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.945001,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0143-3b5b14d6",
+      "evidence": 0.8,
+      "intervention": 0.967763,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 59.2251,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.957388,
+      "composite": 0.883045,
+      "detection": 0.558035,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0144-9de1c8e9",
+      "evidence": 1.0,
+      "intervention": 0.855118,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 68.3993,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.979685,
+      "composite": 0.873794,
+      "detection": 0.513417,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0145-4e0c6727",
+      "evidence": 1.0,
+      "intervention": 0.839156,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 78.2468,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.98912,
+      "composite": 0.885321,
+      "detection": 0.558035,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0146-887c29c0",
+      "evidence": 1.0,
+      "intervention": 0.852127,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 61.2309,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.646726,
+      "composite": 0.629855,
+      "detection": 0.659241,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0147-29866e53",
+      "evidence": 1.0,
+      "intervention": 0.441878,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 130.1508,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.576,
+      "composite": 0.651272,
+      "detection": 0.778801,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0148-47105cbf",
+      "evidence": 1.0,
+      "intervention": 0.477065,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 118.2214,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.986219,
+      "composite": 0.901314,
+      "detection": 0.606531,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0149-a3d87f00",
+      "evidence": 1.0,
+      "intervention": 0.882157,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 105.9506,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.960545,
+      "composite": 0.820377,
+      "detection": 0.338465,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0150-52016c98",
+      "evidence": 1.0,
+      "intervention": 0.754956,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 127.2734,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.944933,
+      "composite": 0.811665,
+      "detection": 0.338465,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0151-2f4c9114",
+      "evidence": 1.0,
+      "intervention": 0.73112,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 57.446,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.574741,
+      "composite": 0.652479,
+      "detection": 0.778801,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0152-32e117f1",
+      "evidence": 1.0,
+      "intervention": 0.481509,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 159.815,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.576,
+      "composite": 0.653088,
+      "detection": 0.778801,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0153-9f54397f",
+      "evidence": 1.0,
+      "intervention": 0.48312,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 183.8109,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.97655,
+      "composite": 0.911951,
+      "detection": 0.659241,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0154-3db09357",
+      "evidence": 1.0,
+      "intervention": 0.894479,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 71.3906,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.987957,
+      "composite": 0.912198,
+      "detection": 0.659241,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0155-92fa85e2",
+      "evidence": 1.0,
+      "intervention": 0.8915,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 62.3406,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.986428,
+      "composite": 0.908146,
+      "detection": 0.659241,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0156-dd3f548b",
+      "evidence": 1.0,
+      "intervention": 0.878506,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 41.669,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.62027,
+      "composite": 0.628792,
+      "detection": 0.659241,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0157-0a63d9cd",
+      "evidence": 1.0,
+      "intervention": 0.447156,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 188.924,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.942264,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0158-d6a6c035",
+      "evidence": 0.8,
+      "intervention": 0.958639,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 39.835,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.92534,
+      "composite": 0.844905,
+      "detection": 0.434598,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0159-3f6e1a8f",
+      "evidence": 1.0,
+      "intervention": 0.800384,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 76.6743,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.955982,
+      "composite": 0.839201,
+      "detection": 0.39985,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0160-62011a8e",
+      "evidence": 1.0,
+      "intervention": 0.788532,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 104.2425,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.940388,
+      "composite": 0.8002,
+      "detection": 0.311403,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0161-0d860017",
+      "evidence": 1.0,
+      "intervention": 0.707948,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 54.179,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.940629,
+      "detection": 0.778801,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0162-3e59a0c6",
+      "evidence": 1.0,
+      "intervention": 0.92381,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 47.8412,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.943112,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0163-b91f5c7e",
+      "evidence": 0.8,
+      "intervention": 0.961464,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.0328,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.629171,
+      "composite": 0.467505,
+      "detection": 0.472367,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0164-e6c64302",
+      "evidence": 1.0,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 359.1376,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.980752,
+      "composite": 0.875223,
+      "detection": 0.513417,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0165-955be445",
+      "evidence": 1.0,
+      "intervention": 0.843564,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 97.6313,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.974715,
+      "composite": 0.868497,
+      "detection": 0.513417,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0166-6959d1b0",
+      "evidence": 1.0,
+      "intervention": 0.823157,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 47.6524,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.58808,
+      "composite": 0.638956,
+      "detection": 0.716531,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0167-3e743429",
+      "evidence": 1.0,
+      "intervention": 0.463119,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 157.7779,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.9445,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0168-058ef82c",
+      "evidence": 0.8,
+      "intervention": 0.966091,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 54.0474,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.981656,
+      "composite": 0.831734,
+      "detection": 0.367879,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0169-7c4c997a",
+      "evidence": 1.0,
+      "intervention": 0.771068,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 111.1449,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.92447,
+      "composite": 0.804457,
+      "detection": 0.311403,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0170-ff8327f0",
+      "evidence": 1.0,
+      "intervention": 0.727445,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 87.254,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.96044,
+      "composite": 0.842364,
+      "detection": 0.434598,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0171-10706153",
+      "evidence": 1.0,
+      "intervention": 0.780214,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 45.7145,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.943269,
+      "detection": 0.920044,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0172-07777a3c",
+      "evidence": 0.8,
+      "intervention": 0.961987,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 44.9379,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.943987,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0173-be915723",
+      "evidence": 0.8,
+      "intervention": 0.964382,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.7508,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.958628,
+      "composite": 0.873076,
+      "detection": 0.513417,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0174-eaa4ca89",
+      "evidence": 1.0,
+      "intervention": 0.843784,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 98.8856,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.990228,
+      "composite": 0.876976,
+      "detection": 0.513417,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0175-d0f8d329",
+      "evidence": 1.0,
+      "intervention": 0.84625,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 115.8787,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.995242,
+      "composite": 0.909685,
+      "detection": 0.659241,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0176-7b42bd1f",
+      "evidence": 1.0,
+      "intervention": 0.880696,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 43.9523,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.649044,
+      "composite": 0.628981,
+      "detection": 0.659241,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0177-56bb5056",
+      "evidence": 1.0,
+      "intervention": 0.438195,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 107.5336,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.576,
+      "composite": 0.637043,
+      "detection": 0.716531,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0178-09f63fb5",
+      "evidence": 1.0,
+      "intervention": 0.460769,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 134.2157,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.959553,
+      "composite": 0.909005,
+      "detection": 0.659241,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0179-59fd20c2",
+      "evidence": 1.0,
+      "intervention": 0.890325,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 59.4538,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.915275,
+      "detection": 0.659241,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0180-1cf13dbc",
+      "evidence": 1.0,
+      "intervention": 0.899076,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 93.5153,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.993411,
+      "composite": 0.907839,
+      "detection": 0.659241,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0181-dd21c6fd",
+      "evidence": 1.0,
+      "intervention": 0.875152,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.6988,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.956979,
+      "detection": 0.846482,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0182-bb3423f8",
+      "evidence": 1.0,
+      "intervention": 0.944469,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.3348,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.940654,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0183-5fc81456",
+      "evidence": 0.8,
+      "intervention": 0.953271,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 34.1019,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.576,
+      "composite": 0.468345,
+      "detection": 0.513417,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0184-6897815b",
+      "evidence": 1.0,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 501.5752,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.984459,
+      "composite": 0.84367,
+      "detection": 0.39985,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0185-5d3a2849",
+      "evidence": 1.0,
+      "intervention": 0.793937,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 145.0798,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.936192,
+      "detection": 0.778801,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0186-5a6b9047",
+      "evidence": 1.0,
+      "intervention": 0.909021,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 32.7494,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.631084,
+      "composite": 0.64238,
+      "detection": 0.716531,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0187-0702d783",
+      "evidence": 1.0,
+      "intervention": 0.460198,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 129.5623,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.944013,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0188-5868b68c",
+      "evidence": 0.8,
+      "intervention": 0.964467,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.9439,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.926343,
+      "composite": 0.854631,
+      "detection": 0.472367,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0189-ad098952",
+      "evidence": 1.0,
+      "intervention": 0.813586,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 62.3488,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.928387,
+      "detection": 0.716531,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0190-8e953a64",
+      "evidence": 1.0,
+      "intervention": 0.914138,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 73.664,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.925648,
+      "detection": 0.716531,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0191-5037a3ed",
+      "evidence": 1.0,
+      "intervention": 0.905008,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 49.6601,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.952601,
+      "detection": 0.846482,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0192-88e4ebb9",
+      "evidence": 1.0,
+      "intervention": 0.929876,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 32.3984,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.941893,
+      "detection": 0.920044,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0193-33ea8fdc",
+      "evidence": 0.8,
+      "intervention": 0.957401,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 38.2943,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.975532,
+      "composite": 0.91118,
+      "detection": 0.659241,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0194-f48907f5",
+      "evidence": 1.0,
+      "intervention": 0.892249,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 64.3592,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.914479,
+      "detection": 0.659241,
+      "domain": "bioprocess",
+      "efficiency": 0.970658,
+      "episode_id": "cob-bioprocess-0195-5cd00cc8",
+      "evidence": 1.0,
+      "intervention": 0.896425,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 79.1654,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.925484,
+      "composite": 0.804639,
+      "detection": 0.338465,
+      "domain": "hvac",
+      "efficiency": 0.970658,
+      "episode_id": "cob-hvac-0196-722364fe",
+      "evidence": 1.0,
+      "intervention": 0.714184,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 43.2454,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.996,
+      "composite": 0.957436,
+      "detection": 0.846482,
+      "domain": "manufacturing",
+      "efficiency": 0.970658,
+      "episode_id": "cob-manufacturing-0197-e9a853dc",
+      "evidence": 1.0,
+      "intervention": 0.945993,
+      "notes": [
+        "oracle_action_selected"
+      ],
+      "policy_loss": 52.6166,
+      "root_cause": 1.0,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.576,
+      "composite": 0.653313,
+      "detection": 0.778801,
+      "domain": "microservice",
+      "efficiency": 0.970658,
+      "episode_id": "cob-microservice-0198-7b26613d",
+      "evidence": 1.0,
+      "intervention": 0.483867,
+      "notes": [
+        "related_component_action_selected"
+      ],
+      "policy_loss": 197.7088,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    },
+    {
+      "baseline": "topology_rca",
+      "calibration": 0.618972,
+      "composite": 0.472642,
+      "detection": 0.513417,
+      "domain": "water_grid",
+      "efficiency": 0.970658,
+      "episode_id": "cob-water_grid-0199-e9ee7652",
+      "evidence": 1.0,
+      "intervention": 0.0,
+      "notes": [
+        "unrelated_action_selected"
+      ],
+      "policy_loss": 394.553,
+      "root_cause": 0.433333,
+      "safety_violations": 0,
+      "seed": 20260520
+    }
+  ],
+  "seed": 20260520,
+  "summary": {
+    "baseline": "topology_rca",
+    "calibration_mean": 0.888604,
+    "calibration_std": 0.158534,
+    "composite_mean": 0.82052,
+    "composite_std": 0.145286,
+    "count": 200,
+    "detection_mean": 0.643858,
+    "detection_std": 0.180585,
+    "efficiency_mean": 0.970658,
+    "efficiency_std": 0.0,
+    "evidence_mean": 0.971,
+    "evidence_std": 0.07042,
+    "intervention_mean": 0.735663,
+    "intervention_std": 0.266345,
+    "root_cause_mean": 0.858333,
+    "root_cause_std": 0.245374,
+    "safety_violations": 0,
+    "seed": 20260520
+  }
+}

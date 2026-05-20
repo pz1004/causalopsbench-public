@@ -1,0 +1,35 @@
+{
+  "N": 200,
+  "N_deg": 0,
+  "claim_policy": "synthetic scaffold experiments; not real-world industrial validation",
+  "configuration": {
+    "baselines": [
+      "noop",
+      "random",
+      "threshold",
+      "topology_rca",
+      "oracle"
+    ],
+    "count": 200,
+    "domain": "all",
+    "duration": 60,
+    "seeds": [
+      20260520
+    ],
+    "topology_variant": "heldout_v1",
+    "write_episodes": true
+  },
+  "created_at_utc": "2026-05-20T07:13:51.304083+00:00",
+  "intervention_epsilon": 1e-09,
+  "metrics": [
+    "composite",
+    "detection",
+    "root_cause",
+    "intervention",
+    "evidence",
+    "calibration",
+    "efficiency"
+  ],
+  "records": 1000,
+  "runner": "scripts/run_experiments.py"
+}

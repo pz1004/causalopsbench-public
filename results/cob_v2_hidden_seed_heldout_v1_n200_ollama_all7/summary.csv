@@ -1,0 +1,8 @@
+baseline,model_spec,count,composite,detection,root_cause,intervention,evidence,calibration,efficiency,safety_violations,n_total,n_scored,n_deg,intervention_epsilon
+Ollama-gemma4:e2b-ReAct,ollama:gemma4:e2b,200.0,0.525704,0.0,0.834,0.211204,0.810818,0.954574,0.906369,122.0,200.0,200.0,0.0,1e-09
+Ollama-qwen3.5:4b-ReAct,ollama:qwen3.5:4b,200.0,0.819662,0.584136,1.0,0.749612,0.797579,0.965485,0.909731,0.0,200.0,200.0,0.0,1e-09
+Ollama-granite4.1:3b-ReAct,ollama:granite4.1:3b,200.0,0.622097,0.13947,0.948,0.394326,0.792262,0.824858,0.91954,0.0,200.0,200.0,0.0,1e-09
+Ollama-gemma4:e4b-ReAct,ollama:gemma4:e4b,200.0,0.892686,0.878318,1.0,0.94336,0.589643,0.988669,0.906168,0.0,200.0,200.0,0.0,1e-09
+Ollama-qwen3.5:9b-ReAct,ollama:qwen3.5:9b,200.0,0.82398,0.602431,1.0,0.741692,0.806496,0.991802,0.90953,0.0,200.0,200.0,0.0,1e-09
+Ollama-granite4.1:8b-ReAct,ollama:granite4.1:8b,200.0,0.670475,0.184448,1.0,0.470302,0.734048,0.996836,0.919263,0.0,200.0,200.0,0.0,1e-09
+Ollama-gemma4:26b-ReAct,ollama:gemma4:26b,200.0,0.941295,0.952719,1.0,0.964621,0.795278,0.992472,0.904618,0.0,200.0,200.0,0.0,1e-09

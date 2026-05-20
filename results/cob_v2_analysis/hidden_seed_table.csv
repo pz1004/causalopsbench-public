@@ -1,2 +1,8 @@
-model,n,parse_success,parse_total,safety_violations,composite_mean,composite_ci_low,composite_ci_high,detection_mean,detection_ci_low,detection_ci_high,root_cause_mean,root_cause_ci_low,root_cause_ci_high,intervention_mean,intervention_ci_low,intervention_ci_high,evidence_mean,evidence_ci_low,evidence_ci_high
-gemma4:26b,500,500,500,0,0.939754,0.936438,0.943111,0.94674,0.935382,0.957065,1.0,1.0,1.0,0.96267,0.957341,0.967104,0.794848,0.785191,0.804541
+model,public_n,public_composite_mean,public_composite_ci_low,public_composite_ci_high,public_detection_mean,public_root_cause_mean,public_intervention_mean,public_evidence_mean,public_safety_violations,public_parse_success,public_parse_total,heldout_v1_n,heldout_v1_composite_mean,heldout_v1_composite_ci_low,heldout_v1_composite_ci_high,heldout_v1_detection_mean,heldout_v1_root_cause_mean,heldout_v1_intervention_mean,heldout_v1_evidence_mean,heldout_v1_safety_violations,heldout_v1_parse_success,heldout_v1_parse_total,delta_heldout_minus_public
+gemma4:e2b,200,0.53373,0.520227,0.547475,0.005,0.8245,0.230595,0.80971,100,200,200,200,0.525704,0.511803,0.53948,0.0,0.834,0.211204,0.810818,122,200,200,-0.008026
+qwen3.5:4b,200,0.809814,0.789386,0.829454,0.564457,1.0,0.735795,0.784437,0,200,200,200,0.819662,0.799693,0.839143,0.584136,1.0,0.749612,0.797579,0,200,200,0.009848
+granite4.1:3b,200,0.622802,0.603202,0.64336,0.145576,0.932,0.402061,0.796726,0,200,200,200,0.622097,0.603001,0.642128,0.13947,0.948,0.394326,0.792262,0,200,200,-0.000705
+gemma4:e4b,200,0.892199,0.885557,0.898048,0.871689,1.0,0.9415,0.596877,0,200,200,200,0.892686,0.886367,0.898309,0.878318,1.0,0.94336,0.589643,0,200,200,0.000487
+qwen3.5:9b,200,0.828051,0.806746,0.847949,0.613291,1.0,0.751134,0.803925,0,200,200,200,0.82398,0.802375,0.84521,0.602431,1.0,0.741692,0.806496,0,200,200,-0.004071
+granite4.1:8b,200,0.654797,0.635526,0.674499,0.172777,0.974,0.448268,0.729147,0,200,200,200,0.670475,0.65399,0.68719,0.184448,1.0,0.470302,0.734048,0,200,200,0.015678
+gemma4:26b,200,0.940672,0.935555,0.945243,0.951613,1.0,0.964338,0.792722,0,200,200,200,0.941295,0.936089,0.9457,0.952719,1.0,0.964621,0.795278,0,200,200,0.000623
